@@ -10,7 +10,9 @@
 </head>
 
 <body>
+    @include('inc.header')
     @yield('content')
+    @include('inc.messages')
 </body>
 
 </html>

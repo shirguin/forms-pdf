@@ -12,4 +12,5 @@ Route::get('/form-i-589', function () {
     return view('form-i-589');
 })->name('form-i-589');
 
+Route::get('/form-i-589/all', [FormI589Controller::class, 'allData'])->name('form-i-589-data');
 Route::post('/form-i-589/submit', [FormI589Controller::class, 'submit'])->name('form-i-589-submit');

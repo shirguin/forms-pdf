@@ -5,18 +5,9 @@
 @endsection
 
 @section('content')
-    <h1 class="text-2xl font-bold">Заполнение формы i-589</h1>
-    <a class="text-blue-700" href="{{ route('home') }}">Главная</a>
+    <h1 class="ml-8 text-2xl font-bold">Заполнение формы i-589</h1>
 
-    @if ($errors->any())
-        <div class=" ml-8">
-            <ul>
-                @foreach ($errors->all() as $error)
-                    <li class="text-red-600">{{ $error }}</li>
-                @endforeach
-            </ul>
-        </div>
-    @endif
+
 
     <form action="{{ route('form-i-589-submit') }}" method="post" class="mt-4">
         @csrf
