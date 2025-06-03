@@ -21,10 +21,11 @@ class FormI589Request extends FormRequest
      */
     public function rules(): array
     {
-        return [
-            'name' => 'required|string|min:3|max:50',
-            'email' => 'required|email',
-        ];
+        // return [
+        //     'name' => 'required|string|min:3|max:50',
+        //     'email' => 'required|email',
+        // ];
+        return [];
     }
 
     public function attributes(): array

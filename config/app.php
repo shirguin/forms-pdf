@@ -123,4 +123,14 @@ return [
         'store' => env('APP_MAINTENANCE_STORE', 'database'),
     ],
 
+    /*
+    Файлы с данными полей форм
+    */
+    // 'forms' => [
+    //     'i-589' => json_decode(
+    //         file_get_contents(config_path('forms/form_fields_i-589.json')),
+    //         true
+    //     ),
+    // ],
+
 ];

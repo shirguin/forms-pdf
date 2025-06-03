@@ -8,9 +8,7 @@ Route::get('/', function () {
     return view('home');
 })->name('home');
 
-Route::get('/form-i-589', function () {
-    return view('form-i-589');
-})->name('form-i-589');
+Route::get('/form-i-589', [FormI589Controller::class, 'showForm'])->name('form-i-589');
 
 Route::get('/form-i-589/all/{id}', [FormI589Controller::class, 'getById'])->name('form-i-589-detail');
 Route::get('/form-i-589/all/{id}/update', [FormI589Controller::class, 'updateForm'])->name('form-i-589-update');

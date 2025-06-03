@@ -1,0 +1,4329 @@
+[
+    {
+        "title": "Check this box if you also want to apply for withholding of removal under the Convention Against Torture.",
+        "name": "form1[0].#subform[0].CheckBox31[0]",
+        "type": "Button",
+        "FieldMaxLength": 0,
+        "FieldStateOption": [
+            "1",
+            "Off"
+        ],
+        "value": "Off",
+        "label_en": "Check this box if you also want to apply for withholding of removal under the Convention Against Torture",
+        "label_ru": "Установите этот флажок, если вы также хотите подать заявление об отказе в выдворении в соответствии с Конвенцией против пыток"
+    },
+    {
+        "title": "1. Alien Registration Number(s) (A-Number) (if any)",
+        "name": "form1[0].#subform[0].PtAILine1_ANumber[0]",
+        "type": "Text",
+        "FieldMaxLength": 9,
+        "FieldStateOption": [],
+        "value": "",
+        "section_en": "Part A.I. Information About You",
+        "section_ru": "Часть I. Информация о Вас",
+        "label_en": "1. Alien Registration Number(s) (A-Number) (if any)",
+        "label_ru": "1. Регистрационный номер (ы) иностранца (А-номер) (при наличии)"
+    },
+    {
+        "title": "2. U.S. Social Security Number (if any)",
+        "name": "form1[0].#subform[0].TextField1[0]",
+        "type": "Text",
+        "FieldMaxLength": 9,
+        "FieldStateOption": [],
+        "value": "",
+        "label_en": "2. U.S. Social Security Number (if any)",
+        "label_ru": "2. Номер социального страхования США (при наличии)"
+    },
+    {
+        "title": "3. USCIS Online Account Number (if any)",
+        "name": "form1[0].#subform[0].TextField1[8]",
+        "type": "Text",
+        "FieldMaxLength": 12,
+        "FieldStateOption": [],
+        "value": "",
+        "label_en": "3. USCIS Online Account Number (if any) ",
+        "label_ru": "3. Номер онлайн-счета USCIS (при наличии)"
+    },
+    {
+        "title": "4. Complete Last Name",
+        "name": "form1[0].#subform[0].PtAILine4_LastName[0]",
+        "type": "Text",
+        "FieldMaxLength": 0,
+        "FieldStateOption": [],
+        "value": "",
+        "label_en": "4. Complete Last Name",
+        "label_ru": "4. Полная фамилия"
+    },
+    {
+        "title": "5. First Name",
+        "name": "form1[0].#subform[0].PtAILine5_FirstName[0]",
+        "type": "Text",
+        "FieldMaxLength": 0,
+        "FieldStateOption": [],
+        "value": "",
+        "label_en": "5. First Name",
+        "label_ru": "5. Имя"
+    },
+    {
+        "title": "6. Middle Name",
+        "name": "form1[0].#subform[0].PtAILine6_MiddleName[0]",
+        "type": "Text",
+        "FieldMaxLength": 0,
+        "FieldStateOption": [],
+        "value": "",
+        "label_en": "6. Middle Name",
+        "label_ru": "6. Второе имя"
+    },
+    {
+        "title": "7. What other names have you used (include maiden name and aliases)?",
+        "name": "form1[0].#subform[0].TextField1[1]",
+        "type": "Text",
+        "FieldMaxLength": 0,
+        "FieldStateOption": [],
+        "value": "",
+        "label_en": "7. What other names have you used (include maiden name and aliases)?",
+        "label_ru": "7. Какие еще имена вы использовали (включая девичью фамилию и псевдонимы)?"
+    },
+    {
+        "title": "8. Street Number and Name",
+        "name": "form1[0].#subform[0].PtAILine8_StreetNumandName[0]",
+        "type": "Text",
+        "FieldMaxLength": 0,
+        "FieldStateOption": [],
+        "value": "",
+        "sub_section_en": "8. Residence in the U.S. (where you physically reside)",
+        "sub_section_ru": "8. Вид на жительство в США (где вы физически проживаете)",
+        "label_en": "Street Number and Name",
+        "label_ru": "Номер и название улицы"
+    },
+    {
+        "title": "8. Apt. Number",
+        "name": "form1[0].#subform[0].PtAILine8_AptNumber[0]",
+        "type": "Text",
+        "FieldMaxLength": 6,
+        "FieldStateOption": [],
+        "value": "",
+        "label_en": "Apt. Number",
+        "label_ru": "Подходящий номер"
+    },
+    {
+        "title": "8. City",
+        "name": "form1[0].#subform[0].TextField1[2]",
+        "type": "Text",
+        "FieldMaxLength": 0,
+        "FieldStateOption": [],
+        "value": "",
+        "label_en": "City",
+        "label_ru": "Город"
+    },
+    {
+        "title": "8. State",
+        "name": "form1[0].#subform[0].PtAILine8_State[0]",
+        "type": "Text",
+        "FieldMaxLength": 0,
+        "FieldStateOption": [],
+        "value": "",
+        "label_en": "State",
+        "label_ru": "Государство"
+    },
+    {
+        "title": "8. Zip Code",
+        "name": "form1[0].#subform[0].PtAILine8_Zipcode[0]",
+        "type": "Text",
+        "FieldMaxLength": 5,
+        "FieldStateOption": [],
+        "value": "",
+        "label_en": "Zip Code",
+        "label_ru": "почтовый индекс"
+    },
+    {
+        "title": "8. Telephone Number Code",
+        "name": "form1[0].#subform[0].PtAILine8_AreaCode[0]",
+        "type": "Text",
+        "FieldMaxLength": 3,
+        "FieldStateOption": [],
+        "value": "",
+        "label_en": "Telephone Number code",
+        "label_ru": "Код телефонного номера"
+    },
+    {
+        "title": "8. Telephone Number",
+        "name": "form1[0].#subform[0].PtAILine8_TelephoneNumber[0]",
+        "type": "Text",
+        "FieldMaxLength": 8,
+        "FieldStateOption": [],
+        "value": "",
+        "label_en": "Telephone Number",
+        "label_ru": "Номер телефона"
+    },
+    {
+        "title": "Part. A. 1. Information About You. 9. Mailing Address in the U. S. (if different than the address in Item Number 7). Enter &quot;In Care Of&quot; Name, if applicable.",
+        "name": "form1[0].#subform[0].PtAILine9_InCareOf[0]",
+        "type": "Text",
+        "FieldMaxLength": 0,
+        "FieldStateOption": [],
+        "value": "",
+        "note_en": "(NOTE: You must be residing in the United States to submit this form.)",
+        "note_ru": "(ПРИМЕЧАНИЕ: Для заполнения этой формы вы должны проживать в Соединенных Штатах.)",
+        "sub_section_en": "9. Mailing Address in the U.S. (if different than the address in Item Number 8)",
+        "sub_section_ru": "9. Почтовый адрес в США (если он отличается от адреса, указанного в пункте № 8)",
+        "label_en": "In Care Of (if applicable):",
+        "label_ru": "На попечении (если применимо):"
+    },
+    {
+        "title": "Part. A. 1. Information About You. 9. Mailing Address in the U. S. (if different than the address in Item Number 7). Telephone Number. Enter 3-digit Area Code.",
+        "name": "form1[0].#subform[0].PtAILine9_AreaCode[0]",
+        "type": "Text",
+        "FieldMaxLength": 3,
+        "FieldStateOption": [],
+        "value": "",
+        "label_en": "Telephone Number Code",
+        "label_ru": "Код телефонного номера"
+    },
+    {
+        "title": "Part. A. 1. Information About You. 9. Mailing Address in the U. S. (if different than the address in Item Number 7). Enter 7-digit Telephone Number.",
+        "name": "form1[0].#subform[0].PtAILine9_TelephoneNumbe[0]",
+        "type": "Text",
+        "FieldMaxLength": 8,
+        "FieldStateOption": [],
+        "value": "",
+        "label_en": "Telephone Number",
+        "label_ru": "Номер телефона"
+    },
+    {
+        "title": "Part. A. 1. Information About You. 9. Mailing Address in the U. S. (if different than the address in Item Number 7). Enter Street Number and Name. ",
+        "name": "form1[0].#subform[0].PtAILine9_StreetNumandName[0]",
+        "type": "Text",
+        "FieldMaxLength": 0,
+        "FieldStateOption": [],
+        "value": "",
+        "label_en": "Street Number and Name",
+        "label_ru": "Номер и название улицы"
+    },
+    {
+        "title": "9. Apt. Number",
+        "name": "form1[0].#subform[0].PtAILine9_AptNumber[0]",
+        "type": "Text",
+        "FieldMaxLength": 6,
+        "FieldStateOption": [],
+        "value": "",
+        "label_en": "Apt. Number",
+        "label_ru": "Подходящий номер"
+    },
+    {
+        "title": "9. City",
+        "name": "form1[0].#subform[0].PtAILine9_City[0]",
+        "type": "Text",
+        "FieldMaxLength": 0,
+        "FieldStateOption": [],
+        "value": "",
+        "label_en": "City",
+        "label_ru": "Город"
+    },
+    {
+        "title": "9. State",
+        "name": "form1[0].#subform[0].PtAILine9_State[0]",
+        "type": "Text",
+        "FieldMaxLength": 0,
+        "FieldStateOption": [],
+        "value": "",
+        "label_en": "State",
+        "label_ru": "Государство"
+    },
+    {
+        "title": "9. Zip Code",
+        "name": "form1[0].#subform[0].PtAILine9_ZipCode[0]",
+        "type": "Text",
+        "FieldMaxLength": 5,
+        "FieldStateOption": [],
+        "value": "",
+        "label_en": "Zip Code",
+        "label_ru": "почтовый индекс"
+    },
+    {
+        "title": "10. Sex Male",
+        "name": "form1[0].#subform[0].PartALine9Sex[0]",
+        "type": "Button",
+        "FieldMaxLength": 0,
+        "FieldStateOption": [
+            "M",
+            "Off"
+        ],
+        "value": "Off",
+        "sub_section_en": "10. Sex",
+        "sub_section_ru": "10. Пол",
+        "label_en": "Male",
+        "label_ru": "Мужской"
+    },
+    {
+        "title": "10. Sex Female",
+        "name": "form1[0].#subform[0].PartALine9Sex[1]",
+        "type": "Button",
+        "FieldMaxLength": 0,
+        "FieldStateOption": [
+            "F",
+            "Off"
+        ],
+        "value": "Off",
+        "label_en": "Female",
+        "label_ru": "Женский"
+    },
+    {
+        "title": "11. Marital Status: Select Single",
+        "name": "form1[0].#subform[0].Marital[0]",
+        "type": "Button",
+        "FieldMaxLength": 0,
+        "FieldStateOption": [
+            "S",
+            "Off"
+        ],
+        "value": "Off",
+        "sub_section_en": "11. Marital Status:",
+        "sub_section_ru": "11. Семейное положение:",
+        "label_en": "Single",
+        "label_ru": "Одинокий"
+    },
+    {
+        "title": "11. Marital Status: Select Married",
+        "name": "form1[0].#subform[0].Marital[1]",
+        "type": "Button",
+        "FieldMaxLength": 0,
+        "FieldStateOption": [
+            "M",
+            "Off"
+        ],
+        "value": "Off",
+        "label_en": "Married",
+        "label_ru": "Женат"
+    },
+    {
+        "title": "11. Marital Status: Select Divorced",
+        "name": "form1[0].#subform[0].Marital[2]",
+        "type": "Button",
+        "FieldMaxLength": 0,
+        "FieldStateOption": [
+            "D",
+            "Off"
+        ],
+        "value": "Off",
+        "label_en": "Divorced",
+        "label_ru": "Разведенный"
+    },
+    {
+        "title": "11. Marital Status: Select Widowed",
+        "name": "form1[0].#subform[0].Marital[3]",
+        "type": "Button",
+        "FieldMaxLength": 0,
+        "FieldStateOption": [
+            "W",
+            "Off"
+        ],
+        "value": "Off",
+        "label_en": "Widowed",
+        "label_ru": "Овдовевший"
+    },
+    {
+        "title": "12. Date of Birth (mm\/dd\/yyyy)",
+        "name": "form1[0].#subform[0].DateTimeField1[0]",
+        "type": "Text",
+        "FieldMaxLength": 0,
+        "FieldStateOption": [],
+        "value": "",
+        "label_en": "12. Date of Birth (mm/dd/yyyy)",
+        "label_ru": "12. Дата рождения (мм/дд/гггг)"
+    },
+    {
+        "title": "13. City and Country of Birth",
+        "name": "form1[0].#subform[0].TextField1[4]",
+        "type": "Text",
+        "FieldMaxLength": 0,
+        "FieldStateOption": [],
+        "value": "",
+        "label_en": "13. City and Country of Birth",
+        "label_ru": "13. Город и страна рождения"
+    },
+    {
+        "title": "14. Present Nationality (Citizenship)",
+        "name": "form1[0].#subform[0].TextField1[3]",
+        "type": "Text",
+        "FieldMaxLength": 0,
+        "FieldStateOption": [],
+        "value": "",
+        "label_en": "14. Present Nationality (Citizenship)",
+        "label_ru": "14. Нынешняя национальность (подданство)"
+    },
+    {
+        "title": "15. Nationality at Birth",
+        "name": "form1[0].#subform[0].TextField1[5]",
+        "type": "Text",
+        "FieldMaxLength": 0,
+        "FieldStateOption": [],
+        "value": "",
+        "label_en": "15. Nationality at Birth",
+        "label_ru": "15. Национальность при рождении"
+    },
+    {
+        "title": "16. Race, Ethnic, or Tribal Group",
+        "name": "form1[0].#subform[0].TextField1[6]",
+        "type": "Text",
+        "FieldMaxLength": 0,
+        "FieldStateOption": [],
+        "value": "",
+        "label_en": "16. Race, Ethnic, or Tribal Group",
+        "label_ru": "16. Расовая, этническая или племенная группа"
+    },
+    {
+        "title": "17. Religion",
+        "name": "form1[0].#subform[0].TextField1[7]",
+        "type": "Text",
+        "FieldMaxLength": 0,
+        "FieldStateOption": [],
+        "value": "",
+        "label_en": "17. Religion",
+        "label_ru": "17. Религия"
+    },
+    {
+        "title": "18. I have never been in Immigration Court proceedings",
+        "name": "form1[0].#subform[0].CheckBox3[0]",
+        "type": "Button",
+        "FieldMaxLength": 0,
+        "FieldStateOption": [
+            "A",
+            "Off"
+        ],
+        "value": "Off",
+        "sub_section_en": "18. Check the box, a through c, that applies:",
+        "sub_section_ru": "18. Установите соответствующие флажки от а до с.:",
+        "label_en": "a. I have never been in Immigration Court proceedings.",
+        "label_ru": "a. Я никогда не участвовал в иммиграционных судебных разбирательствах."
+    },
+    {
+        "title": "18. I am now in Immigration Court proceedings",
+        "name": "form1[0].#subform[0].CheckBox3[2]",
+        "type": "Button",
+        "FieldMaxLength": 0,
+        "FieldStateOption": [
+            "B",
+            "Off"
+        ],
+        "value": "Off",
+        "label_en": "b. I am now in Immigration Court proceedings",
+        "label_ru": "b. Сейчас я нахожусь на слушании в иммиграционном суде"
+    },
+    {
+        "title": "18. I am not now in Immigration Court proceedings, but I have been in the past",
+        "name": "form1[0].#subform[0].CheckBox3[1]",
+        "type": "Button",
+        "FieldMaxLength": 0,
+        "FieldStateOption": [
+            "C",
+            "Off"
+        ],
+        "value": "Off",
+        "label_en": "c. I am not now in Immigration Court proceedings, but I have been in the past.",
+        "label_ru": "c. Сейчас я не участвую в иммиграционном судебном разбирательстве, но в прошлом участвовал."
+    },
+    {
+        "title": "19. a. When did you last leave your country? (mm\/dd\/yyyy)",
+        "name": "form1[0].#subform[0].DateTimeField6[0]",
+        "type": "Text",
+        "FieldMaxLength": 0,
+        "FieldStateOption": [],
+        "value": "",
+        "sub_section_en": "19. Complete 19 a through c.",
+        "sub_section_ru": "19. Выполните пункты 19 от а до в.",
+        "label_en": "a. When did you last leave your country? (mm/dd/yyyy)",
+        "label_ru": "a. Когда вы в последний раз покидали свою страну? (мм/дд/гггг)"
+    },
+    {
+        "title": "19. b. What is your current I-94 Number, if any?",
+        "name": "form1[0].#subform[0].TextField3[0]",
+        "type": "Text",
+        "FieldMaxLength": 0,
+        "FieldStateOption": [],
+        "value": "",
+        "label_en": "b. What is your current I-94 Number, if any?",
+        "label_ru": "b. Каков ваш текущий номер I-94, если таковой имеется?"
+    },
+    {
+        "title": "19. c. row-1(Date)",
+        "name": "form1[0].#subform[0].DateTimeField2[0]",
+        "type": "Text",
+        "FieldMaxLength": 0,
+        "FieldStateOption": [],
+        "value": "",
+        "sub_section_en": "c. List each entry into the U.S. beginning with your most recent entry. List date (mm/dd/yyyy), place, and your status for each entry. ",
+        "sub_section_ru": "c. Укажите каждый въезд в США, начиная с вашего последнего въезда. Укажите дату (мм/дд/гггг), место и свой статус для каждого въезда.",
+        "label_en": "Date",
+        "label_ru": "Дата"
+    },
+    {
+        "title": "19. c. row-1(Place)",
+        "name": "form1[0].#subform[0].TextField4[0]",
+        "type": "Text",
+        "FieldMaxLength": 0,
+        "FieldStateOption": [],
+        "value": "",
+        "label_en": "Place",
+        "label_ru": "Место"
+    },
+    {
+        "title": "19. c. row-1(Status)",
+        "name": "form1[0].#subform[0].TextField4[1]",
+        "type": "Text",
+        "FieldMaxLength": 0,
+        "FieldStateOption": [],
+        "value": "",
+        "label_en": "Status",
+        "label_ru": "Статус"
+    },
+    {
+        "title": "19. c. row-2(Date)",
+        "name": "form1[0].#subform[0].DateTimeField3[0]",
+        "type": "Text",
+        "FieldMaxLength": 0,
+        "FieldStateOption": [],
+        "value": "",
+        "label_en": "Date",
+        "label_ru": "Дата"
+    },
+    {
+        "title": "19. c. row-2(Place)",
+        "name": "form1[0].#subform[0].TextField4[2]",
+        "type": "Text",
+        "FieldMaxLength": 0,
+        "FieldStateOption": [],
+        "value": "",
+        "label_en": "Place",
+        "label_ru": "Место"
+    },
+    {
+        "title": "19. c. row-2(Status)",
+        "name": "form1[0].#subform[0].TextField4[3]",
+        "type": "Text",
+        "FieldMaxLength": 0,
+        "FieldStateOption": [],
+        "value": "",
+        "label_en": "Status",
+        "label_ru": "Статус"
+    },
+    {
+        "title": "19. c. row-3(Date)",
+        "name": "form1[0].#subform[0].DateTimeField4[0]",
+        "type": "Text",
+        "FieldMaxLength": 0,
+        "FieldStateOption": [],
+        "value": "",
+        "label_en": "Date",
+        "label_ru": "Дата"
+    },
+    {
+        "title": "19. c. row-3(Place)",
+        "name": "form1[0].#subform[0].TextField4[4]",
+        "type": "Text",
+        "FieldMaxLength": 0,
+        "FieldStateOption": [],
+        "value": "",
+        "label_en": "Place",
+        "label_ru": "Место"
+    },
+    {
+        "title": "19. c. row-3(Status)",
+        "name": "form1[0].#subform[0].TextField4[5]",
+        "type": "Text",
+        "FieldMaxLength": 0,
+        "FieldStateOption": [],
+        "value": "",
+        "label_en": "Status",
+        "label_ru": "Статус"
+    },
+    {
+        "title": "19. c. Date Status Expires",
+        "name": "form1[0].#subform[0].DateTimeField2[1]",
+        "type": "Text",
+        "FieldMaxLength": 0,
+        "FieldStateOption": [],
+        "value": "",
+        "label_en": "Date Status Expires",
+        "label_ru": "Дата истечения срока действия статуса"
+    },
+    {
+        "title": "20. What country issued your last passport or travel document?",
+        "name": "form1[0].#subform[0].TextField5[0]",
+        "type": "Text",
+        "FieldMaxLength": 0,
+        "FieldStateOption": [],
+        "value": "",
+        "label_en": "20. What country issued your last passport or travel document?",
+        "label_ru": "20. В какой стране был выдан ваш последний паспорт или проездной документ?"
+    },
+    {
+        "title": "21. Passport Number",
+        "name": "form1[0].#subform[0].TextField5[1]",
+        "type": "Text",
+        "FieldMaxLength": 0,
+        "FieldStateOption": [],
+        "value": "",
+        "label_en": "21. Passport Number",
+        "label_ru": "21. Номер паспорта"
+    },
+    {
+        "title": "21. Travel Document Number",
+        "name": "form1[0].#subform[0].TextField5[2]",
+        "type": "Text",
+        "FieldMaxLength": 0,
+        "FieldStateOption": [],
+        "value": "",
+        "label_en": "21. Travel Document Number",
+        "label_ru": "21. Номер проездного документа"
+    },
+    {
+        "title": "22. Expiration Date (mm\/dd\/yyyy)",
+        "name": "form1[0].#subform[0].DateTimeField2[2]",
+        "type": "Text",
+        "FieldMaxLength": 0,
+        "FieldStateOption": [],
+        "value": "",
+        "label_en": "22. Expiration Date (mm\/dd\/yyyy)",
+        "label_ru": "22. Срок годности (мм\/дд\/гггг)"
+    },
+    {
+        "title": "23. What is your native language (include dialect, if applicable)?",
+        "name": "form1[0].#subform[0].TextField7[0]",
+        "type": "Text",
+        "FieldMaxLength": 0,
+        "FieldStateOption": [],
+        "value": "",
+        "label_en": "23. What is your native language (include dialect, if applicable)?",
+        "label_ru": "23. Какой ваш родной язык (включая диалект, если применимо)?"
+    },
+    {
+        "title": "24. Are you fluent in English? Select Yes",
+        "name": "form1[0].#subform[0].CheckBox4[0]",
+        "type": "Button",
+        "FieldMaxLength": 0,
+        "FieldStateOption": [
+            "Yes",
+            "Off"
+        ],
+        "value": "Off",
+        "sub_section_en": "24. Are you fluent in English?",
+        "sub_section_ru": "24. Свободно ли вы владеете английским языком?",
+        "label_en": "Yes",
+        "label_ru": "Да"
+    },
+    {
+        "title": "24. Are you fluent in English? Select No",
+        "name": "form1[0].#subform[0].CheckBox4[1]",
+        "type": "Button",
+        "FieldMaxLength": 0,
+        "FieldStateOption": [
+            "No",
+            "Off"
+        ],
+        "value": "Off",
+        "label_en": "No",
+        "label_ru": "Нет"
+    },
+    {
+        "title": "25. What other languages do you speak fluently?",
+        "name": "form1[0].#subform[0].TextField7[1]",
+        "type": "Text",
+        "FieldMaxLength": 0,
+        "FieldStateOption": [],
+        "value": "",
+        "label_en": "25. What other languages do you speak fluently?",
+        "label_ru": "25. На каких еще языках вы свободно говорите?"
+    },
+    {
+        "title": "I am not married. (Skip to Your Children below.)",
+        "name": "form1[0].#subform[1].CheckBox5[0]",
+        "type": "Button",
+        "FieldMaxLength": 0,
+        "FieldStateOption": [
+            "1",
+            "Off"
+        ],
+        "value": "Off",
+        "section_en": "Part A.II. Information About Your Spouse and Children",
+        "section_ru": "Часть A.II. Информация о Вашем супруге(супруге) и детях",
+        "label_en": "I am not married. (Skip to Your Children below.)",
+        "label_ru": "Я не женат. (Перейдите к вашим детям ниже.)"
+    },
+    {
+        "title": "Part. A.2. 1. Alien Registration Number (A-Number) (if any)",
+        "name": "form1[0].#subform[1].NotMarried[0].PtAIILine1_ANumber[0]",
+        "type": "Text",
+        "FieldMaxLength": 0,
+        "FieldStateOption": [],
+        "value": "",
+        "label_en": "1. Alien Registration Number (A-Number) (if any)",
+        "label_ru": "1. Регистрационный номер иностранца (A-номер) (при наличии)"
+    },
+    {
+        "title": "Part. A.2. 2. Passport\/ID Card Number (if any)",
+        "name": "form1[0].#subform[1].NotMarried[0].TextField10[1]",
+        "type": "Text",
+        "FieldMaxLength": 0,
+        "FieldStateOption": [],
+        "value": "",
+        "label_en": "2. Passport\/ID Card Number (if any)",
+        "label_ru": "2. Номер паспорта/удостоверения личности (при наличии)"
+    },
+    {
+        "title": "Part. A.2. 3. Date of Birth (mm\/dd\/yyyy)",
+        "name": "form1[0].#subform[1].NotMarried[0].DateTimeField7[0]",
+        "type": "Text",
+        "FieldMaxLength": 0,
+        "FieldStateOption": [],
+        "value": "",
+        "label_en": "3. Date of Birth (mm\/dd\/yyyy)",
+        "label_ru": "3. Дата рождения (мм\/дд\/гггг)"
+    },
+    {
+        "title": "Part. A.2. 4. U.S. Social Security Number (if any)",
+        "name": "form1[0].#subform[1].NotMarried[0].TextField10[2]",
+        "type": "Text",
+        "FieldMaxLength": 0,
+        "FieldStateOption": [],
+        "value": "",
+        "label_en": "4. U.S. Social Security Number (if any)",
+        "label_ru": "4. Номер социального страхования США (при наличии)"
+    },
+    {
+        "title": "Part. A.2. 5. Complete Last Name",
+        "name": "form1[0].#subform[1].NotMarried[0].PtAIILine5_LastName[0]",
+        "type": "Text",
+        "FieldMaxLength": 0,
+        "FieldStateOption": [],
+        "value": "",
+        "label_en": "5. Complete Last Name",
+        "label_ru": "5. Полная фамилия"
+    },
+    {
+        "title": "Part. A.2. 6. First Name",
+        "name": "form1[0].#subform[1].NotMarried[0].PtAIILine6_FirstName[0]",
+        "type": "Text",
+        "FieldMaxLength": 0,
+        "FieldStateOption": [],
+        "value": "",
+        "label_en": "6. First Name",
+        "label_ru": "6. Имя"
+    },
+    {
+        "title": "Part. A.2. 7. Middle Name",
+        "name": "form1[0].#subform[1].NotMarried[0].PtAIILine7_MiddleName[0]",
+        "type": "Text",
+        "FieldMaxLength": 0,
+        "FieldStateOption": [],
+        "value": "",
+        "label_en": "7. Middle Name",
+        "label_ru": "7. Второе имя"
+    },
+    {
+        "title": "Part. A.2. 8. Other names used (include maiden name and aliases)",
+        "name": "form1[0].#subform[1].NotMarried[0].TextField10[3]",
+        "type": "Text",
+        "FieldMaxLength": 0,
+        "FieldStateOption": [],
+        "value": "",
+        "label_en": "8. Other names used (include maiden name and aliases)",
+        "label_ru": "8. Другие используемые имена (включая девичью фамилию и псевдонимы)"
+    },
+    {
+        "title": "Part. A.2. 9. Date of Marriage (mm\/dd\/yyyy)",
+        "name": "form1[0].#subform[1].NotMarried[0].DateTimeField8[0]",
+        "type": "Text",
+        "FieldMaxLength": 0,
+        "FieldStateOption": [],
+        "value": "",
+        "label_en": "9. Date of Marriage (mm\/dd\/yyyy)",
+        "label_ru": "9. Дата вступления в брак (мм\/дд\/гггг)"
+    },
+    {
+        "title": "Part. A.2. 10. Place of Marriage",
+        "name": "form1[0].#subform[1].NotMarried[0].TextField10[4]",
+        "type": "Text",
+        "FieldMaxLength": 0,
+        "FieldStateOption": [],
+        "value": "",
+        "label_en": "10. Place of Marriage",
+        "label_ru": "10. Место заключения брака"
+    },
+    {
+        "title": "Part. A.2. 11. City and Country of Birth",
+        "name": "form1[0].#subform[1].NotMarried[0].TextField10[5]",
+        "type": "Text",
+        "FieldMaxLength": 0,
+        "FieldStateOption": [],
+        "value": "",
+        "label_en": "11. City and Country of Birth",
+        "label_ru": "11. Город и страна рождения"
+    },
+    {
+        "title": "Part. A.2. 12. Nationality (Citizenship)",
+        "name": "form1[0].#subform[1].NotMarried[0].TextField10[0]",
+        "type": "Text",
+        "FieldMaxLength": 0,
+        "FieldStateOption": [],
+        "value": "",
+        "label_en": "12. Nationality (Citizenship)",
+        "label_ru": "12. Национальность (подданство)"
+    },
+    {
+        "title": "Part. A.2. 13. Race, Ethnic, or Tribal Group",
+        "name": "form1[0].#subform[1].NotMarried[0].TextField10[6]",
+        "type": "Text",
+        "FieldMaxLength": 0,
+        "FieldStateOption": [],
+        "value": "",
+        "label_en": "13. Race, Ethnic, or Tribal Group",
+        "label_ru": "13. Расовая, этническая или племенная группа"
+    },
+    {
+        "title": "Part. A.2. 14. Sex. Select Male",
+        "name": "form1[0].#subform[1].NotMarried[0].CheckBox14_Sex[0]",
+        "type": "Button",
+        "FieldMaxLength": 0,
+        "FieldStateOption": [
+            "M",
+            "Off"
+        ],
+        "value": "Off",
+        "sub_section_en": "14. Sex",
+        "sub_section_ru": "14. Пол",
+        "label_en": "Male",
+        "label_ru": "Мужской"
+    },
+    {
+        "title": "Part. A.2. 14. Sex. Select Female",
+        "name": "form1[0].#subform[1].NotMarried[0].CheckBox14_Sex[1]",
+        "type": "Button",
+        "FieldMaxLength": 0,
+        "FieldStateOption": [
+            "F",
+            "Off"
+        ],
+        "value": "Off",
+        "label_en": "Female",
+        "label_ru": "Женский"
+    },
+    {
+        "title": "Part. A.2. 15. Is this person in the U.S.? Select Yes (Complete Blocks 16 to 24)",
+        "name": "form1[0].#subform[1].NotMarried[0].PtAIILine15_CheckBox15[1]",
+        "type": "Button",
+        "FieldMaxLength": 0,
+        "FieldStateOption": [
+            "Y",
+            "Off"
+        ],
+        "value": "Off",
+        "sub_section_en": "15. Is this person in the U.S.?",
+        "sub_section_ru": "15. Находится ли этот человек в США?",
+        "label_en": "Yes (Complete Blocks 16 to 24.)",
+        "label_ru": "Да (пройдите блоки с 16 по 24.)"
+    },
+    {
+        "title": "Part. A.2. 15. Is this person in the U.S.? Select Select No (Specify location)",
+        "name": "form1[0].#subform[1].NotMarried[0].PtAIILine15_CheckBox15[0]",
+        "type": "Button",
+        "FieldMaxLength": 0,
+        "FieldStateOption": [
+            "N",
+            "Off"
+        ],
+        "value": "Off",
+        "label_en": "No",
+        "label_ru": "Нет"
+    },
+    {
+        "title": "Part. A.2. 15. Is this person in the U.S.? If No, Enter Location",
+        "name": "form1[0].#subform[1].NotMarried[0].PtAIILine15_Specify[0]",
+        "type": "Text",
+        "FieldMaxLength": 0,
+        "FieldStateOption": [],
+        "value": "",
+        "label_en": "Specify location:",
+        "label_ru": "Указать местоположение:"
+    },
+    {
+        "title": "Part. A.2. 16. Place of last entry into the U.S.",
+        "name": "form1[0].#subform[1].NotMarried[0].PtAIILine16_PlaceofLastEntry[0]",
+        "type": "Text",
+        "FieldMaxLength": 0,
+        "FieldStateOption": [],
+        "value": "",
+        "label_en": "16. Place of last entry into the U.S.",
+        "label_ru": "16. Место последнего въезда в США."
+    },
+    {
+        "title": "Part. A.2. 17. Date of last entry into the U.S. (mm\/dd\/yyyy)",
+        "name": "form1[0].#subform[1].NotMarried[0].PtAIILine17_DateofLastEntry[0]",
+        "type": "Text",
+        "FieldMaxLength": 0,
+        "FieldStateOption": [],
+        "value": "",
+        "label_en": "17. Date of last entry into the U.S. (mm\/dd\/yyyy)",
+        "label_ru": "17. Дата последнего въезда в США (мм\/дд\/гггг)"
+    },
+    {
+        "title": "Part. A.2. 18. I-94 Number (if any)",
+        "name": "form1[0].#subform[1].NotMarried[0].PtAIILine18_I94Number[0]",
+        "type": "Text",
+        "FieldMaxLength": 0,
+        "FieldStateOption": [],
+        "value": "",
+        "label_en": "18. I-94 Number (if any)",
+        "label_ru": "18. Номер I-94 (если есть)"
+    },
+    {
+        "title": "Part. A.2. 19. Status when last admitted (Visa type, if any)",
+        "name": "form1[0].#subform[1].NotMarried[0].PtAIILine19_StatusofLastAdmission[0]",
+        "type": "Text",
+        "FieldMaxLength": 0,
+        "FieldStateOption": [],
+        "value": "",
+        "label_en": "19. Status when last admitted (Visa type, if any)",
+        "label_ru": "19. Статус на момент последнего въезда (тип визы, если таковая имеется)"
+    },
+    {
+        "title": "Part. A.2. 20. What is your spouse is current status?",
+        "name": "form1[0].#subform[1].NotMarried[0].PtAIILine20_SpouseCurrentStatus[0]",
+        "type": "Text",
+        "FieldMaxLength": 0,
+        "FieldStateOption": [],
+        "value": "",
+        "label_en": "20. What is your spouse is current status?",
+        "label_ru": "20. Каков текущий статус вашего супруга/супруги?"
+    },
+    {
+        "title": "Part. A.2. 21. What is the expiration date of his\/her authorized stay, if any? (mm\/dd\/yyyy)",
+        "name": "form1[0].#subform[1].NotMarried[0].PtAIILine21_ExpDateofAuthorizedStay[0]",
+        "type": "Text",
+        "FieldMaxLength": 0,
+        "FieldStateOption": [],
+        "value": "",
+        "label_en": "21. What is the expiration date of his\/her authorized stay, if any? (mm\/dd\/yyyy)",
+        "label_ru": "21. Каков срок действия его/ее разрешенного пребывания, если таковой имеется? (мм\/дд\/гггг)"
+    },
+    {
+        "title": "Part. A.2. 22. Is your spouse in Immigration Court proceedings? Select Yes",
+        "name": "form1[0].#subform[1].NotMarried[0].PtAIILine22_Yes[0]",
+        "type": "Button",
+        "FieldMaxLength": 0,
+        "FieldStateOption": [
+            "Yes",
+            "Off"
+        ],
+        "value": "Off",
+        "sub_section_en": "22. Is your spouse in Immigration Court proceedings?",
+        "sub_section_ru": "22. Участвует ли ваш супруг(а) в судебном разбирательстве по иммиграционным делам?",
+        "label_en": "Yes",
+        "label_ru": "Да"
+    },
+    {
+        "title": "Part. A.2. 22. Is your spouse in Immigration Court proceedings? Select No",
+        "name": "form1[0].#subform[1].NotMarried[0].PtAIILine22_No[0]",
+        "type": "Button",
+        "FieldMaxLength": 0,
+        "FieldStateOption": [
+            "No",
+            "Off"
+        ],
+        "value": "Off",
+        "label_en": "No",
+        "label_ru": "Нет"
+    },
+    {
+        "title": "Part. A.2. 23. If previously in the U.S., date of previous arrival (mm\/dd\/yyyy)",
+        "name": "form1[0].#subform[1].NotMarried[0].PtAIILine23_PreviousArrivalDate[0]",
+        "type": "Text",
+        "FieldMaxLength": 0,
+        "FieldStateOption": [],
+        "value": "",
+        "label_en": "23. If previously in the U.S., date of previous arrival (mm\/dd\/yyyy)",
+        "label_ru": "23. Если вы ранее были в США, укажите дату предыдущего прибытия (мм\/дд\/гггг)."
+    },
+    {
+        "title": "Part. A.2. 24. If in the U.S., is your spouse to be included in this application? (Check the appropriate box.) Select Yes",
+        "name": "form1[0].#subform[1].NotMarried[0].PtAIILine24_Yes[0]",
+        "type": "Button",
+        "FieldMaxLength": 0,
+        "FieldStateOption": [
+            "Y",
+            "Off"
+        ],
+        "value": "Off",
+        "sub_section_en": "24. If in the U.S., is your spouse to be included in this application? (Check the appropriate box.)",
+        "sub_section_ru": "24. Если вы находитесь в США, должен ли ваш супруг(а) быть включен в это заявление? (Поставьте соответствующую галочку).",
+        "label_en": "Yes",
+        "label_ru": "Да"
+    },
+    {
+        "title": "Part. A.2. 24. If in the U.S., is your spouse to be included in this application? (Check the appropriate box.) Select No",
+        "name": "form1[0].#subform[1].NotMarried[0].PtAIILine24_No[0]",
+        "type": "Button",
+        "FieldMaxLength": 0,
+        "FieldStateOption": [
+            "N",
+            "Off"
+        ],
+        "value": "Off",
+        "label_en": "No",
+        "label_ru": "Нет"
+    },
+    {
+        "title": "Part. A.2. Your Children. List all of your children, regardless of age, location, or marital status. Select I do not have any children. (Skip to Part. A. 3., Information about your background.)",
+        "name": "form1[0].#subform[1].ChildrenCheckbox[1]",
+        "type": "Button",
+        "FieldMaxLength": 0,
+        "FieldStateOption": [
+            "Y",
+            "Off"
+        ],
+        "value": "Off",
+        "sub_section_en": "Your Children. List all of your children, regardless of age, location, or marital status.",
+        "sub_section_ru": "Ваши дети. Перечислите всех своих детей, независимо от возраста, местонахождения или семейного положения.",
+        "label_en": "I do not have any children. (Skip to Part A.III., Information about your background.)",
+        "label_ru": "У меня нет детей. (Перейдите к части А.III, информации о вашем прошлом)."
+    },
+    {
+        "title": "Part. A.2. Your Children. List all of your children, regardless of age, location, or marital status. Select I have children",
+        "name": "form1[0].#subform[1].ChildrenCheckbox[0]",
+        "type": "Button",
+        "FieldMaxLength": 0,
+        "FieldStateOption": [
+            "N",
+            "Off"
+        ],
+        "value": "Off",
+        "label_en": "I have children. Total number of children:",
+        "label_ru": "У меня есть дети. Общее количество детей:"
+    },
+    {
+        "title": "Part. A.2. (child-1) 1. Alien Registration Number (A-Number)",
+        "name": "form1[0].#subform[1].ChildAlien1[0]",
+        "type": "Text",
+        "FieldMaxLength": 9,
+        "FieldStateOption": [],
+        "value": "",
+        "note_en": "(NOTE: Use Form I-589 Supplement A or attach additional sheets of paper and documentation if you have more than four children.)",
+        "note_ru": "(ПРИМЕЧАНИЕ: Используйте форму I-589, дополнение A, или приложите дополнительные листы бумаги и документацию, если у вас более четырех детей.)",
+        "label_en": "1. Alien Registration Number (A-Number) (if any)",
+        "label_ru": "1. Регистрационный номер иностранца (A-номер) (при наличии)"
+    },
+    {
+        "title": "Part. A.2. (child-1) 2. Passport\/ID Card Number (if any)",
+        "name": "form1[0].#subform[1].ChildPassport1[0]",
+        "type": "Text",
+        "FieldMaxLength": 0,
+        "FieldStateOption": [],
+        "value": "",
+        "label_en": "2. Passport\/ID Card Number (if any)",
+        "label_ru": "2. Номер паспорта/удостоверения личности (при наличии)"
+    },
+    {
+        "title": "Part. A.2. (child-1) 3. Marital Status (Married, Single, Divorced, Widowed)",
+        "name": "form1[0].#subform[1].ChildMarital1[0]",
+        "type": "Text",
+        "FieldMaxLength": 0,
+        "FieldStateOption": [],
+        "value": "",
+        "label_en": "3. Marital Status (Married, Single, Divorced, Widowed)",
+        "label_ru": "3. Семейное положение (Женат, Холост, Разведен, овдовел)"
+    },
+    {
+        "title": "Part. A.2. (child-1) 4. U.S. Social Security Number (if any)",
+        "name": "form1[0].#subform[1].ChildSSN1[0]",
+        "type": "Text",
+        "FieldMaxLength": 9,
+        "FieldStateOption": [],
+        "value": "",
+        "label_en": "4. U.S. Social Security Number (if any)",
+        "label_ru": "4. Номер социального страхования США (при наличии)"
+    },
+    {
+        "title": "Part. A.2. (child-1) 5. Complete Last Name",
+        "name": "form1[0].#subform[1].ChildLast1[0]",
+        "type": "Text",
+        "FieldMaxLength": 0,
+        "FieldStateOption": [],
+        "value": "",
+        "label_en": "5. Complete Last Name",
+        "label_ru": "5. Полная фамилия"
+    },
+    {
+        "title": "Part. A.2. (child-1) 6. First Name",
+        "name": "form1[0].#subform[1].ChildFirst1[0]",
+        "type": "Text",
+        "FieldMaxLength": 0,
+        "FieldStateOption": [],
+        "value": "",
+        "label_en": "6. First Name",
+        "label_ru": "6. Имя"
+    },
+    {
+        "title": "Part. A.2. (child-1) 7. Middle Name",
+        "name": "form1[0].#subform[1].ChildMiddle1[0]",
+        "type": "Text",
+        "FieldMaxLength": 0,
+        "FieldStateOption": [],
+        "value": "",
+        "label_en": "7. Middle Name",
+        "label_ru": "7. Второе имя"
+    },
+    {
+        "title": "Part. A.2. (child-1) 8. Date of Birth (mm\/dd\/yyyy)",
+        "name": "form1[0].#subform[1].ChildDOB1[0]",
+        "type": "Text",
+        "FieldMaxLength": 0,
+        "FieldStateOption": [],
+        "value": "",
+        "label_en": "8. Date of Birth (mm\/dd\/yyyy)",
+        "label_ru": "8. Дата рождения (мм\/дд\/гггг)"
+    },
+    {
+        "title": "Part. A.2. (child-1) 9. City and Country of Birth",
+        "name": "form1[0].#subform[1].ChildCity1[0]",
+        "type": "Text",
+        "FieldMaxLength": 0,
+        "FieldStateOption": [],
+        "value": "",
+        "label_en": "9. City and Country of Birth",
+        "label_ru": "9. Город и страна рождения"
+    },
+    {
+        "title": "Part. A.2. (child-1) 10. Nationality (Citizenship)",
+        "name": "form1[0].#subform[1].ChildNat1[0]",
+        "type": "Text",
+        "FieldMaxLength": 0,
+        "FieldStateOption": [],
+        "value": "",
+        "label_en": "10. Nationality (Citizenship)",
+        "label_ru": "10. Национальность (подданство)"
+    },
+    {
+        "title": "Part. A.2. (child-1) 11. Race, Ethnic, or Tribal Group",
+        "name": "form1[0].#subform[1].ChildRace1[0]",
+        "type": "Text",
+        "FieldMaxLength": 0,
+        "FieldStateOption": [],
+        "value": "",
+        "label_en": "11. Race, Ethnic, or Tribal Group",
+        "label_ru": "11. Расовая, этническая или племенная группа"
+    },
+    {
+        "title": "Part. A.2. (child-1) 12. Sex Select Male",
+        "name": "form1[0].#subform[1].CheckBox12_Sex[0]",
+        "type": "Button",
+        "FieldMaxLength": 0,
+        "FieldStateOption": [
+            "1",
+            "Off"
+        ],
+        "value": "Off",
+        "sub_section_en":"12. Sex",
+        "sub_section_ru":"12. Пол",
+        "label_en": "Male",
+        "label_ru": "Мужской"
+    },
+    {
+        "title": "Part. A.2. (child-1) 12. Sex Select Female",
+        "name": "form1[0].#subform[1].CheckBox12_Sex[1]",
+        "type": "Button",
+        "FieldMaxLength": 0,
+        "FieldStateOption": [
+            "2",
+            "Off"
+        ],
+        "value": "Off",
+        "label_en": "Femail",
+        "label_ru": "Женский"
+    },
+    {
+        "title": "Part. A.2. (child-1) 13. Is this child in the U.S. ? Select Yes (Complete Blocks 14 to 21)",
+        "name": "form1[0].#subform[1].CheckBox17[0]",
+        "type": "Button",
+        "FieldMaxLength": 0,
+        "FieldStateOption": [
+            "Y",
+            "Off"
+        ],
+        "value": "Off",
+        "sub_section_en":"13. Is this child in the U.S. ?",
+        "sub_section_ru":"13. Находится ли этот ребенок в США?",
+        "label_en": "Yes (Complete Blocks 14 to 21.)",
+        "label_ru": "Да (пройдите блоки с 14 по 21.)"
+    },
+    {
+        "title": "Part. A.2. (child-1) 13. Is this child in the U.S. ? Select No (Specify location)",
+        "name": "form1[0].#subform[1].CheckBox17[1]",
+        "type": "Button",
+        "FieldMaxLength": 0,
+        "FieldStateOption": [
+            "N",
+            "Off"
+        ],
+        "value": "Off",
+        "label_en": "No",
+        "label_ru": "Нет"
+    },
+    {
+        "title": "Part. A.2. (child-1) 13. Is this child in the U.S. ? If No, Enter Location",
+        "name": "form1[0].#subform[1].PtAIILine13_Specify[0]",
+        "type": "Text",
+        "FieldMaxLength": 0,
+        "FieldStateOption": [],
+        "value": "",
+        "label_en": "Specify location",
+        "label_ru": "Укажите местоположение"
+    },
+    {
+        "title": "Part. A.2. (child-1) 14. Place of last entry into the U.S.",
+        "name": "form1[0].#subform[1].PtAIILine14_PlaceofLastEntry[0]",
+        "type": "Text",
+        "FieldMaxLength": 0,
+        "FieldStateOption": [],
+        "value": "",
+        "label_en": "14. Place of last entry into the U.S.",
+        "label_ru": "14. Место последнего въезда в США."
+    },
+    {
+        "title": "Part. A.2. (child-1) 15. Date of last entry into the U.S. (mm\/dd\/yyyy)",
+        "name": "form1[0].#subform[1].PtAIILine15_ExpirationDate[0]",
+        "type": "Text",
+        "FieldMaxLength": 0,
+        "FieldStateOption": [],
+        "value": "",
+        "label_en": "15. Date of last entry into the U.S. (mm\/dd\/yyyy)",
+        "label_ru": "15. Дата последнего въезда в США (мм\/дд\/гггг)"
+    },
+    {
+        "title": "Part. A.2. (child-1) 16. I-94 Number (If any)",
+        "name": "form1[0].#subform[1].PtAIILine16_I94Number[0]",
+        "type": "Text",
+        "FieldMaxLength": 11,
+        "FieldStateOption": [],
+        "value": "",
+        "label_en": "16. I-94 Number (If any)",
+        "label_ru": "16. Номер I-94 (если есть)"
+    },
+    {
+        "title": "Part. A.2. (child-1) 17. Status when last admitted (Visa type, if any)",
+        "name": "form1[0].#subform[1].PtAIILine17_StatusofLastAdmission[0]",
+        "type": "Text",
+        "FieldMaxLength": 0,
+        "FieldStateOption": [],
+        "value": "",
+        "label_en": "17. Status when last admitted (Visa type, if any)",
+        "label_ru": "17. Статус на момент последнего въезда (тип визы, если таковая имеется)"
+    },
+    {
+        "title": "Part. A.2. (child-1) 18. What is your child is current status?",
+        "name": "form1[0].#subform[1].PtAIILine18_CurrentStatusofChild[0]",
+        "type": "Text",
+        "FieldMaxLength": 0,
+        "FieldStateOption": [],
+        "value": "",
+        "label_en": "18. What is your child is current status?",
+        "label_ru": "18. Каков текущий статус вашего ребенка?"
+    },
+    {
+        "title": "Part. A.2. (child-1) 19. What is the expiration date of his\/her authorized stay, if any? (mm\/dd\/yyyy)",
+        "name": "form1[0].#subform[1].PtAIILine19_ExpDateofAuthorizedStay[0]",
+        "type": "Text",
+        "FieldMaxLength": 0,
+        "FieldStateOption": [],
+        "value": "",
+        "label_en": "19. What is the expiration date of his\/her authorized stay, if any? (mm\/dd\/yyyy)",
+        "label_ru": "19. Каков срок действия его/ее разрешенного пребывания, если таковой имеется? (мм\/дд\/гггг)"
+    },
+    {
+        "title": "Part. A.2. (child-1) 20. Is your child in Immigration Court proceedings? Select Yes",
+        "name": "form1[0].#subform[1].PtAIILine20_Yes[0]",
+        "type": "Button",
+        "FieldMaxLength": 0,
+        "FieldStateOption": [
+            "Yes",
+            "Off"
+        ],
+        "value": "Off",
+        "sub_section_en":"20. Is your child in Immigration Court proceedings?",
+        "sub_section_ru":"20. Находится ли ваш ребенок на рассмотрении в иммиграционном суде?",
+        "label_en": "Yes",
+        "label_ru": "Да"
+    },
+    {
+        "title": "Part. A.2. (child-1) 20. Is your child in Immigration Court proceedings? Select No",
+        "name": "form1[0].#subform[1].PtAIILine20_No[0]",
+        "type": "Button",
+        "FieldMaxLength": 0,
+        "FieldStateOption": [
+            "No",
+            "Off"
+        ],
+        "value": "Off",
+        "label_en": "No",
+        "label_ru": "Нет"
+    },
+    {
+        "title": "Part. A.2. (child-1) 21. If in the U.S., is this child to be included in this application? (Check the appropriate box.) Select Yes",
+        "name": "form1[0].#subform[1].PtAIILine21_Yes[0]",
+        "type": "Button",
+        "FieldMaxLength": 0,
+        "FieldStateOption": [
+            "Y",
+            "Off"
+        ],
+        "value": "Off",
+        "sub_section_en":"21. If in the U.S., is this child to be included in this application? (Check the appropriate box.)",
+        "sub_section_ru":"21. Если этот ребенок находится в США, должен ли он быть включен в это заявление? (Поставьте соответствующую галочку).",
+        "label_en": "Yes",
+        "label_ru": "Да"
+    },
+    {
+        "title": "Part. A.2. (child-1) 21. If in the U.S., is this child to be included in this application? (Check the appropriate box.) Select No",
+        "name": "form1[0].#subform[1].PtAIILine21_No[0]",
+        "type": "Button",
+        "FieldMaxLength": 0,
+        "FieldStateOption": [
+            "N",
+            "Off"
+        ],
+        "value": "Off",
+        "label_en": "No",
+        "label_ru": "Нет"
+    },
+    {
+        "title": "Part. A.2. (child-2) 1. Alien Registration Number (A-Number) (if any)",
+        "name": "form1[0].#subform[3].ChildAlien2[0]",
+        "type": "Text",
+        "FieldMaxLength": 9,
+        "FieldStateOption": [],
+        "value": "",
+        "label_en": "1. Alien Registration Number (A-Number) (if any)",
+        "label_ru": "1. Регистрационный номер иностранца (A-номер) (при наличии)"
+    },
+    {
+        "title": "Part. A.2. (child-2) 2. Passport\/ID Card Number (if any)",
+        "name": "form1[0].#subform[3].ChildPassport2[0]",
+        "type": "Text",
+        "FieldMaxLength": 0,
+        "FieldStateOption": [],
+        "value": "",
+        "label_en": "2. Passport\/ID Card Number (if any)",
+        "label_ru": "2. Номер паспорта/удостоверения личности (при наличии)"
+    },
+    {
+        "title": "Part. A.2. (child-2) 3. Marital Status (Married, Single, Divorced, Widowed)",
+        "name": "form1[0].#subform[3].ChildMarital2[0]",
+        "type": "Text",
+        "FieldMaxLength": 0,
+        "FieldStateOption": [],
+        "value": "",
+        "label_en": "3. Marital Status (Married, Single, Divorced, Widowed)",
+        "label_ru": "3. Семейное положение (Женат, Холост, Разведен, овдовел)"
+    },
+    {
+        "title": "Part. A.2. (child-2) 4. U.S. Social Security Number (if any)",
+        "name": "form1[0].#subform[3].ChildSSN2[0]",
+        "type": "Text",
+        "FieldMaxLength": 9,
+        "FieldStateOption": [],
+        "value": "",
+        "label_en": "4. U.S. Social Security Number (if any)",
+        "label_ru": "4. Номер социального страхования США (при наличии)"
+    },
+    {
+        "title": "Part. A.2. (child-2) 5. Complete Last Name",
+        "name": "form1[0].#subform[3].ChildLast2[0]",
+        "type": "Text",
+        "FieldMaxLength": 0,
+        "FieldStateOption": [],
+        "value": "",
+        "label_en": "5. Complete Last Name",
+        "label_ru": "5. Полная фамилия"
+    },
+    {
+        "title": "Part. A.2. (child-2) 6. First Name",
+        "name": "form1[0].#subform[3].ChildFirst2[0]",
+        "type": "Text",
+        "FieldMaxLength": 0,
+        "FieldStateOption": [],
+        "value": "",
+        "label_en": "6. First Name",
+        "label_ru": "6. Имя"
+    },
+    {
+        "title": "Part. A.2. (child-2) 7. Middle Name",
+        "name": "form1[0].#subform[3].ChildMiddle2[0]",
+        "type": "Text",
+        "FieldMaxLength": 0,
+        "FieldStateOption": [],
+        "value": "",
+        "label_en": "7. Middle Name",
+        "label_ru": "7. Второе имя"
+    },
+    {
+        "title": "Part. A.2. (child-2) 8. Date of Birth (mm\/dd\/yyyy)",
+        "name": "form1[0].#subform[3].ChildDOB2[0]",
+        "type": "Text",
+        "FieldMaxLength": 0,
+        "FieldStateOption": [],
+        "value": "",
+        "label_en": "8. Date of Birth (mm\/dd\/yyyy)",
+        "label_ru": "8. Дата рождения (мм\/дд\/гггг)"
+    },
+    {
+        "title": "Part. A.2. (child-2) 9. City and Country of Birth",
+        "name": "form1[0].#subform[3].ChildCity2[0]",
+        "type": "Text",
+        "FieldMaxLength": 0,
+        "FieldStateOption": [],
+        "value": "",
+        "label_en": "9. City and Country of Birth",
+        "label_ru": "9. Город и страна рождения"
+    },
+    {
+        "title": "Part. A.2. (child-2) 10. Nationality (Citizenship)",
+        "name": "form1[0].#subform[3].ChildNat2[0]",
+        "type": "Text",
+        "FieldMaxLength": 0,
+        "FieldStateOption": [],
+        "value": "",
+        "label_en": "10. Nationality (Citizenship)",
+        "label_ru": "10. Национальность (подданство)"
+    },
+    {
+        "title": "Part. A.2. (child-2) 11. Race, Ethnic, or Tribal Group",
+        "name": "form1[0].#subform[3].ChildRace2[0]",
+        "type": "Text",
+        "FieldMaxLength": 0,
+        "FieldStateOption": [],
+        "value": "",
+        "label_en": "11. Race, Ethnic, or Tribal Group",
+        "label_ru": "11. Расовая, этническая или племенная группа"
+    },
+    {
+        "title": "Part. A.2. (child-2) 12. Sex Select Male",
+        "name": "form1[0].#subform[3].CheckBox26_Sex[0]",
+        "type": "Button",
+        "FieldMaxLength": 0,
+        "FieldStateOption": [
+            "M",
+            "Off"
+        ],
+        "value": "Off",
+        "sub_section_en":"12. Sex",
+        "sub_section_ru":"12. Пол",
+        "label_en": "Male",
+        "label_ru": "Мужской"
+    },
+    {
+        "title": "Part. A.2. (child-2) 12. Sex Select Female",
+        "name": "form1[0].#subform[3].CheckBox26_Sex[1]",
+        "type": "Button",
+        "FieldMaxLength": 0,
+        "FieldStateOption": [
+            "F",
+            "Off"
+        ],
+        "value": "Off",
+        "label_en": "Femail",
+        "label_ru": "Женский"
+    },
+    {
+        "title": "Part. A.2. (child-2) 13. Is this child in the U.S. ? Select Yes (Complete Blocks 14 to 21)",
+        "name": "form1[0].#subform[3].CheckBox27[0]",
+        "type": "Button",
+        "FieldMaxLength": 0,
+        "FieldStateOption": [
+            "Y",
+            "Off"
+        ],
+        "value": "Off",
+        "sub_section_en":"13. Is this child in the U.S. ?",
+        "sub_section_ru":"13. Находится ли этот ребенок в США?",
+        "label_en": "Yes (Complete Blocks 14 to 21.)",
+        "label_ru": "Да (пройдите блоки с 14 по 21.)"
+    },
+    {
+        "title": "Part. A.2. (child-2) 13. Is this child in the U.S. ? Select No (Specify location)",
+        "name": "form1[0].#subform[3].CheckBox27[1]",
+        "type": "Button",
+        "FieldMaxLength": 0,
+        "FieldStateOption": [
+            "N",
+            "Off"
+        ],
+        "value": "Off",
+        "label_en": "No",
+        "label_ru": "Нет"
+    },
+    {
+        "title": "Part. A.2. (child-2) 13. Is this child in the U.S. ? If No (Specify location), is Checked, Enter Location",
+        "name": "form1[0].#subform[3].PtAIILine13_Specify2[0]",
+        "type": "Text",
+        "FieldMaxLength": 0,
+        "FieldStateOption": [],
+        "value": "",
+        "label_en": "Specify location",
+        "label_ru": "Укажите местоположение"
+    },
+    {
+        "title": "Part. A.2. (child-2) 14. Place of last entry into the U.S.",
+        "name": "form1[0].#subform[3].PtAIILine14_PlaceofLastEntry2[0]",
+        "type": "Text",
+        "FieldMaxLength": 0,
+        "FieldStateOption": [],
+        "value": "",
+        "label_en": "14. Place of last entry into the U.S.",
+        "label_ru": "14. Место последнего въезда в США."
+    },
+    {
+        "title": "Part. A.2. (child-2) 15. Date of last entry into the U.S. (mm\/dd\/yyyy)",
+        "name": "form1[0].#subform[3].PtAIILine15_DateofLastEntry2[0]",
+        "type": "Text",
+        "FieldMaxLength": 0,
+        "FieldStateOption": [],
+        "value": "",
+        "label_en": "15. Date of last entry into the U.S. (mm\/dd\/yyyy)",
+        "label_ru": "15. Дата последнего въезда в США (мм\/дд\/гггг)"
+    },
+    {
+        "title": "Part. A.2. (child-2) 16. I-94 Number (If any)",
+        "name": "form1[0].#subform[3].PtAIILine16_I94Number2[0]",
+        "type": "Text",
+        "FieldMaxLength": 11,
+        "FieldStateOption": [],
+        "value": "",
+        "label_en": "16. I-94 Number (If any)",
+        "label_ru": "16. Номер I-94 (если есть)"
+    },
+    {
+        "title": "Part. A.2. (child-2) 17. Status when last admitted (Visa type, if any)",
+        "name": "form1[0].#subform[3].PtAIILine17_StatusofLastAdmission2[0]",
+        "type": "Text",
+        "FieldMaxLength": 0,
+        "FieldStateOption": [],
+        "value": "",
+        "label_en": "17. Status when last admitted (Visa type, if any)",
+        "label_ru": "17. Статус на момент последнего въезда (тип визы, если таковая имеется)"
+    },
+    {
+        "title": "Part. A.2. (child-2) 18. What is your child is current status?",
+        "name": "form1[0].#subform[3].PtAIILine18_ChildCurrentStatus2[0]",
+        "type": "Text",
+        "FieldMaxLength": 0,
+        "FieldStateOption": [],
+        "value": "",
+        "label_en": "18. What is your child is current status?",
+        "label_ru": "18. Каков текущий статус вашего ребенка?"
+    },
+    {
+        "title": "Part. A.2. (child-2) 19. What is the expiration date of his\/her authorized stay, if any? (mm\/dd\/yyyy)",
+        "name": "form1[0].#subform[3].PtAIILine19_ExpDateofAuthorizedStay2[0]",
+        "type": "Text",
+        "FieldMaxLength": 0,
+        "FieldStateOption": [],
+        "value": "",
+        "label_en": "19. What is the expiration date of his\/her authorized stay, if any? (mm\/dd\/yyyy)",
+        "label_ru": "19. Каков срок действия его/ее разрешенного пребывания, если таковой имеется? (мм\/дд\/гггг)"
+    },
+    {
+        "title": "Part. A.2. (child-2) 20. Is your child in Immigration Court proceedings? Select Yes",
+        "name": "form1[0].#subform[3].PtAIILine20_Yes2[0]",
+        "type": "Button",
+        "FieldMaxLength": 0,
+        "FieldStateOption": [
+            "Y",
+            "Off"
+        ],
+        "value": "Off",
+        "sub_section_en":"20. Is your child in Immigration Court proceedings?",
+        "sub_section_ru":"20. Находится ли ваш ребенок на рассмотрении в иммиграционном суде?",
+        "label_en": "Yes",
+        "label_ru": "Да"
+    },
+    {
+        "title": "Part. A.2. (child-2) 20. Is your child in Immigration Court proceedings? Select No",
+        "name": "form1[0].#subform[3].PtAIILine20_No2[0]",
+        "type": "Button",
+        "FieldMaxLength": 0,
+        "FieldStateOption": [
+            "N",
+            "Off"
+        ],
+        "value": "Off",
+        "label_en": "No",
+        "label_ru": "Нет"
+    },
+    {
+        "title": "Part. A.2. (child-2) 21. If in the U.S., is this child to be included in this application?  (Check the appropriate box.) Select Yes",
+        "name": "form1[0].#subform[3].PtAIILine21_Yes2[0]",
+        "type": "Button",
+        "FieldMaxLength": 0,
+        "FieldStateOption": [
+            "Y",
+            "Off"
+        ],
+        "value": "Off",
+        "sub_section_en":"21. If in the U.S., is this child to be included in this application? (Check the appropriate box.)",
+        "sub_section_ru":"21. Если этот ребенок находится в США, должен ли он быть включен в это заявление? (Поставьте соответствующую галочку).",
+        "label_en": "Yes",
+        "label_ru": "Да"
+    },
+    {
+        "title": "Part. A.2. (child-2) 21. If in the U.S., is this child to be included in this application?  (Check the appropriate box.) Select No",
+        "name": "form1[0].#subform[3].PtAIILine21_No2[0]",
+        "type": "Button",
+        "FieldMaxLength": 0,
+        "FieldStateOption": [
+            "N",
+            "Off"
+        ],
+        "value": "Off",
+        "label_en": "No",
+        "label_ru": "Нет"
+    },
+    {
+        "title": "Part. A.2. (child-3) 1. Alien Registration Number (A-Number) (if any)",
+        "name": "form1[0].#subform[3].ChildAlien3[0]",
+        "type": "Text",
+        "FieldMaxLength": 9,
+        "FieldStateOption": [],
+        "value": "",
+        "label_en": "",
+        "label_ru": ""
+    },
+    {
+        "title": "Part. A.2. (child-3) 2. Passport\/ID Card Number (if any)",
+        "name": "form1[0].#subform[3].ChildPassport3[0]",
+        "type": "Text",
+        "FieldMaxLength": 0,
+        "FieldStateOption": [],
+        "value": "",
+        "label_en": "",
+        "label_ru": ""
+    },
+    {
+        "title": "Part. A.2. (child-3) 3. Marital Status (Married, Single, Divorced, Widowed)",
+        "name": "form1[0].#subform[3].ChildMarital3[0]",
+        "type": "Text",
+        "FieldMaxLength": 0,
+        "FieldStateOption": [],
+        "value": "",
+        "label_en": "",
+        "label_ru": ""
+    },
+    {
+        "title": "Part. A.2. (child-3) 4. U.S. Social Security Number (if any)",
+        "name": "form1[0].#subform[3].ChildSSN3[0]",
+        "type": "Text",
+        "FieldMaxLength": 9,
+        "FieldStateOption": [],
+        "value": "",
+        "label_en": "",
+        "label_ru": ""
+    },
+    {
+        "title": "Part. A.2. (child-3) 5. Complete Last Name",
+        "name": "form1[0].#subform[3].ChildLast3[0]",
+        "type": "Text",
+        "FieldMaxLength": 0,
+        "FieldStateOption": [],
+        "value": "",
+        "label_en": "",
+        "label_ru": ""
+    },
+    {
+        "title": "Part. A.2. (child-3) 6. First Name",
+        "name": "form1[0].#subform[3].ChildFirst3[0]",
+        "type": "Text",
+        "FieldMaxLength": 0,
+        "FieldStateOption": [],
+        "value": "",
+        "label_en": "",
+        "label_ru": ""
+    },
+    {
+        "title": "Part. A.2. (child-3) 7. Middle Name",
+        "name": "form1[0].#subform[3].ChildMiddle3[0]",
+        "type": "Text",
+        "FieldMaxLength": 0,
+        "FieldStateOption": [],
+        "value": "",
+        "label_en": "",
+        "label_ru": ""
+    },
+    {
+        "title": "Part. A.2. (child-3) 8. Date of Birth (mm\/dd\/yyyy)",
+        "name": "form1[0].#subform[3].ChildDOB3[0]",
+        "type": "Text",
+        "FieldMaxLength": 0,
+        "FieldStateOption": [],
+        "value": "",
+        "label_en": "",
+        "label_ru": ""
+    },
+    {
+        "title": "Part. A.2. (child-3) 9. City and Country of Birth",
+        "name": "form1[0].#subform[3].ChildCity3[0]",
+        "type": "Text",
+        "FieldMaxLength": 0,
+        "FieldStateOption": [],
+        "value": "",
+        "label_en": "",
+        "label_ru": ""
+    },
+    {
+        "title": "Part. A.2. (child-3) 10. Nationality (Citizenship)",
+        "name": "form1[0].#subform[3].ChildNat3[0]",
+        "type": "Text",
+        "FieldMaxLength": 0,
+        "FieldStateOption": [],
+        "value": "",
+        "label_en": "",
+        "label_ru": ""
+    },
+    {
+        "title": "Part. A.2. (child-3) 11. Race, Ethnic, or Tribal Group",
+        "name": "form1[0].#subform[3].ChildRace3[0]",
+        "type": "Text",
+        "FieldMaxLength": 0,
+        "FieldStateOption": [],
+        "value": "",
+        "label_en": "",
+        "label_ru": ""
+    },
+    {
+        "title": "Part. A.2. (child-3) 12. Sex Select Male",
+        "name": "form1[0].#subform[3].CheckBox36_Sex[0]",
+        "type": "Button",
+        "FieldMaxLength": 0,
+        "FieldStateOption": [
+            "M",
+            "Off"
+        ],
+        "value": "Off",
+        "label_en": "",
+        "label_ru": ""
+    },
+    {
+        "title": "Part. A.2. (child-3) 12. Sex Select Female",
+        "name": "form1[0].#subform[3].CheckBox36_Sex[1]",
+        "type": "Button",
+        "FieldMaxLength": 0,
+        "FieldStateOption": [
+            "F",
+            "Off"
+        ],
+        "value": "Off",
+        "label_en": "",
+        "label_ru": ""
+    },
+    {
+        "title": "Part. A.2. (child-3) 13. Is this child in the U.S. ? Select Yes (Complete Blocks 14 to 21)",
+        "name": "form1[0].#subform[3].CheckBox37[0]",
+        "type": "Button",
+        "FieldMaxLength": 0,
+        "FieldStateOption": [
+            "Y",
+            "Off"
+        ],
+        "value": "Off",
+        "label_en": "",
+        "label_ru": ""
+    },
+    {
+        "title": "Part. A.2. (child-3) 13. Is this child in the U.S. ? Select No (Specify location)",
+        "name": "form1[0].#subform[3].CheckBox37[1]",
+        "type": "Button",
+        "FieldMaxLength": 0,
+        "FieldStateOption": [
+            "N",
+            "Off"
+        ],
+        "value": "Off",
+        "label_en": "",
+        "label_ru": ""
+    },
+    {
+        "title": "Part. A.2. (child-3) 13. Is this child in the U.S. ? If No (Specify location), is Checked, Enter Location",
+        "name": "form1[0].#subform[3].PtAIILine13_Specify3[0]",
+        "type": "Text",
+        "FieldMaxLength": 0,
+        "FieldStateOption": [],
+        "value": "",
+        "label_en": "",
+        "label_ru": ""
+    },
+    {
+        "title": "Part. A.2. (child-3) 14. Place of last entry into the U.S.",
+        "name": "form1[0].#subform[3].PtAIILine14_PlaceofLastEntry3[0]",
+        "type": "Text",
+        "FieldMaxLength": 0,
+        "FieldStateOption": [],
+        "value": "",
+        "label_en": "",
+        "label_ru": ""
+    },
+    {
+        "title": "Part. A.2. (child-3) 15. Date of last entry into the U.S. (mm\/dd\/yyyy)",
+        "name": "form1[0].#subform[3].PtAIILine15_DateofLastEntry3[0]",
+        "type": "Text",
+        "FieldMaxLength": 0,
+        "FieldStateOption": [],
+        "value": "",
+        "label_en": "",
+        "label_ru": ""
+    },
+    {
+        "title": "Part. A.2. (child-3) 16. I-94 Number (If any)",
+        "name": "form1[0].#subform[3].PtAIILine16_I94Number3[0]",
+        "type": "Text",
+        "FieldMaxLength": 11,
+        "FieldStateOption": [],
+        "value": "",
+        "label_en": "",
+        "label_ru": ""
+    },
+    {
+        "title": "Part. A.2. (child-3) 17. Status when last admitted (Visa type, if any)",
+        "name": "form1[0].#subform[3].PtAIILine17_StatusofLastAdmission3[0]",
+        "type": "Text",
+        "FieldMaxLength": 0,
+        "FieldStateOption": [],
+        "value": "",
+        "label_en": "",
+        "label_ru": ""
+    },
+    {
+        "title": "Part. A.2. (child-3) 18. What is your child is current status?",
+        "name": "form1[0].#subform[3].PtAIILine18_ChildCurrentStatus3[0]",
+        "type": "Text",
+        "FieldMaxLength": 0,
+        "FieldStateOption": [],
+        "value": "",
+        "label_en": "",
+        "label_ru": ""
+    },
+    {
+        "title": "Part. A.2. (child-3) 19. What is the expiration date of his\/her authorized stay, if any? (mm\/dd\/yyyy)",
+        "name": "form1[0].#subform[3].PtAIILine19_ExpDateofAuthorizedStay3[0]",
+        "type": "Text",
+        "FieldMaxLength": 0,
+        "FieldStateOption": [],
+        "value": "",
+        "label_en": "",
+        "label_ru": ""
+    },
+    {
+        "title": "Part. A.2. (child-3) 20. Is your child in Immigration Court proceedings? Select Yes",
+        "name": "form1[0].#subform[3].PtAIILine20_Yes3[0]",
+        "type": "Button",
+        "FieldMaxLength": 0,
+        "FieldStateOption": [
+            "Y",
+            "Off"
+        ],
+        "value": "Off",
+        "label_en": "",
+        "label_ru": ""
+    },
+    {
+        "title": "Part. A.2. (child-3) 20. Is your child in Immigration Court proceedings? Select No",
+        "name": "form1[0].#subform[3].PtAIILine20_No3[0]",
+        "type": "Button",
+        "FieldMaxLength": 0,
+        "FieldStateOption": [
+            "N",
+            "Off"
+        ],
+        "value": "Off",
+        "label_en": "",
+        "label_ru": ""
+    },
+    {
+        "title": "Part. A.2. (child-3) 21. If in the U.S., is this child to be included in this application?  (Check the appropriate box.) Select Yes",
+        "name": "form1[0].#subform[3].PtAIILine21_Yes3[0]",
+        "type": "Button",
+        "FieldMaxLength": 0,
+        "FieldStateOption": [
+            "Y",
+            "Off"
+        ],
+        "value": "Off",
+        "label_en": "",
+        "label_ru": ""
+    },
+    {
+        "title": "Part. A.2. (child-3) 21. If in the U.S., is this child to be included in this application?  (Check the appropriate box.) Select No",
+        "name": "form1[0].#subform[3].PtAIILine21_No3[0]",
+        "type": "Button",
+        "FieldMaxLength": 0,
+        "FieldStateOption": [
+            "N",
+            "Off"
+        ],
+        "value": "Off",
+        "label_en": "",
+        "label_ru": ""
+    },
+    {
+        "title": "Part. A.2. (child-4) 1. Alien Registration Number (A-Number) (if any)",
+        "name": "form1[0].#subform[3].ChildAlien4[0]",
+        "type": "Text",
+        "FieldMaxLength": 9,
+        "FieldStateOption": [],
+        "value": "",
+        "label_en": "",
+        "label_ru": ""
+    },
+    {
+        "title": "Part. A.2. (child-4) 2. Passport\/ID Card Number (if any)",
+        "name": "form1[0].#subform[3].ChildPassport4[0]",
+        "type": "Text",
+        "FieldMaxLength": 0,
+        "FieldStateOption": [],
+        "value": "",
+        "label_en": "",
+        "label_ru": ""
+    },
+    {
+        "title": "Part. A.2. (child-4) 3. Marital Status (Married, Single, Divorced, Widowed)",
+        "name": "form1[0].#subform[3].ChildMarital4[0]",
+        "type": "Text",
+        "FieldMaxLength": 0,
+        "FieldStateOption": [],
+        "value": "",
+        "label_en": "",
+        "label_ru": ""
+    },
+    {
+        "title": "Part. A.2. (child-4) 4. U.S. Social Security Number (if any)",
+        "name": "form1[0].#subform[3].ChildSSN4[0]",
+        "type": "Text",
+        "FieldMaxLength": 9,
+        "FieldStateOption": [],
+        "value": "",
+        "label_en": "",
+        "label_ru": ""
+    },
+    {
+        "title": "Part. A.2. (child-4) 5. Complete Last Name",
+        "name": "form1[0].#subform[3].ChildLast4[0]",
+        "type": "Text",
+        "FieldMaxLength": 0,
+        "FieldStateOption": [],
+        "value": "",
+        "label_en": "",
+        "label_ru": ""
+    },
+    {
+        "title": "Part. A.2. (child-4) 6. First Name",
+        "name": "form1[0].#subform[3].ChildFirst4[0]",
+        "type": "Text",
+        "FieldMaxLength": 0,
+        "FieldStateOption": [],
+        "value": "",
+        "label_en": "",
+        "label_ru": ""
+    },
+    {
+        "title": "Part. A.2. (child-4) 7. Middle Name",
+        "name": "form1[0].#subform[3].ChildMiddle4[0]",
+        "type": "Text",
+        "FieldMaxLength": 0,
+        "FieldStateOption": [],
+        "value": "",
+        "label_en": "",
+        "label_ru": ""
+    },
+    {
+        "title": "Part. A.2. (child-4) 8. Date of Birth (mm\/dd\/yyyy)",
+        "name": "form1[0].#subform[3].ChildDOB4[0]",
+        "type": "Text",
+        "FieldMaxLength": 0,
+        "FieldStateOption": [],
+        "value": "",
+        "label_en": "",
+        "label_ru": ""
+    },
+    {
+        "title": "Part. A.2. (child-4) 9. City and Country of Birth",
+        "name": "form1[0].#subform[3].ChildCity4[0]",
+        "type": "Text",
+        "FieldMaxLength": 0,
+        "FieldStateOption": [],
+        "value": "",
+        "label_en": "",
+        "label_ru": ""
+    },
+    {
+        "title": "Part. A.2. (child-4) 10. Nationality (Citizenship)",
+        "name": "form1[0].#subform[3].ChildNat4[0]",
+        "type": "Text",
+        "FieldMaxLength": 0,
+        "FieldStateOption": [],
+        "value": "",
+        "label_en": "",
+        "label_ru": ""
+    },
+    {
+        "title": "Part. A.2. (child-4) 11. Race, Ethnic, or Tribal Group",
+        "name": "form1[0].#subform[3].ChildRace4[0]",
+        "type": "Text",
+        "FieldMaxLength": 0,
+        "FieldStateOption": [],
+        "value": "",
+        "label_en": "",
+        "label_ru": ""
+    },
+    {
+        "title": "Part. A.2. (child-4) 12. Sex Select Male",
+        "name": "form1[0].#subform[3].CheckBox46_Sex[0]",
+        "type": "Button",
+        "FieldMaxLength": 0,
+        "FieldStateOption": [
+            "M",
+            "Off"
+        ],
+        "value": "Off",
+        "label_en": "",
+        "label_ru": ""
+    },
+    {
+        "title": "Part. A.2. (child-4) 12. Sex Select Female",
+        "name": "form1[0].#subform[3].CheckBox46_Sex[1]",
+        "type": "Button",
+        "FieldMaxLength": 0,
+        "FieldStateOption": [
+            "F",
+            "Off"
+        ],
+        "value": "Off",
+        "label_en": "",
+        "label_ru": ""
+    },
+    {
+        "title": "Part. A.2. (child-4) 13. Is this child in the U.S. ? Select Yes (Complete Blocks 14 to 21)",
+        "name": "form1[0].#subform[3].CheckBox47[0]",
+        "type": "Button",
+        "FieldMaxLength": 0,
+        "FieldStateOption": [
+            "Y",
+            "Off"
+        ],
+        "value": "Off",
+        "label_en": "",
+        "label_ru": ""
+    },
+    {
+        "title": "Part. A.2. (child-4) 13. Is this child in the U.S. ? Select No (Specify location)",
+        "name": "form1[0].#subform[3].CheckBox47[1]",
+        "type": "Button",
+        "FieldMaxLength": 0,
+        "FieldStateOption": [
+            "N",
+            "Off"
+        ],
+        "value": "Off",
+        "label_en": "",
+        "label_ru": ""
+    },
+    {
+        "title": "Part. A.2. (child-4) 13. Is this child in the U.S. ? If No (Specify location), is Checked, Enter Location",
+        "name": "form1[0].#subform[3].PtAIILine13_Specify4[0]",
+        "type": "Text",
+        "FieldMaxLength": 0,
+        "FieldStateOption": [],
+        "value": "",
+        "label_en": "",
+        "label_ru": ""
+    },
+    {
+        "title": "Part. A.2. (child-4) 14. Place of last entry into the U.S.",
+        "name": "form1[0].#subform[3].PtAIILine14_PlaceofLastEntry4[0]",
+        "type": "Text",
+        "FieldMaxLength": 0,
+        "FieldStateOption": [],
+        "value": "",
+        "label_en": "",
+        "label_ru": ""
+    },
+    {
+        "title": "Part. A.2. (child-4) 15. Date of last entry into the U.S. (mm\/dd\/yyyy)",
+        "name": "form1[0].#subform[3].PtAIILine15_DateofLastEntry4[0]",
+        "type": "Text",
+        "FieldMaxLength": 0,
+        "FieldStateOption": [],
+        "value": "",
+        "label_en": "",
+        "label_ru": ""
+    },
+    {
+        "title": "Part. A.2. (child-4) 16. I-94 Number (If any)",
+        "name": "form1[0].#subform[3].PtAIILine16_I94Number4[0]",
+        "type": "Text",
+        "FieldMaxLength": 11,
+        "FieldStateOption": [],
+        "value": "",
+        "label_en": "",
+        "label_ru": ""
+    },
+    {
+        "title": "Part. A.2. (child-4) 17. Status when last admitted (Visa type, if any)",
+        "name": "form1[0].#subform[3].PtAIILine17_StatusofLastAdmission4[0]",
+        "type": "Text",
+        "FieldMaxLength": 0,
+        "FieldStateOption": [],
+        "value": "",
+        "label_en": "",
+        "label_ru": ""
+    },
+    {
+        "title": "Part. A.2. (child-4) 18. What is your child is current status?",
+        "name": "form1[0].#subform[3].PtAIILine18_ChildCurrentStatus4[0]",
+        "type": "Text",
+        "FieldMaxLength": 0,
+        "FieldStateOption": [],
+        "value": "",
+        "label_en": "",
+        "label_ru": ""
+    },
+    {
+        "title": "Part. A.2. (child-4) 19. What is the expiration date of his\/her authorized stay, if any? (mm\/dd\/yyyy)",
+        "name": "form1[0].#subform[3].PtAIILine19_ExpDateofAuthorizedStay4[0]",
+        "type": "Text",
+        "FieldMaxLength": 0,
+        "FieldStateOption": [],
+        "value": "",
+        "label_en": "",
+        "label_ru": ""
+    },
+    {
+        "title": "Part. A.2. (child-4) 20. Is your child in Immigration Court proceedings? Select Yes",
+        "name": "form1[0].#subform[3].PtAIILine20_Yes4[0]",
+        "type": "Button",
+        "FieldMaxLength": 0,
+        "FieldStateOption": [
+            "Y",
+            "Off"
+        ],
+        "value": "Off",
+        "label_en": "",
+        "label_ru": ""
+    },
+    {
+        "title": "Part. A.2. (child-4) 20. Is your child in Immigration Court proceedings? Select No",
+        "name": "form1[0].#subform[3].PtAIILine20_No4[0]",
+        "type": "Button",
+        "FieldMaxLength": 0,
+        "FieldStateOption": [
+            "N",
+            "Off"
+        ],
+        "value": "Off",
+        "label_en": "",
+        "label_ru": ""
+    },
+    {
+        "title": "Part. A.2. (child-4) 21. If in the U.S., is this child to be included in this application?  (Check the appropriate box.) Select Yes",
+        "name": "form1[0].#subform[3].PtAIILine21_Yes4[0]",
+        "type": "Button",
+        "FieldMaxLength": 0,
+        "FieldStateOption": [
+            "Y",
+            "Off"
+        ],
+        "value": "Off",
+        "label_en": "",
+        "label_ru": ""
+    },
+    {
+        "title": "Part. A.2. (child-4) 21. If in the U.S., is this child to be included in this application?  (Check the appropriate box.) Select No",
+        "name": "form1[0].#subform[3].PtAIILine21_No4[0]",
+        "type": "Button",
+        "FieldMaxLength": 0,
+        "FieldStateOption": [
+            "N",
+            "Off"
+        ],
+        "value": "Off",
+        "label_en": "",
+        "label_ru": ""
+    },
+    {
+        "title": "Part. A. 3. Information About Your Background. 1. List your last address where you lived before coming to the United States. If this is not the country where you fear persecution, also list the last address in the country where you fear persecution.  List Address, City\/Town, Department, Province, or State and Country. (NOTE: Use Form I-5 89 Supplement B, or additional sheets of paper, if necessary.) Enter Number and Street (provide if available). Line 1 of 2.",
+        "name": "form1[0].#subform[4].TextField13[0]",
+        "type": "Text",
+        "FieldMaxLength": 0,
+        "FieldStateOption": [],
+        "value": "",
+        "label_en": "",
+        "label_ru": ""
+    },
+    {
+        "title": "Part. A. 3. Information About Your Background. 1. List your last address where you lived before coming to the United States. If this is not the country where you fear persecution, also list the last address in the country where you fear persecution.  List Address, City\/Town, Department, Province, or State and Country. (NOTE: Use Form I-5 89 Supplement B, or additional sheets of paper, if necessary.) Enter City\/Town.",
+        "name": "form1[0].#subform[4].TextField13[2]",
+        "type": "Text",
+        "FieldMaxLength": 0,
+        "FieldStateOption": [],
+        "value": "",
+        "label_en": "",
+        "label_ru": ""
+    },
+    {
+        "title": "Part. A. 3. Information About Your Background. 1. List your last address where you lived before coming to the United States. If this is not the country where you fear persecution, also list the last address in the country where you fear persecution.  List Address, City\/Town, Department, Province, or State and Country. (NOTE: Use Form I-5 89 Supplement B, or additional sheets of paper, if necessary.) Enter Department, Province or State.",
+        "name": "form1[0].#subform[4].TextField13[4]",
+        "type": "Text",
+        "FieldMaxLength": 0,
+        "FieldStateOption": [],
+        "value": "",
+        "label_en": "",
+        "label_ru": ""
+    },
+    {
+        "title": "Part. A. 3. Information About Your Background. 1. List your last address where you lived before coming to the United States. If this is not the country where you fear persecution, also list the last address in the country where you fear persecution.  List Address, City\/Town, Department, Province, or State and Country. (NOTE: Use Form I-5 89 Supplement B, or additional sheets of paper, if necessary.) Enter Country.",
+        "name": "form1[0].#subform[4].TextField13[6]",
+        "type": "Text",
+        "FieldMaxLength": 0,
+        "FieldStateOption": [],
+        "value": "",
+        "label_en": "",
+        "label_ru": ""
+    },
+    {
+        "title": "Part. A. 3. Information About Your Background. 1. List your last address where you lived before coming to the United States. If this is not the country where you fear persecution, also list the last address in the country where you fear persecution.  List Address, City\/Town, Department, Province, or State and Country. (NOTE: Use Form I-5 89 Supplement B, or additional sheets of paper, if necessary.) Dates. Enter &quot;From&quot; Date as 2-digit Month, and 2-digit Year.",
+        "name": "form1[0].#subform[4].DateTimeField21[0]",
+        "type": "Text",
+        "FieldMaxLength": 0,
+        "FieldStateOption": [],
+        "value": "",
+        "label_en": "",
+        "label_ru": ""
+    },
+    {
+        "title": "Part. A. 3. Information About Your Background. 1. List your last address where you lived before coming to the United States. If this is not the country where you fear persecution, also list the last address in the country where you fear persecution.  List Address, City\/Town, Department, Province, or State and Country. (NOTE: Use Form I-5 89 Supplement B, or additional sheets of paper, if necessary.) Dates. Enter &quot;To&quot; Date as 2-digit Month, and 2-digit Year.",
+        "name": "form1[0].#subform[4].DateTimeField20[0]",
+        "type": "Text",
+        "FieldMaxLength": 0,
+        "FieldStateOption": [],
+        "value": "",
+        "label_en": "",
+        "label_ru": ""
+    },
+    {
+        "title": "Part. A. 3. Information About Your Background. 1. List your last address where you lived before coming to the United States. If this is not the country where you fear persecution, also list the last address in the country where you fear persecution.  List Address, City\/Town, Department, Province, or State and Country. (NOTE: Use Form I-5 89 Supplement B, or additional sheets of paper, if necessary.) Enter Number and Street (provide if available). Line 2 of 2.",
+        "name": "form1[0].#subform[4].TextField13[1]",
+        "type": "Text",
+        "FieldMaxLength": 0,
+        "FieldStateOption": [],
+        "value": "",
+        "label_en": "",
+        "label_ru": ""
+    },
+    {
+        "title": "Part. A. 3. Information About Your Background. 1. List your last address where you lived before coming to the United States. If this is not the country where you fear persecution, also list the last address in the country where you fear persecution.  List Address, City\/Town, Department, Province, or State and Country. (NOTE: Use Form I-5 89 Supplement B, or additional sheets of paper, if necessary.) Enter City\/Town.",
+        "name": "form1[0].#subform[4].TextField13[3]",
+        "type": "Text",
+        "FieldMaxLength": 0,
+        "FieldStateOption": [],
+        "value": "",
+        "label_en": "",
+        "label_ru": ""
+    },
+    {
+        "title": "Part. A. 3. Information About Your Background. 1. List your last address where you lived before coming to the United States. If this is not the country where you fear persecution, also list the last address in the country where you fear persecution.  List Address, City\/Town, Department, Province, or State and Country. (NOTE: Use Form I-5 89 Supplement B, or additional sheets of paper, if necessary.) Enter Department, Province or State.",
+        "name": "form1[0].#subform[4].TextField13[5]",
+        "type": "Text",
+        "FieldMaxLength": 0,
+        "FieldStateOption": [],
+        "value": "",
+        "label_en": "",
+        "label_ru": ""
+    },
+    {
+        "title": "Part. A. 3. Information About Your Background. 1. List your last address where you lived before coming to the United States. If this is not the country where you fear persecution, also list the last address in the country where you fear persecution.  List Address, City\/Town, Department, Province, or State and Country. (NOTE: Use Form I-5 89 Supplement B, or additional sheets of paper, if necessary.) Enter Country.",
+        "name": "form1[0].#subform[4].TextField13[7]",
+        "type": "Text",
+        "FieldMaxLength": 0,
+        "FieldStateOption": [],
+        "value": "",
+        "label_en": "",
+        "label_ru": ""
+    },
+    {
+        "title": "Part. A. 3. Information About Your Background. 1. List your last address where you lived before coming to the United States. If this is not the country where you fear persecution, also list the last address in the country where you fear persecution.  List Address, City\/Town, Department, Province, or State and Country. (NOTE: Use Form I-5 89 Supplement B, or additional sheets of paper, if necessary.) Dates. Enter &quot;From&quot; Date as 2-digit Month, and 2-digit Year.",
+        "name": "form1[0].#subform[4].DateTimeField22[0]",
+        "type": "Text",
+        "FieldMaxLength": 0,
+        "FieldStateOption": [],
+        "value": "",
+        "label_en": "",
+        "label_ru": ""
+    },
+    {
+        "title": "Part. A. 3. Information About Your Background. 1. List your last address where you lived before coming to the United States. If this is not the country where you fear persecution, also list the last address in the country where you fear persecution.  List Address, City\/Town, Department, Province, or State and Country. (NOTE: Use Form I-5 89 Supplement B, or additional sheets of paper, if necessary.) Dates. Enter &quot;To&quot; Date as 2-digit Month, and 2-digit Year.",
+        "name": "form1[0].#subform[4].DateTimeField23[0]",
+        "type": "Text",
+        "FieldMaxLength": 0,
+        "FieldStateOption": [],
+        "value": "",
+        "label_en": "",
+        "label_ru": ""
+    },
+    {
+        "title": "Part. A. 3. Information About Your Background. 2. Provide the following information about your residences during the past 5 years.  List your present address first.  (NOTE: Use Form I-5 89 Supplement B, or additional sheets of paper, if necessary.) Present address. Enter Number and Street. Line 1 of 5.",
+        "name": "form1[0].#subform[4].TextField13[8]",
+        "type": "Text",
+        "FieldMaxLength": 0,
+        "FieldStateOption": [],
+        "value": "",
+        "label_en": "",
+        "label_ru": ""
+    },
+    {
+        "title": "Part. A. 3. Information About Your Background. 2. Provide the following information about your residences during the past 5 years.  List your present address first.  (NOTE: Use Form I-5 89 Supplement B, or additional sheets of paper, if necessary.) Enter City\/Town.",
+        "name": "form1[0].#subform[4].TextField13[10]",
+        "type": "Text",
+        "FieldMaxLength": 0,
+        "FieldStateOption": [],
+        "value": "",
+        "label_en": "",
+        "label_ru": ""
+    },
+    {
+        "title": "Part. A. 3. Information About Your Background. 2. Provide the following information about your residences during the past 5 years.  List your present address first.  (NOTE: Use Form I-5 89 Supplement B, or additional sheets of paper, if necessary.) Enter Department, Province or State. ",
+        "name": "form1[0].#subform[4].TextField13[12]",
+        "type": "Text",
+        "FieldMaxLength": 0,
+        "FieldStateOption": [],
+        "value": "",
+        "label_en": "",
+        "label_ru": ""
+    },
+    {
+        "title": "Part. A. 3. Information About Your Background. 2. Provide the following information about your residences during the past 5 years.  List your present address first.  (NOTE: Use Form I-5 89 Supplement B, or additional sheets of paper, if necessary.) Enter Country.",
+        "name": "form1[0].#subform[4].TextField13[14]",
+        "type": "Text",
+        "FieldMaxLength": 0,
+        "FieldStateOption": [],
+        "value": "",
+        "label_en": "",
+        "label_ru": ""
+    },
+    {
+        "title": "Part. A. 3. Information About Your Background. 2. Provide the following information about your residences during the past 5 years.  List your present address first.  (NOTE: Use Form I-5 89 Supplement B, or additional sheets of paper, if necessary.) Dates. Enter &quot;From&quot; Date as 2-digit Month, and 2-digit Year.",
+        "name": "form1[0].#subform[4].DateTimeField24[0]",
+        "type": "Text",
+        "FieldMaxLength": 0,
+        "FieldStateOption": [],
+        "value": "",
+        "label_en": "",
+        "label_ru": ""
+    },
+    {
+        "title": "Part. A. 3. Information About Your Background. 2. Provide the following information about your residences during the past 5 years.  List your present address first.  (NOTE: Use Form I-5 89 Supplement B, or additional sheets of paper, if necessary.) Dates. Enter &quot;To&quot; Date as 2-digit Month, and 2-digit Year.",
+        "name": "form1[0].#subform[4].DateTimeField26[0]",
+        "type": "Text",
+        "FieldMaxLength": 0,
+        "FieldStateOption": [],
+        "value": "",
+        "label_en": "",
+        "label_ru": ""
+    },
+    {
+        "title": "Part. A. 3. Information About Your Background. 2. Provide the following information about your residences during the past 5 years.  List your present address first.  (NOTE: Use Form I-5 89 Supplement B, or additional sheets of paper, if necessary.) Enter Number and Street. Line 2 of 5.",
+        "name": "form1[0].#subform[4].TextField13[9]",
+        "type": "Text",
+        "FieldMaxLength": 0,
+        "FieldStateOption": [],
+        "value": "",
+        "label_en": "",
+        "label_ru": ""
+    },
+    {
+        "title": "Part. A. 3. Information About Your Background. 2. Provide the following information about your residences during the past 5 years.  List your present address first.  (NOTE: Use Form I-5 89 Supplement B, or additional sheets of paper, if necessary.) Enter City\/Town.",
+        "name": "form1[0].#subform[4].TextField13[11]",
+        "type": "Text",
+        "FieldMaxLength": 0,
+        "FieldStateOption": [],
+        "value": "",
+        "label_en": "",
+        "label_ru": ""
+    },
+    {
+        "title": "Part. A. 3. Information About Your Background. 2. Provide the following information about your residences during the past 5 years.  List your present address first.  (NOTE: Use Form I-5 89 Supplement B, or additional sheets of paper, if necessary.) Enter Department, Province or State.",
+        "name": "form1[0].#subform[4].TextField13[13]",
+        "type": "Text",
+        "FieldMaxLength": 0,
+        "FieldStateOption": [],
+        "value": "",
+        "label_en": "",
+        "label_ru": ""
+    },
+    {
+        "title": "Part. A. 3. Information About Your Background. 2. Provide the following information about your residences during the past 5 years.  List your present address first.  (NOTE: Use Form I-5 89 Supplement B, or additional sheets of paper, if necessary.) Enter Country.",
+        "name": "form1[0].#subform[4].TextField13[15]",
+        "type": "Text",
+        "FieldMaxLength": 0,
+        "FieldStateOption": [],
+        "value": "",
+        "label_en": "",
+        "label_ru": ""
+    },
+    {
+        "title": "Part. A. 3. Information About Your Background. 2. Provide the following information about your residences during the past 5 years.  List your present address first.  (NOTE: Use Form I-5 89 Supplement B, or additional sheets of paper, if necessary.) Dates. Enter &quot;From&quot; Date as 2-digit Month, and 2-digit Year.",
+        "name": "form1[0].#subform[4].DateTimeField25[0]",
+        "type": "Text",
+        "FieldMaxLength": 0,
+        "FieldStateOption": [],
+        "value": "",
+        "label_en": "",
+        "label_ru": ""
+    },
+    {
+        "title": "Part. A. 3. Information About Your Background. 2. Provide the following information about your residences during the past 5 years.  List your present address first.  (NOTE: Use Form I-5 89 Supplement B, or additional sheets of paper, if necessary.) Dates. Enter &quot;To&quot; Date as 2-digit Month, and 2-digit Year.",
+        "name": "form1[0].#subform[4].DateTimeField27[0]",
+        "type": "Text",
+        "FieldMaxLength": 0,
+        "FieldStateOption": [],
+        "value": "",
+        "label_en": "",
+        "label_ru": ""
+    },
+    {
+        "title": "Part. A. 3. Information About Your Background. 2. Provide the following information about your residences during the past 5 years.  List your present address first.  (NOTE: Use Form I-5 89 Supplement B, or additional sheets of paper, if necessary.) Enter Number and Street. Line 3 of 5.",
+        "name": "form1[0].#subform[4].TextField13[16]",
+        "type": "Text",
+        "FieldMaxLength": 0,
+        "FieldStateOption": [],
+        "value": "",
+        "label_en": "",
+        "label_ru": ""
+    },
+    {
+        "title": "Part. A. 3. Information About Your Background. 2. Provide the following information about your residences during the past 5 years.  List your present address first.  (NOTE: Use Form I-5 89 Supplement B, or additional sheets of paper, if necessary.) Enter City\/Town.",
+        "name": "form1[0].#subform[4].TextField13[17]",
+        "type": "Text",
+        "FieldMaxLength": 0,
+        "FieldStateOption": [],
+        "value": "",
+        "label_en": "",
+        "label_ru": ""
+    },
+    {
+        "title": "Part. A. 3. Information About Your Background. 2. Provide the following information about your residences during the past 5 years.  List your present address first.  (NOTE: Use Form I-5 89 Supplement B, or additional sheets of paper, if necessary.) Enter Department, Province or State.",
+        "name": "form1[0].#subform[4].TextField13[18]",
+        "type": "Text",
+        "FieldMaxLength": 0,
+        "FieldStateOption": [],
+        "value": "",
+        "label_en": "",
+        "label_ru": ""
+    },
+    {
+        "title": "Part. A. 3. Information About Your Background. 2. Provide the following information about your residences during the past 5 years.  List your present address first.  (NOTE: Use Form I-5 89 Supplement B, or additional sheets of paper, if necessary.) Enter Country.",
+        "name": "form1[0].#subform[4].TextField13[19]",
+        "type": "Text",
+        "FieldMaxLength": 0,
+        "FieldStateOption": [],
+        "value": "",
+        "label_en": "",
+        "label_ru": ""
+    },
+    {
+        "title": "Part. A. 3. Information About Your Background. 2. Provide the following information about your residences during the past 5 years.  List your present address first.  (NOTE: Use Form I-5 89 Supplement B, or additional sheets of paper, if necessary.) Dates. Enter &quot;From&quot; Date as 2-digit Month, and 2-digit Year.",
+        "name": "form1[0].#subform[4].DateTimeField28[0]",
+        "type": "Text",
+        "FieldMaxLength": 0,
+        "FieldStateOption": [],
+        "value": "",
+        "label_en": "",
+        "label_ru": ""
+    },
+    {
+        "title": "Part. A. 3. Information About Your Background. 2. Provide the following information about your residences during the past 5 years.  List your present address first.  (NOTE: Use Form I-5 89 Supplement B, or additional sheets of paper, if necessary.) Dates. Enter &quot;To&quot; Date as 2-digit Month, and 2-digit Year.",
+        "name": "form1[0].#subform[4].DateTimeField29[0]",
+        "type": "Text",
+        "FieldMaxLength": 0,
+        "FieldStateOption": [],
+        "value": "",
+        "label_en": "",
+        "label_ru": ""
+    },
+    {
+        "title": "Part. A. 3. Information About Your Background. 2. Provide the following information about your residences during the past 5 years.  List your present address first.  (NOTE: Use Form I-5 89 Supplement B, or additional sheets of paper, if necessary.) Enter Number and Street. Line 4 of 5.",
+        "name": "form1[0].#subform[4].TextField13[20]",
+        "type": "Text",
+        "FieldMaxLength": 0,
+        "FieldStateOption": [],
+        "value": "",
+        "label_en": "",
+        "label_ru": ""
+    },
+    {
+        "title": "Part. A. 3. Information About Your Background. 2. Provide the following information about your residences during the past 5 years.  List your present address first.  (NOTE: Use Form I-5 89 Supplement B, or additional sheets of paper, if necessary.) Enter City\/Town.",
+        "name": "form1[0].#subform[4].TextField13[21]",
+        "type": "Text",
+        "FieldMaxLength": 0,
+        "FieldStateOption": [],
+        "value": "",
+        "label_en": "",
+        "label_ru": ""
+    },
+    {
+        "title": "Part. A. 3. Information About Your Background. 2. Provide the following information about your residences during the past 5 years.  List your present address first.  (NOTE: Use Form I-5 89 Supplement B, or additional sheets of paper, if necessary.) Enter Department, Province or State.",
+        "name": "form1[0].#subform[4].TextField13[22]",
+        "type": "Text",
+        "FieldMaxLength": 0,
+        "FieldStateOption": [],
+        "value": "",
+        "label_en": "",
+        "label_ru": ""
+    },
+    {
+        "title": "Part. A. 3. Information About Your Background. 2. Provide the following information about your residences during the past 5 years.  List your present address first.  (NOTE: Use Form I-5 89 Supplement B, or additional sheets of paper, if necessary.) Enter Country.",
+        "name": "form1[0].#subform[4].TextField13[23]",
+        "type": "Text",
+        "FieldMaxLength": 0,
+        "FieldStateOption": [],
+        "value": "",
+        "label_en": "",
+        "label_ru": ""
+    },
+    {
+        "title": "Part. A. 3. Information About Your Background. 2. Provide the following information about your residences during the past 5 years.  List your present address first.  (NOTE: Use Form I-5 89 Supplement B, or additional sheets of paper, if necessary.) Dates. Enter &quot;From&quot; Date as 2-digit Month, and 2-digit Year.",
+        "name": "form1[0].#subform[4].DateTimeField30[0]",
+        "type": "Text",
+        "FieldMaxLength": 0,
+        "FieldStateOption": [],
+        "value": "",
+        "label_en": "",
+        "label_ru": ""
+    },
+    {
+        "title": "Part. A. 3. Information About Your Background. 2. Provide the following information about your residences during the past 5 years.  List your present address first.  (NOTE: Use Form I-5 89 Supplement B, or additional sheets of paper, if necessary.) Dates. Enter &quot;To&quot; Date as 2-digit Month, and 2-digit Year.",
+        "name": "form1[0].#subform[4].DateTimeField31[0]",
+        "type": "Text",
+        "FieldMaxLength": 0,
+        "FieldStateOption": [],
+        "value": "",
+        "label_en": "",
+        "label_ru": ""
+    },
+    {
+        "title": "Part. A. 3. Information About Your Background. 2. Provide the following information about your residences during the past 5 years.  List your present address first.  (NOTE: Use Form I-5 89 Supplement B, or additional sheets of paper, if necessary.) Enter Number and Street. Line 5 of 5.",
+        "name": "form1[0].#subform[4].TextField13[24]",
+        "type": "Text",
+        "FieldMaxLength": 0,
+        "FieldStateOption": [],
+        "value": "",
+        "label_en": "",
+        "label_ru": ""
+    },
+    {
+        "title": "Part. A. 3. Information About Your Background. 2. Provide the following information about your residences during the past 5 years.  List your present address first.  (NOTE: Use Form I-5 89 Supplement B, or additional sheets of paper, if necessary.) Enter City\/Town.",
+        "name": "form1[0].#subform[4].TextField13[25]",
+        "type": "Text",
+        "FieldMaxLength": 0,
+        "FieldStateOption": [],
+        "value": "",
+        "label_en": "",
+        "label_ru": ""
+    },
+    {
+        "title": "Part. A. 3. Information About Your Background. 2. Provide the following information about your residences during the past 5 years.  List your present address first.  (NOTE: Use Form I-5 89 Supplement B, or additional sheets of paper, if necessary.) Enter Department, Province or State.",
+        "name": "form1[0].#subform[4].TextField13[26]",
+        "type": "Text",
+        "FieldMaxLength": 0,
+        "FieldStateOption": [],
+        "value": "",
+        "label_en": "",
+        "label_ru": ""
+    },
+    {
+        "title": "Part. A. 3. Information About Your Background. 2. Provide the following information about your residences during the past 5 years.  List your present address first.  (NOTE: Use Form I-5 89 Supplement B, or additional sheets of paper, if necessary.) Enter Country.",
+        "name": "form1[0].#subform[4].TextField13[27]",
+        "type": "Text",
+        "FieldMaxLength": 0,
+        "FieldStateOption": [],
+        "value": "",
+        "label_en": "",
+        "label_ru": ""
+    },
+    {
+        "title": "Part. A. 3. Information About Your Background. 2. Provide the following information about your residences during the past 5 years.  List your present address first.  (NOTE: Use Form I-5 89 Supplement B, or additional sheets of paper, if necessary.) Dates. Enter &quot;From&quot; Date as 2-digit Month, and 2-digit Year.",
+        "name": "form1[0].#subform[4].DateTimeField32[0]",
+        "type": "Text",
+        "FieldMaxLength": 0,
+        "FieldStateOption": [],
+        "value": "",
+        "label_en": "",
+        "label_ru": ""
+    },
+    {
+        "title": "Part. A. 3. Information About Your Background. 2. Provide the following information about your residences during the past 5 years.  List your present address first.  (NOTE: Use Form I-5 89 Supplement B, or additional sheets of paper, if necessary.) Dates. Enter &quot;To&quot; Date as 2-digit Month, and 2-digit Year.",
+        "name": "form1[0].#subform[4].DateTimeField33[0]",
+        "type": "Text",
+        "FieldMaxLength": 0,
+        "FieldStateOption": [],
+        "value": "",
+        "label_en": "",
+        "label_ru": ""
+    },
+    {
+        "title": "Part. A. 3. Information About Your Background. 3. Provide the following information about your education, beginning with the most recent. (NOTE: Use Form I-5 89 Supplement B, or additional sheets of paper, if necessary.) Enter Name of School. Line 1 of 4.",
+        "name": "form1[0].#subform[4].TextField13[28]",
+        "type": "Text",
+        "FieldMaxLength": 0,
+        "FieldStateOption": [],
+        "value": "",
+        "label_en": "",
+        "label_ru": ""
+    },
+    {
+        "title": "Part. A. 3. Information About Your Background. 3. Provide the following information about your education, beginning with the most recent. (NOTE: Use Form I-5 89 Supplement B, or additional sheets of paper, if necessary.) Enter Type of School.",
+        "name": "form1[0].#subform[4].TextField13[30]",
+        "type": "Text",
+        "FieldMaxLength": 0,
+        "FieldStateOption": [],
+        "value": "",
+        "label_en": "",
+        "label_ru": ""
+    },
+    {
+        "title": "Part. A. 3. Information About Your Background. 3. Provide the following information about your education, beginning with the most recent. (NOTE: Use Form I-5 89 Supplement B, or additional sheets of paper, if necessary.) Enter Location (Address).",
+        "name": "form1[0].#subform[4].TextField13[32]",
+        "type": "Text",
+        "FieldMaxLength": 0,
+        "FieldStateOption": [],
+        "value": "",
+        "label_en": "",
+        "label_ru": ""
+    },
+    {
+        "title": "Part. A. 3. Information About Your Background. 3. Provide the following information about your education, beginning with the most recent. (NOTE: Use Form I-5 89 Supplement B, or additional sheets of paper, if necessary.) Attended. Enter &quot;From&quot; Date as 2-digit Month, and 2-digit Year.",
+        "name": "form1[0].#subform[4].DateTimeField41[0]",
+        "type": "Text",
+        "FieldMaxLength": 0,
+        "FieldStateOption": [],
+        "value": "",
+        "label_en": "",
+        "label_ru": ""
+    },
+    {
+        "title": "Part. A. 3. Information About Your Background. 3. Provide the following information about your education, beginning with the most recent. (NOTE: Use Form I-5 89 Supplement B, or additional sheets of paper, if necessary.) Attended. Enter &quot;To&quot; Date as 2-digit Month, and 2-digit Year.",
+        "name": "form1[0].#subform[4].DateTimeField40[0]",
+        "type": "Text",
+        "FieldMaxLength": 0,
+        "FieldStateOption": [],
+        "value": "",
+        "label_en": "",
+        "label_ru": ""
+    },
+    {
+        "title": "Part. A. 3. Information About Your Background. 3. Provide the following information about your education, beginning with the most recent. (NOTE: Use Form I-5 89 Supplement B, or additional sheets of paper, if necessary.) Enter Name of School. Line 2 of 4.",
+        "name": "form1[0].#subform[4].TextField13[29]",
+        "type": "Text",
+        "FieldMaxLength": 0,
+        "FieldStateOption": [],
+        "value": "",
+        "label_en": "",
+        "label_ru": ""
+    },
+    {
+        "title": "Part. A. 3. Information About Your Background. 3. Provide the following information about your education, beginning with the most recent. (NOTE: Use Form I-5 89 Supplement B, or additional sheets of paper, if necessary.) Enter Type of School.",
+        "name": "form1[0].#subform[4].TextField13[31]",
+        "type": "Text",
+        "FieldMaxLength": 0,
+        "FieldStateOption": [],
+        "value": "",
+        "label_en": "",
+        "label_ru": ""
+    },
+    {
+        "title": "Part. A. 3. Information About Your Background. 3. Provide the following information about your education, beginning with the most recent. (NOTE: Use Form I-5 89 Supplement B, or additional sheets of paper, if necessary.) Enter Location (Address).",
+        "name": "form1[0].#subform[4].TextField13[33]",
+        "type": "Text",
+        "FieldMaxLength": 0,
+        "FieldStateOption": [],
+        "value": "",
+        "label_en": "",
+        "label_ru": ""
+    },
+    {
+        "title": "Part. A. 3. Information About Your Background. 3. Provide the following information about your education, beginning with the most recent. (NOTE: Use Form I-5 89 Supplement B, or additional sheets of paper, if necessary.) Attended. Enter &quot;From&quot; Date as 2-digit Month, and 2-digit Year.",
+        "name": "form1[0].#subform[4].DateTimeField38[0]",
+        "type": "Text",
+        "FieldMaxLength": 0,
+        "FieldStateOption": [],
+        "value": "",
+        "label_en": "",
+        "label_ru": ""
+    },
+    {
+        "title": "Part. A. 3. Information About Your Background. 3. Provide the following information about your education, beginning with the most recent. (NOTE: Use Form I-5 89 Supplement B, or additional sheets of paper, if necessary.) Attended. Enter &quot;To&quot; Date as 2-digit Month, and 2-digit Year.",
+        "name": "form1[0].#subform[4].DateTimeField39[0]",
+        "type": "Text",
+        "FieldMaxLength": 0,
+        "FieldStateOption": [],
+        "value": "",
+        "label_en": "",
+        "label_ru": ""
+    },
+    {
+        "title": "Part. A. 3. Information About Your Background. 3. Provide the following information about your education, beginning with the most recent. (NOTE: Use Form I-5 89 Supplement B, or additional sheets of paper, if necessary.) Enter Name of School. Line 3 of 4.",
+        "name": "form1[0].#subform[4].TextField13[34]",
+        "type": "Text",
+        "FieldMaxLength": 0,
+        "FieldStateOption": [],
+        "value": "",
+        "label_en": "",
+        "label_ru": ""
+    },
+    {
+        "title": "Part. A. 3. Information About Your Background. 3. Provide the following information about your education, beginning with the most recent. (NOTE: Use Form I-5 89 Supplement B, or additional sheets of paper, if necessary.) Enter Type of School.",
+        "name": "form1[0].#subform[4].TextField13[35]",
+        "type": "Text",
+        "FieldMaxLength": 0,
+        "FieldStateOption": [],
+        "value": "",
+        "label_en": "",
+        "label_ru": ""
+    },
+    {
+        "title": "Part. A. 3. Information About Your Background. 3. Provide the following information about your education, beginning with the most recent. (NOTE: Use Form I-5 89 Supplement B, or additional sheets of paper, if necessary.) Enter Location (Address).",
+        "name": "form1[0].#subform[4].TextField13[36]",
+        "type": "Text",
+        "FieldMaxLength": 0,
+        "FieldStateOption": [],
+        "value": "",
+        "label_en": "",
+        "label_ru": ""
+    },
+    {
+        "title": "Part. A. 3. Information About Your Background. 3. Provide the following information about your education, beginning with the most recent. (NOTE: Use Form I-5 89 Supplement B, or additional sheets of paper, if necessary.) Attended. Enter &quot;From&quot; Date as 2-digit Month, and 2-digit Year.",
+        "name": "form1[0].#subform[4].DateTimeField37[0]",
+        "type": "Text",
+        "FieldMaxLength": 0,
+        "FieldStateOption": [],
+        "value": "",
+        "label_en": "",
+        "label_ru": ""
+    },
+    {
+        "title": "Part. A. 3. Information About Your Background. 3. Provide the following information about your education, beginning with the most recent. (NOTE: Use Form I-5 89 Supplement B, or additional sheets of paper, if necessary.) Attended. Enter &quot;To&quot; Date as 2-digit Month, and 2-digit Year.",
+        "name": "form1[0].#subform[4].DateTimeField36[0]",
+        "type": "Text",
+        "FieldMaxLength": 0,
+        "FieldStateOption": [],
+        "value": "",
+        "label_en": "",
+        "label_ru": ""
+    },
+    {
+        "title": "Part. A. 3. Information About Your Background. 3. Provide the following information about your education, beginning with the most recent. (NOTE: Use Form I-5 89 Supplement B, or additional sheets of paper, if necessary.) Enter Name of School. Line 4 of 4.",
+        "name": "form1[0].#subform[4].TextField13[37]",
+        "type": "Text",
+        "FieldMaxLength": 0,
+        "FieldStateOption": [],
+        "value": "",
+        "label_en": "",
+        "label_ru": ""
+    },
+    {
+        "title": "Part. A. 3. Information About Your Background. 3. Provide the following information about your education, beginning with the most recent. (NOTE: Use Form I-5 89 Supplement B, or additional sheets of paper, if necessary.) Enter Type of School.",
+        "name": "form1[0].#subform[4].TextField13[38]",
+        "type": "Text",
+        "FieldMaxLength": 0,
+        "FieldStateOption": [],
+        "value": "",
+        "label_en": "",
+        "label_ru": ""
+    },
+    {
+        "title": "Part. A. 3. Information About Your Background. 3. Provide the following information about your education, beginning with the most recent. (NOTE: Use Form I-5 89 Supplement B, or additional sheets of paper, if necessary.) Enter Location (Address).",
+        "name": "form1[0].#subform[4].TextField13[39]",
+        "type": "Text",
+        "FieldMaxLength": 0,
+        "FieldStateOption": [],
+        "value": "",
+        "label_en": "",
+        "label_ru": ""
+    },
+    {
+        "title": "Part. A. 3. Information About Your Background. 3. Provide the following information about your education, beginning with the most recent. (NOTE: Use Form I-5 89 Supplement B, or additional sheets of paper, if necessary.) Attended. Enter &quot;From&quot; Date as 2-digit Month, and 2-digit Year.",
+        "name": "form1[0].#subform[4].DateTimeField34[0]",
+        "type": "Text",
+        "FieldMaxLength": 0,
+        "FieldStateOption": [],
+        "value": "",
+        "label_en": "",
+        "label_ru": ""
+    },
+    {
+        "title": "Part. A. 3. Information About Your Background. 3. Provide the following information about your education, beginning with the most recent. (NOTE: Use Form I-5 89 Supplement B, or additional sheets of paper, if necessary.) Attended. Enter &quot;To&quot; Date as 2-digit Month, and 2-digit Year.",
+        "name": "form1[0].#subform[4].DateTimeField35[0]",
+        "type": "Text",
+        "FieldMaxLength": 0,
+        "FieldStateOption": [],
+        "value": "",
+        "label_en": "",
+        "label_ru": ""
+    },
+    {
+        "title": "Part. A. 3. Information About Your Background. 4. Provide the following information about your employment during the past 5 years.  List your present employment first. (NOTE: Use Form I-5 89 Supplement B, or additional sheets of paper, if necessary.) Enter Name and Address of Employer. Line 1 of 3.",
+        "name": "form1[0].#subform[4].TextField13[40]",
+        "type": "Text",
+        "FieldMaxLength": 0,
+        "FieldStateOption": [],
+        "value": "",
+        "label_en": "",
+        "label_ru": ""
+    },
+    {
+        "title": "Part. A. 3. Information About Your Background. 4. Provide the following information about your employment during the past 5 years.  List your present employment first. (NOTE: Use Form I-5 89 Supplement B, or additional sheets of paper, if necessary.) Enter Your Occupation.",
+        "name": "form1[0].#subform[4].TextField13[42]",
+        "type": "Text",
+        "FieldMaxLength": 0,
+        "FieldStateOption": [],
+        "value": "",
+        "label_en": "",
+        "label_ru": ""
+    },
+    {
+        "title": "Part. A. 3. Information About Your Background. 4. Provide the following information about your employment during the past 5 years.  List your present employment first. (NOTE: Use Form I-5 89 Supplement B, or additional sheets of paper, if necessary.) Dates. Enter &quot;From&quot; Date as 2-digit Month, and 2-digit Year.",
+        "name": "form1[0].#subform[4].DateTimeField42[0]",
+        "type": "Text",
+        "FieldMaxLength": 0,
+        "FieldStateOption": [],
+        "value": "",
+        "label_en": "",
+        "label_ru": ""
+    },
+    {
+        "title": "Part. A. 3. Information About Your Background. 4. Provide the following information about your employment during the past 5 years.  List your present employment first. (NOTE: Use Form I-5 89 Supplement B, or additional sheets of paper, if necessary.) Dates. Enter &quot;To&quot; Date as 2-digit Month, and 2-digit Year.",
+        "name": "form1[0].#subform[4].DateTimeField44[0]",
+        "type": "Text",
+        "FieldMaxLength": 0,
+        "FieldStateOption": [],
+        "value": "",
+        "label_en": "",
+        "label_ru": ""
+    },
+    {
+        "title": "Part. A. 3. Information About Your Background. 4. Provide the following information about your employment during the past 5 years.  List your present employment first. (NOTE: Use Form I-5 89 Supplement B, or additional sheets of paper, if necessary.) Enter Name and Address of Employer. Line 2 of 3.",
+        "name": "form1[0].#subform[4].TextField13[41]",
+        "type": "Text",
+        "FieldMaxLength": 0,
+        "FieldStateOption": [],
+        "value": "",
+        "label_en": "",
+        "label_ru": ""
+    },
+    {
+        "title": "Part. A. 3. Information About Your Background. 4. Provide the following information about your employment during the past 5 years.  List your present employment first. (NOTE: Use Form I-5 89 Supplement B, or additional sheets of paper, if necessary.) Enter Your Occupation.",
+        "name": "form1[0].#subform[4].TextField13[43]",
+        "type": "Text",
+        "FieldMaxLength": 0,
+        "FieldStateOption": [],
+        "value": "",
+        "label_en": "",
+        "label_ru": ""
+    },
+    {
+        "title": "Part. A. 3. Information About Your Background. 4. Provide the following information about your employment during the past 5 years.  List your present employment first. (NOTE: Use Form I-5 89 Supplement B, or additional sheets of paper, if necessary.) Dates. Enter &quot;From&quot; Date as 2-digit Month, and 2-digit Year.",
+        "name": "form1[0].#subform[4].DateTimeField43[0]",
+        "type": "Text",
+        "FieldMaxLength": 0,
+        "FieldStateOption": [],
+        "value": "",
+        "label_en": "",
+        "label_ru": ""
+    },
+    {
+        "title": "Part. A. 3. Information About Your Background. 4. Provide the following information about your employment during the past 5 years.  List your present employment first. (NOTE: Use Form I-5 89 Supplement B, or additional sheets of paper, if necessary.) Dates. Enter &quot;To&quot; Date as 2-digit Month, and 2-digit Year.",
+        "name": "form1[0].#subform[4].DateTimeField45[0]",
+        "type": "Text",
+        "FieldMaxLength": 0,
+        "FieldStateOption": [],
+        "value": "",
+        "label_en": "",
+        "label_ru": ""
+    },
+    {
+        "title": "Part. A. 3. Information About Your Background. 4. Provide the following information about your employment during the past 5 years.  List your present employment first. (NOTE: Use Form I-5 89 Supplement B, or additional sheets of paper, if necessary.) Enter Name and Address of Employer. Line 3 of 3.",
+        "name": "form1[0].#subform[4].TextField13[44]",
+        "type": "Text",
+        "FieldMaxLength": 0,
+        "FieldStateOption": [],
+        "value": "",
+        "label_en": "",
+        "label_ru": ""
+    },
+    {
+        "title": "Part. A. 3. Information About Your Background. 4. Provide the following information about your employment during the past 5 years.  List your present employment first. (NOTE: Use Form I-5 89 Supplement B, or additional sheets of paper, if necessary.) Enter Your Occupation.",
+        "name": "form1[0].#subform[4].TextField13[45]",
+        "type": "Text",
+        "FieldMaxLength": 0,
+        "FieldStateOption": [],
+        "value": "",
+        "label_en": "",
+        "label_ru": ""
+    },
+    {
+        "title": "Part. A. 3. Information About Your Background. 4. Provide the following information about your employment during the past 5 years.  List your present employment first. (NOTE: Use Form I-5 89 Supplement B, or additional sheets of paper, if necessary.) Dates. Enter &quot;From&quot; Date as 2-digit Month, and 2-digit Year.",
+        "name": "form1[0].#subform[4].DateTimeField46[0]",
+        "type": "Text",
+        "FieldMaxLength": 0,
+        "FieldStateOption": [],
+        "value": "",
+        "label_en": "",
+        "label_ru": ""
+    },
+    {
+        "title": "Part. A. 3. Information About Your Background. 4. Provide the following information about your employment during the past 5 years.  List your present employment first. (NOTE: Use Form I-5 89 Supplement B, or additional sheets of paper, if necessary.) Dates. Enter &quot;To&quot; Date as 2-digit Month, and 2-digit Year.",
+        "name": "form1[0].#subform[4].DateTimeField47[0]",
+        "type": "Text",
+        "FieldMaxLength": 0,
+        "FieldStateOption": [],
+        "value": "",
+        "label_en": "",
+        "label_ru": ""
+    },
+    {
+        "title": "Part. A. 3. Information About Your Background. 5. Provide the following information about your parents and siblings (brothers and sisters). Check the box if the person is deceased. (NOTE: Use Form I-5 89 Supplement B, or additional sheets of paper, if necessary). Mother. Enter Full Name.",
+        "name": "form1[0].#subform[4].TextField13[46]",
+        "type": "Text",
+        "FieldMaxLength": 0,
+        "FieldStateOption": [],
+        "value": "",
+        "label_en": "",
+        "label_ru": ""
+    },
+    {
+        "title": "Part. A. 3. Information About Your Background. 5. Provide the following information about your parents and siblings (brothers and sisters). Check the box if the person is deceased. (NOTE: Use Form I-5 89 Supplement B, or additional sheets of paper, if necessary). Mother. Enter City\/Town and Country of Birth.",
+        "name": "form1[0].#subform[4].TextField13[49]",
+        "type": "Text",
+        "FieldMaxLength": 0,
+        "FieldStateOption": [],
+        "value": "",
+        "label_en": "",
+        "label_ru": ""
+    },
+    {
+        "title": "Part. A. 3. Information About Your Background. 5. Provide the following information about your parents and siblings (brothers and sisters). Check the box if the person is deceased. (NOTE: Use Form I-5 89 Supplement B, or additional sheets of paper, if necessary). Mother. Check Deceased.",
+        "name": "form1[0].#subform[4].CheckBoxAIII5\\.m[0]",
+        "type": "Button",
+        "FieldMaxLength": 0,
+        "FieldStateOption": [
+            "1",
+            "Off"
+        ],
+        "value": "Off",
+        "label_en": "",
+        "label_ru": ""
+    },
+    {
+        "title": "Part. A. 3. Information About Your Background. 5. Provide the following information about your parents and siblings (brothers and sisters). Check the box if the person is deceased. (NOTE: Use Form I-5 89 Supplement B, or additional sheets of paper, if necessary). Mother. Enter Current Location.",
+        "name": "form1[0].#subform[4].TextField35[0]",
+        "type": "Text",
+        "FieldMaxLength": 0,
+        "FieldStateOption": [],
+        "value": "",
+        "label_en": "",
+        "label_ru": ""
+    },
+    {
+        "title": "Part. A. 3. Information About Your Background. 5. Provide the following information about your parents and siblings (brothers and sisters). Check the box if the person is deceased. (NOTE: Use Form I-5 89 Supplement B, or additional sheets of paper, if necessary). Father. Enter Full Name.",
+        "name": "form1[0].#subform[4].TextField13[47]",
+        "type": "Text",
+        "FieldMaxLength": 0,
+        "FieldStateOption": [],
+        "value": "",
+        "label_en": "",
+        "label_ru": ""
+    },
+    {
+        "title": "Part. A. 3. Information About Your Background. 5. Provide the following information about your parents and siblings (brothers and sisters). Check the box if the person is deceased. (NOTE: Use Form I-5 89 Supplement B, or additional sheets of paper, if necessary). Father. Enter City\/Town and Country of Birth.",
+        "name": "form1[0].#subform[4].TextField13[50]",
+        "type": "Text",
+        "FieldMaxLength": 0,
+        "FieldStateOption": [],
+        "value": "",
+        "label_en": "",
+        "label_ru": ""
+    },
+    {
+        "title": "Part. A. 3. Information About Your Background. 5. Provide the following information about your parents and siblings (brothers and sisters). Check the box if the person is deceased. (NOTE: Use Form I-5 89 Supplement B, or additional sheets of paper, if necessary). Father. Check Deceased.",
+        "name": "form1[0].#subform[4].CheckBoxAIII5\\.f[0]",
+        "type": "Button",
+        "FieldMaxLength": 0,
+        "FieldStateOption": [
+            "1",
+            "Off"
+        ],
+        "value": "Off",
+        "label_en": "",
+        "label_ru": ""
+    },
+    {
+        "title": "Part. A. 3. Information About Your Background. 5. Provide the following information about your parents and siblings (brothers and sisters). Check the box if the person is deceased. (NOTE: Use Form I-5 89 Supplement B, or additional sheets of paper, if necessary). Father. Enter Current Location.",
+        "name": "form1[0].#subform[4].TextField35[1]",
+        "type": "Text",
+        "FieldMaxLength": 0,
+        "FieldStateOption": [],
+        "value": "",
+        "label_en": "",
+        "label_ru": ""
+    },
+    {
+        "title": "Part. A. 3. Information About Your Background. 5. Provide the following information about your parents and siblings (brothers and sisters). Check the box if the person is deceased. (NOTE: Use Form I-5 89 Supplement B, or additional sheets of paper, if necessary). Sibling 1. Enter Full Name.",
+        "name": "form1[0].#subform[4].TextField13[48]",
+        "type": "Text",
+        "FieldMaxLength": 0,
+        "FieldStateOption": [],
+        "value": "",
+        "label_en": "",
+        "label_ru": ""
+    },
+    {
+        "title": "Part. A. 3. Information About Your Background. 5. Provide the following information about your parents and siblings (brothers and sisters). Check the box if the person is deceased. (NOTE: Use Form I-5 89 Supplement B, or additional sheets of paper, if necessary). Sibling 1. Enter City\/Town and Country of Birth.",
+        "name": "form1[0].#subform[4].TextField13[51]",
+        "type": "Text",
+        "FieldMaxLength": 0,
+        "FieldStateOption": [],
+        "value": "",
+        "label_en": "",
+        "label_ru": ""
+    },
+    {
+        "title": "Part. A. 3. Information About Your Background. 5. Provide the following information about your parents and siblings (brothers and sisters). Check the box if the person is deceased. (NOTE: Use Form I-5 89 Supplement B, or additional sheets of paper, if necessary). Sibling 1. Check Deceased.",
+        "name": "form1[0].#subform[4].CheckBoxAIII5\\.s1[0]",
+        "type": "Button",
+        "FieldMaxLength": 0,
+        "FieldStateOption": [
+            "1",
+            "Off"
+        ],
+        "value": "Off",
+        "label_en": "",
+        "label_ru": ""
+    },
+    {
+        "title": "Part. A. 3. Information About Your Background. 5. Provide the following information about your parents and siblings (brothers and sisters). Check the box if the person is deceased. (NOTE: Use Form I-5 89 Supplement B, or additional sheets of paper, if necessary). Sibling 1. Enter Current Location.",
+        "name": "form1[0].#subform[4].TextField35[2]",
+        "type": "Text",
+        "FieldMaxLength": 0,
+        "FieldStateOption": [],
+        "value": "",
+        "label_en": "",
+        "label_ru": ""
+    },
+    {
+        "title": "Part. A. 3. Information About Your Background. 5. Provide the following information about your parents and siblings (brothers and sisters). Check the box if the person is deceased. (NOTE: Use Form I-5 89 Supplement B, or additional sheets of paper, if necessary). Sibling 2. Enter Full Name.",
+        "name": "form1[0].#subform[4].TextField13[52]",
+        "type": "Text",
+        "FieldMaxLength": 0,
+        "FieldStateOption": [],
+        "value": "",
+        "label_en": "",
+        "label_ru": ""
+    },
+    {
+        "title": "Part. A. 3. Information About Your Background. 5. Provide the following information about your parents and siblings (brothers and sisters). Check the box if the person is deceased. (NOTE: Use Form I-5 89 Supplement B, or additional sheets of paper, if necessary). Sibling 2. Enter City\/Town and Country of Birth.",
+        "name": "form1[0].#subform[4].TextField13[53]",
+        "type": "Text",
+        "FieldMaxLength": 0,
+        "FieldStateOption": [],
+        "value": "",
+        "label_en": "",
+        "label_ru": ""
+    },
+    {
+        "title": "Part. A. 3. Information About Your Background. 5. Provide the following information about your parents and siblings (brothers and sisters). Check the box if the person is deceased. (NOTE: Use Form I-5 89 Supplement B, or additional sheets of paper, if necessary). Sibling 2. Check Deceased.",
+        "name": "form1[0].#subform[4].CheckBoxAIII5\\.s2[0]",
+        "type": "Button",
+        "FieldMaxLength": 0,
+        "FieldStateOption": [
+            "1",
+            "Off"
+        ],
+        "value": "Off",
+        "label_en": "",
+        "label_ru": ""
+    },
+    {
+        "title": "Part. A. 3. Information About Your Background. 5. Provide the following information about your parents and siblings (brothers and sisters). Check the box if the person is deceased. (NOTE: Use Form I-5 89 Supplement B, or additional sheets of paper, if necessary). Sibling 2. Enter Current Location.",
+        "name": "form1[0].#subform[4].TextField35[3]",
+        "type": "Text",
+        "FieldMaxLength": 0,
+        "FieldStateOption": [],
+        "value": "",
+        "label_en": "",
+        "label_ru": ""
+    },
+    {
+        "title": "Part. A. 3. Information About Your Background. 5. Provide the following information about your parents and siblings (brothers and sisters). Check the box if the person is deceased. (NOTE: Use Form I-5 89 Supplement B, or additional sheets of paper, if necessary). Sibling 3. Enter Full Name.",
+        "name": "form1[0].#subform[4].TextField13[54]",
+        "type": "Text",
+        "FieldMaxLength": 0,
+        "FieldStateOption": [],
+        "value": "",
+        "label_en": "",
+        "label_ru": ""
+    },
+    {
+        "title": "Part. A. 3. Information About Your Background. 5. Provide the following information about your parents and siblings (brothers and sisters). Check the box if the person is deceased. (NOTE: Use Form I-5 89 Supplement B, or additional sheets of paper, if necessary). Sibling 3. Enter City\/Town and Country of Birth.",
+        "name": "form1[0].#subform[4].TextField13[55]",
+        "type": "Text",
+        "FieldMaxLength": 0,
+        "FieldStateOption": [],
+        "value": "",
+        "label_en": "",
+        "label_ru": ""
+    },
+    {
+        "title": "Part. A. 3. Information About Your Background. 5. Provide the following information about your parents and siblings (brothers and sisters). Check the box if the person is deceased. (NOTE: Use Form I-5 89 Supplement B, or additional sheets of paper, if necessary). Sibling 3. Check Deceased.",
+        "name": "form1[0].#subform[4].CheckBoxAIII5\\.s3[0]",
+        "type": "Button",
+        "FieldMaxLength": 0,
+        "FieldStateOption": [
+            "1",
+            "Off"
+        ],
+        "value": "Off",
+        "label_en": "",
+        "label_ru": ""
+    },
+    {
+        "title": "Part. A. 3. Information About Your Background. 5. Provide the following information about your parents and siblings (brothers and sisters). Check the box if the person is deceased. (NOTE: Use Form I-5 89 Supplement B, or additional sheets of paper, if necessary). Sibling 3. Enter Current Location.",
+        "name": "form1[0].#subform[4].TextField35[4]",
+        "type": "Text",
+        "FieldMaxLength": 0,
+        "FieldStateOption": [],
+        "value": "",
+        "label_en": "",
+        "label_ru": ""
+    },
+    {
+        "title": "Part. A. 3. Information About Your Background. 5. Provide the following information about your parents and siblings (brothers and sisters). Check the box if the person is deceased. (NOTE: Use Form I-5 89 Supplement B, or additional sheets of paper, if necessary). Sibling 4. Enter Full Name.",
+        "name": "form1[0].#subform[4].TextField13[56]",
+        "type": "Text",
+        "FieldMaxLength": 0,
+        "FieldStateOption": [],
+        "value": "",
+        "label_en": "",
+        "label_ru": ""
+    },
+    {
+        "title": "Part. A. 3. Information About Your Background. 5. Provide the following information about your parents and siblings (brothers and sisters). Check the box if the person is deceased. (NOTE: Use Form I-5 89 Supplement B, or additional sheets of paper, if necessary). Sibling 4. Enter City\/Town and Country of Birth.",
+        "name": "form1[0].#subform[4].TextField13[57]",
+        "type": "Text",
+        "FieldMaxLength": 0,
+        "FieldStateOption": [],
+        "value": "",
+        "label_en": "",
+        "label_ru": ""
+    },
+    {
+        "title": "Part. A. 3. Information About Your Background. 5. Provide the following information about your parents and siblings (brothers and sisters). Check the box if the person is deceased. (NOTE: Use Form I-5 89 Supplement B, or additional sheets of paper, if necessary). Sibling 4. Check Deceased.",
+        "name": "form1[0].#subform[4].CheckBoxAIII5\\.s4[0]",
+        "type": "Button",
+        "FieldMaxLength": 0,
+        "FieldStateOption": [
+            "1",
+            "Off"
+        ],
+        "value": "Off",
+        "label_en": "",
+        "label_ru": ""
+    },
+    {
+        "title": "Part. A. 3. Information About Your Background. 5. Provide the following information about your parents and siblings (brothers and sisters). Check the box if the person is deceased. (NOTE: Use Form I-5 89 Supplement B, or additional sheets of paper, if necessary). Sibling 4. Enter Current Location.",
+        "name": "form1[0].#subform[4].TextField35[5]",
+        "type": "Text",
+        "FieldMaxLength": 0,
+        "FieldStateOption": [],
+        "value": "",
+        "label_en": "",
+        "label_ru": ""
+    },
+    {
+        "title": "Part. B. 1. I am seeking asylum or withholding of removal based on: Race",
+        "name": "form1[0].#subform[5].#subform[6].CheckBoxrace[0]",
+        "type": "Button",
+        "FieldMaxLength": 0,
+        "FieldStateOption": [
+            "Y",
+            "Off"
+        ],
+        "value": "Off",
+        "label_en": "",
+        "label_ru": ""
+    },
+    {
+        "title": "Part. B. 1. I am seeking asylum or withholding of removal based on: Political opinion",
+        "name": "form1[0].#subform[5].#subform[6].CheckBoxpolitics[0]",
+        "type": "Button",
+        "FieldMaxLength": 0,
+        "FieldStateOption": [
+            "Y",
+            "Off"
+        ],
+        "value": "Off",
+        "label_en": "",
+        "label_ru": ""
+    },
+    {
+        "title": "Part. B. 1. I am seeking asylum or withholding of removal based on: Religion",
+        "name": "form1[0].#subform[5].#subform[6].CheckBoxreligion[0]",
+        "type": "Button",
+        "FieldMaxLength": 0,
+        "FieldStateOption": [
+            "Y",
+            "Off"
+        ],
+        "value": "Off",
+        "label_en": "",
+        "label_ru": ""
+    },
+    {
+        "title": "Part. B. 1. I am seeking asylum or withholding of removal based on: Membership in a particular social group",
+        "name": "form1[0].#subform[5].#subform[6].CheckBoxsocial[0]",
+        "type": "Button",
+        "FieldMaxLength": 0,
+        "FieldStateOption": [
+            "Y",
+            "Off"
+        ],
+        "value": "Off",
+        "label_en": "",
+        "label_ru": ""
+    },
+    {
+        "title": "Part. B. 1. I am seeking asylum or withholding of removal based on: Nationality",
+        "name": "form1[0].#subform[5].#subform[6].CheckBoxnationality[0]",
+        "type": "Button",
+        "FieldMaxLength": 0,
+        "FieldStateOption": [
+            "Y",
+            "Off"
+        ],
+        "value": "Off",
+        "label_en": "",
+        "label_ru": ""
+    },
+    {
+        "title": "Part. B. 1. I am seeking asylum or withholding of removal based on: Torture Convention",
+        "name": "form1[0].#subform[5].#subform[6].CheckBoxtorture[0]",
+        "type": "Button",
+        "FieldMaxLength": 0,
+        "FieldStateOption": [
+            "Y",
+            "Off"
+        ],
+        "value": "Off",
+        "label_en": "",
+        "label_ru": ""
+    },
+    {
+        "title": "Part. B. A. Have you, your family, or close friends or colleagues ever experienced harm or mistreatment or threats in the past by anyone? Select No",
+        "name": "form1[0].#subform[5].#subform[6].ckboxyn1a[1]",
+        "type": "Button",
+        "FieldMaxLength": 0,
+        "FieldStateOption": [
+            "N",
+            "Off"
+        ],
+        "value": "Off",
+        "label_en": "",
+        "label_ru": ""
+    },
+    {
+        "title": "Part. B. A. Have you, your family, or close friends or colleagues ever experienced harm or mistreatment or threats in the past by anyone? Select Yes",
+        "name": "form1[0].#subform[5].#subform[6].ckboxyn1a[0]",
+        "type": "Button",
+        "FieldMaxLength": 0,
+        "FieldStateOption": [
+            "Y",
+            "Off"
+        ],
+        "value": "Off",
+        "label_en": "",
+        "label_ru": ""
+    },
+    {
+        "title": "Part. B. A. Have you, your family, or close friends or colleagues ever experienced harm or mistreatment or threats in the past by anyone?  If \"Yes,\" explain in detail:",
+        "name": "form1[0].#subform[5].#subform[6].TextField14[0]",
+        "type": "Text",
+        "FieldMaxLength": 0,
+        "FieldStateOption": [],
+        "value": "",
+        "label_en": "",
+        "label_ru": ""
+    },
+    {
+        "title": "Part. B. B.  Do you fear harm or mistreatment if you return to your home country? Select No",
+        "name": "form1[0].#subform[5].#subform[6].ckboxyn1b[1]",
+        "type": "Button",
+        "FieldMaxLength": 0,
+        "FieldStateOption": [
+            "N",
+            "Off"
+        ],
+        "value": "Off",
+        "label_en": "",
+        "label_ru": ""
+    },
+    {
+        "title": "Part. B. B.  Do you fear harm or mistreatment if you return to your home country? Select Yes",
+        "name": "form1[0].#subform[5].#subform[6].ckboxyn1b[0]",
+        "type": "Button",
+        "FieldMaxLength": 0,
+        "FieldStateOption": [
+            "Y",
+            "Off"
+        ],
+        "value": "Off",
+        "label_en": "",
+        "label_ru": ""
+    },
+    {
+        "title": "Part. B.  B.  Do you fear harm or mistreatment if you return to your home country? If \"Yes,\" explain in detail:",
+        "name": "form1[0].#subform[5].#subform[6].TextField15[0]",
+        "type": "Text",
+        "FieldMaxLength": 0,
+        "FieldStateOption": [],
+        "value": "",
+        "label_en": "",
+        "label_ru": ""
+    },
+    {
+        "title": "Part. B. 2. Have you or your family members ever been accused, charged, arrested, detained, interrogated, convicted and sentenced, or imprisoned in any country other than the United States (including for an immigration law violation)? Select No",
+        "name": "form1[0].#subform[7].ckboxyn2[1]",
+        "type": "Button",
+        "FieldMaxLength": 0,
+        "FieldStateOption": [
+            "N",
+            "Off"
+        ],
+        "value": "Off",
+        "label_en": "",
+        "label_ru": ""
+    },
+    {
+        "title": "Part. B. 2. Have you or your family members ever been accused, charged, arrested, detained, interrogated, convicted and sentenced, or imprisoned in any country other than the United States (including for an immigration law violation)? Select Yes",
+        "name": "form1[0].#subform[7].ckboxyn2[0]",
+        "type": "Button",
+        "FieldMaxLength": 0,
+        "FieldStateOption": [
+            "Y",
+            "Off"
+        ],
+        "value": "Off",
+        "label_en": "",
+        "label_ru": ""
+    },
+    {
+        "title": "Part. B. 2. Have you or your family members ever been accused, charged, arrested, detained, interrogated, convicted and sentenced, or imprisoned in any country other than the United States (including for an immigration law violation)? If \"Yes,\" explain the circumstances and reasons for the action.",
+        "name": "form1[0].#subform[7].PBL2_TextField[0]",
+        "type": "Text",
+        "FieldMaxLength": 0,
+        "FieldStateOption": [],
+        "value": "",
+        "label_en": "",
+        "label_ru": ""
+    },
+    {
+        "title": "Part. B. 3.A. Have you or your family members ever belonged to or been associated with any organizations or groups in your home country, such as, but not limited to, a political party, student group, labor union, religious organization, military or paramilitary group, civil patrol, guerrilla organization, ethnic group, human rights group, or the press or media? Select No",
+        "name": "form1[0].#subform[7].ckboxyn3a[1]",
+        "type": "Button",
+        "FieldMaxLength": 0,
+        "FieldStateOption": [
+            "N",
+            "Off"
+        ],
+        "value": "Off",
+        "label_en": "",
+        "label_ru": ""
+    },
+    {
+        "title": "Part. B. 3.A. Have you or your family members ever belonged to or been associated with any organizations or groups in your home country, such as, but not limited to, a political party, student group, labor union, religious organization, military or paramilitary group, civil patrol, guerrilla organization, ethnic group, human rights group, or the press or media? Select Yes",
+        "name": "form1[0].#subform[7].ckboxyn3a[0]",
+        "type": "Button",
+        "FieldMaxLength": 0,
+        "FieldStateOption": [
+            "Y",
+            "Off"
+        ],
+        "value": "Off",
+        "label_en": "",
+        "label_ru": ""
+    },
+    {
+        "title": "Part. B. 3.A. Have you or your family members ever belonged to or been associated with any organizations or groups in your home country, such as, but not limited to, a political party, student group, labor union, religious organization, military or paramilitary group, civil patrol, guerrilla organization, ethnic group, human rights group, or the press or media? If \"Yes,\" describe for each person the level of participation, any leadership or other positions held, and the length of time you or your family members were involved in each organization or activity.",
+        "name": "form1[0].#subform[7].PBL3A_TextField[0]",
+        "type": "Text",
+        "FieldMaxLength": 0,
+        "FieldStateOption": [],
+        "value": "",
+        "label_en": "",
+        "label_ru": ""
+    },
+    {
+        "title": "Part. B. 3.B. Do you or your family members continue to participate in any way in these organizations or groups? Select No",
+        "name": "form1[0].#subform[7].ckboxyn3b[1]",
+        "type": "Button",
+        "FieldMaxLength": 0,
+        "FieldStateOption": [
+            "N",
+            "Off"
+        ],
+        "value": "Off",
+        "label_en": "",
+        "label_ru": ""
+    },
+    {
+        "title": "Part. B. 3.B. Do you or your family members continue to participate in any way in these organizations or groups? Select Yes",
+        "name": "form1[0].#subform[7].ckboxyn3b[0]",
+        "type": "Button",
+        "FieldMaxLength": 0,
+        "FieldStateOption": [
+            "Y",
+            "Off"
+        ],
+        "value": "Off",
+        "label_en": "",
+        "label_ru": ""
+    },
+    {
+        "title": "Part. B. 3.B. Do you or your family members continue to participate in any way in these organizations or groups?  If \"Yes,\" describe for each person your or your family member is current level of participation, any leadership or other positions currently held, and the length of time you or your family members have been involved in each organization or group.",
+        "name": "form1[0].#subform[7].PBL3B_TextField[0]",
+        "type": "Text",
+        "FieldMaxLength": 0,
+        "FieldStateOption": [],
+        "value": "",
+        "label_en": "",
+        "label_ru": ""
+    },
+    {
+        "title": "Part. B. 4. Are you afraid of being subjected to torture in your home country or any other country to which you may be returned? Select No",
+        "name": "form1[0].#subform[7].ckboxyn4[1]",
+        "type": "Button",
+        "FieldMaxLength": 0,
+        "FieldStateOption": [
+            "N",
+            "Off"
+        ],
+        "value": "Off",
+        "label_en": "",
+        "label_ru": ""
+    },
+    {
+        "title": "Part. B. 4. Are you afraid of being subjected to torture in your home country or any other country to which you may be returned? Select Yes",
+        "name": "form1[0].#subform[7].ckboxyn4[0]",
+        "type": "Button",
+        "FieldMaxLength": 0,
+        "FieldStateOption": [
+            "Y",
+            "Off"
+        ],
+        "value": "Off",
+        "label_en": "",
+        "label_ru": ""
+    },
+    {
+        "title": "Part. B. 4. Are you afraid of being subjected to torture in your home country or any other country to which you may be returned?  If \"Yes,\" explain why you are afraid and describe the nature of torture you fear, by whom, and why it would be inflicted.",
+        "name": "form1[0].#subform[7].PB4_TextField[0]",
+        "type": "Text",
+        "FieldMaxLength": 0,
+        "FieldStateOption": [],
+        "value": "",
+        "label_en": "",
+        "label_ru": ""
+    },
+    {
+        "title": "Part. C. 1. Have you, your spouse, your child(ren), your parents or your siblings ever applied to the U.S Government for refugee status, asylum, or withholding of removal? Select No",
+        "name": "form1[0].#subform[8].ckboxync1[1]",
+        "type": "Button",
+        "FieldMaxLength": 0,
+        "FieldStateOption": [
+            "N",
+            "Off"
+        ],
+        "value": "Off",
+        "label_en": "",
+        "label_ru": ""
+    },
+    {
+        "title": "Part. C. 1. Have you, your spouse, your child(ren), your parents or your siblings ever applied to the U.S Government for refugee status, asylum, or withholding of removal? Select Yes",
+        "name": "form1[0].#subform[8].ckboxync1[0]",
+        "type": "Button",
+        "FieldMaxLength": 0,
+        "FieldStateOption": [
+            "Y",
+            "Off"
+        ],
+        "value": "Off",
+        "label_en": "",
+        "label_ru": ""
+    },
+    {
+        "title": "Part. C. 1. Have you, your spouse, your child(ren), your parents or your siblings ever applied to the U.S Government for refugee status, asylum, or withholding of removal?  If \"Yes,\" explain the decision and what happened to any status you, your spouse, your child(ren), your parents, or your siblings received as a result of that decision.  Indicate whether or not you were included in a parent or spouse is application.  If so, include your parent or spouse is A-number in your response.  If you have been denied asylum by an immigration judge or the Board of Immigration Appeals, describe any change(s)",
+        "name": "form1[0].#subform[8].PCL1_TextField[0]",
+        "type": "Text",
+        "FieldMaxLength": 0,
+        "FieldStateOption": [],
+        "value": "",
+        "label_en": "",
+        "label_ru": ""
+    },
+    {
+        "title": "Part. C. 2.A. After leaving the country from which you are claiming asylum, did you or your spouse or chil (ren) who are now in the United States travel through or reside in any other country before entering the United States? Select No",
+        "name": "form1[0].#subform[8].ckboxync2a[1]",
+        "type": "Button",
+        "FieldMaxLength": 0,
+        "FieldStateOption": [
+            "N",
+            "Off"
+        ],
+        "value": "Off",
+        "label_en": "",
+        "label_ru": ""
+    },
+    {
+        "title": "Part. C. 2.A. After leaving the country from which you are claiming asylum, did you or your spouse or chil (ren) who are now in the United States travel through or reside in any other country before entering the United States? Select Yes",
+        "name": "form1[0].#subform[8].ckboxync2a[0]",
+        "type": "Button",
+        "FieldMaxLength": 0,
+        "FieldStateOption": [
+            "Y",
+            "Off"
+        ],
+        "value": "Off",
+        "label_en": "",
+        "label_ru": ""
+    },
+    {
+        "title": "Part. C. 2.B. Have you, your spouse, your child(ren), or other family members, such as your parents or siblings, ever applied for or received any lawful status in any country other than the one from which you are now claiming asylum? Select No",
+        "name": "form1[0].#subform[8].ckboxync2b[1]",
+        "type": "Button",
+        "FieldMaxLength": 0,
+        "FieldStateOption": [
+            "N",
+            "Off"
+        ],
+        "value": "Off",
+        "label_en": "",
+        "label_ru": ""
+    },
+    {
+        "title": "Part. C. 2.B. Have you, your spouse, your child(ren), or other family members, such as your parents or siblings, ever applied for or received any lawful status in any country other than the one from which you are now claiming asylum? Select Yes",
+        "name": "form1[0].#subform[8].ckboxync2b[0]",
+        "type": "Button",
+        "FieldMaxLength": 0,
+        "FieldStateOption": [
+            "Y",
+            "Off"
+        ],
+        "value": "Off",
+        "label_en": "",
+        "label_ru": ""
+    },
+    {
+        "title": "Part. C. 2.B. Have you, your spouse, your child(ren), or other family members, such as your parents or siblings, ever applied for or received any lawful status in any country other than the one from which you are now claiming asylum? If \"Yes\" to either or both questions (2A and\/or 2B), provide for each person the following: the name of each country and the length of stay, the person is status while there, the reasons for leaving, whether or not the person is entitled to return for lawful residence purposes and whether the person applied for refugee status or for asylum while there, and if not, why he or she did not do so.",
+        "name": "form1[0].#subform[8].PCL2B_TextField[0]",
+        "type": "Text",
+        "FieldMaxLength": 0,
+        "FieldStateOption": [],
+        "value": "",
+        "label_en": "",
+        "label_ru": ""
+    },
+    {
+        "title": "Part. C. 3. Have you, your spouse or your child(ren) ever ordered, incited, assisted or otherwise participated in causing harm or suffering to any person because of his or her race, religion, nationality, membership in a particular social group or belief in a particular political opinion? Select No",
+        "name": "form1[0].#subform[8].ckboxync3[1]",
+        "type": "Button",
+        "FieldMaxLength": 0,
+        "FieldStateOption": [
+            "N",
+            "Off"
+        ],
+        "value": "Off",
+        "label_en": "",
+        "label_ru": ""
+    },
+    {
+        "title": "Part. C. 3. Have you, your spouse or your child(ren) ever ordered, incited, assisted or otherwise participated in causing harm or suffering to any person because of his or her race, religion, nationality, membership in a particular social group or belief in a particular political opinion? Select Yes",
+        "name": "form1[0].#subform[8].ckboxync3[0]",
+        "type": "Button",
+        "FieldMaxLength": 0,
+        "FieldStateOption": [
+            "Y",
+            "Off"
+        ],
+        "value": "Off",
+        "label_en": "",
+        "label_ru": ""
+    },
+    {
+        "title": "Part. C. 3. Have you, your spouse or your child(ren) ever ordered, incited, assisted or otherwise participated in causing harm or suffering to any person because of his or her race, religion, nationality, membership in a particular social group or belief in a particular political opinion? If \"Yes,\" describe in detail each such incident and your own, your spouse is, or your child(ren) is involvement.",
+        "name": "form1[0].#subform[8].PCL3_TextField[0]",
+        "type": "Text",
+        "FieldMaxLength": 0,
+        "FieldStateOption": [],
+        "value": "",
+        "label_en": "",
+        "label_ru": ""
+    },
+    {
+        "title": "Part. C. 4. After you left the country where you were harmed or fear harm, did you return to that country? Select No",
+        "name": "form1[0].#subform[9].PCckboxyn4[1]",
+        "type": "Button",
+        "FieldMaxLength": 0,
+        "FieldStateOption": [
+            "N",
+            "Off"
+        ],
+        "value": "Off",
+        "label_en": "",
+        "label_ru": ""
+    },
+    {
+        "title": "Part. C. 4. After you left the country where you were harmed or fear harm, did you return to that country? Select Yes",
+        "name": "form1[0].#subform[9].PCckboxyn4[0]",
+        "type": "Button",
+        "FieldMaxLength": 0,
+        "FieldStateOption": [
+            "Y",
+            "Off"
+        ],
+        "value": "Off",
+        "label_en": "",
+        "label_ru": ""
+    },
+    {
+        "title": "Part. C. 4. After you left the country where you were harmed or fear harm, did you return to that country? If \"Yes,\" describe in detail the circumstances of your visit(s) (for example, the date(s) of the trip(s), the purpose(s) of the trip(s), and the length of time you remained in that country for the visit(s).)",
+        "name": "form1[0].#subform[9].PCL4_TextField[0]",
+        "type": "Text",
+        "FieldMaxLength": 0,
+        "FieldStateOption": [],
+        "value": "",
+        "label_en": "",
+        "label_ru": ""
+    },
+    {
+        "title": "Part. C. 5. Are you filing this application more than 1 year after your last arrival in the United States? Select No",
+        "name": "form1[0].#subform[9].ckboxync5[1]",
+        "type": "Button",
+        "FieldMaxLength": 0,
+        "FieldStateOption": [
+            "N",
+            "Off"
+        ],
+        "value": "Off",
+        "label_en": "",
+        "label_ru": ""
+    },
+    {
+        "title": "Part. C. 5. Are you filing this application more than 1 year after your last arrival in the United States? Select Yes",
+        "name": "form1[0].#subform[9].ckboxync5[0]",
+        "type": "Button",
+        "FieldMaxLength": 0,
+        "FieldStateOption": [
+            "Y",
+            "Off"
+        ],
+        "value": "Off",
+        "label_en": "",
+        "label_ru": ""
+    },
+    {
+        "title": "Part. C. 5. Are you filing this application more than 1 year after your last arrival in the United States?  If \"Yes,\" explain why you did not file within the first year after you arrived.  You must be prepared to explain at your interview or hearing why you did not file your asylum application within the first year after you arrived.  For guidance in answering this question, see Instructions, Part 1: Filing Instructions, Section V. \"Completing the Form,\" Part C.",
+        "name": "form1[0].#subform[9].PCL5_TextField[0]",
+        "type": "Text",
+        "FieldMaxLength": 0,
+        "FieldStateOption": [],
+        "value": "",
+        "label_en": "",
+        "label_ru": ""
+    },
+    {
+        "title": "Part. C. 6. Have you or any member of your family included in the application ever committed any crime and or been arrested, charged, convicted, or sentenced for any crimes in the United States (including for an immigration law violation)? Select No",
+        "name": "form1[0].#subform[9].ckboxync6[1]",
+        "type": "Button",
+        "FieldMaxLength": 0,
+        "FieldStateOption": [
+            "N",
+            "Off"
+        ],
+        "value": "Off",
+        "label_en": "",
+        "label_ru": ""
+    },
+    {
+        "title": "Part. C. 6. Have you or any member of your family included in the application ever committed any crime and or been arrested, charged, convicted, or sentenced for any crimes in the United States (including for an immigration law violation)? Select Yes",
+        "name": "form1[0].#subform[9].ckboxync6[0]",
+        "type": "Button",
+        "FieldMaxLength": 0,
+        "FieldStateOption": [
+            "Y",
+            "Off"
+        ],
+        "value": "Off",
+        "label_en": "",
+        "label_ru": ""
+    },
+    {
+        "title": "Part. C. 6. Have you or any member of your family included in the application ever committed any crime and or been arrested, charged, convicted, or sentenced for any crimes in the United States (including for an immigration law violation)?",
+        "name": "form1[0].#subform[9].PCL6_TextField[0]",
+        "type": "Text",
+        "FieldMaxLength": 0,
+        "FieldStateOption": [],
+        "value": "",
+        "label_en": "",
+        "label_ru": ""
+    },
+    {
+        "title": "Supplement. A. Enter Alien Registration Number (A. Number), if available.",
+        "name": "form1[0].#subform[12].PtAILine1_ANumber[1]",
+        "type": "Text",
+        "FieldMaxLength": 0,
+        "FieldStateOption": [],
+        "value": "",
+        "label_en": "",
+        "label_ru": ""
+    },
+    {
+        "title": "Supplement. A. Enter Date. Enter as 2-digit Month, 2-digit Day and 4-digit Year.",
+        "name": "form1[0].#subform[12].DateTimeField57[0]",
+        "type": "Text",
+        "FieldMaxLength": 0,
+        "FieldStateOption": [],
+        "value": "",
+        "label_en": "",
+        "label_ru": ""
+    },
+    {
+        "title": "Supplement. A. Enter Applicant is Name.",
+        "name": "form1[0].#subform[12].ApplicantName[0]",
+        "type": "Text",
+        "FieldMaxLength": 0,
+        "FieldStateOption": [],
+        "value": "",
+        "label_en": "",
+        "label_ru": ""
+    },
+    {
+        "title": "Supplement. A. List All of Your Children, Regardless of Age or Marital Status. (NOTE: Use this form and attach additional pages and documentation as needed, if you have more than four children). 1. Additional Child 1. Enter Alien Registration Number (A. -Number), if any.",
+        "name": "form1[0].#subform[12].TextField12[6]",
+        "type": "Text",
+        "FieldMaxLength": 9,
+        "FieldStateOption": [],
+        "value": "",
+        "label_en": "",
+        "label_ru": ""
+    },
+    {
+        "title": "Supplement. A. List All of Your Children, Regardless of Age or Marital Status. 2. Additional Child 1. Enter Passport\/Identification (I D) Card Number, if any.",
+        "name": "form1[0].#subform[12].TextField12[7]",
+        "type": "Text",
+        "FieldMaxLength": 0,
+        "FieldStateOption": [],
+        "value": "",
+        "label_en": "",
+        "label_ru": ""
+    },
+    {
+        "title": "Supplement. A. List All of Your Children, Regardless of Age or Marital Status. 3. Additional Child 1. Enter Marital Status (Married, Single, Divorced or Widowed.)",
+        "name": "form1[0].#subform[12].TextField12[8]",
+        "type": "Text",
+        "FieldMaxLength": 0,
+        "FieldStateOption": [],
+        "value": "",
+        "label_en": "",
+        "label_ru": ""
+    },
+    {
+        "title": "Supplement. A. List All of Your Children, Regardless of Age or Marital Status.  4. Additional Child 1. Enter U. S. Social Security Number, if any.",
+        "name": "form1[0].#subform[12].TextField12[9]",
+        "type": "Text",
+        "FieldMaxLength": 9,
+        "FieldStateOption": [],
+        "value": "",
+        "label_en": "",
+        "label_ru": ""
+    },
+    {
+        "title": "Supplement. A. List All of Your Children, Regardless of Age or Marital Status. 5. Additional Child 1. Enter Complete Last Name.",
+        "name": "form1[0].#subform[12].TextField12[0]",
+        "type": "Text",
+        "FieldMaxLength": 0,
+        "FieldStateOption": [],
+        "value": "",
+        "label_en": "",
+        "label_ru": ""
+    },
+    {
+        "title": "Supplement. A. List All of Your Children, Regardless of Age or Marital Status. 6. Additional Child 1. Enter First Name.",
+        "name": "form1[0].#subform[12].TextField12[2]",
+        "type": "Text",
+        "FieldMaxLength": 0,
+        "FieldStateOption": [],
+        "value": "",
+        "label_en": "",
+        "label_ru": ""
+    },
+    {
+        "title": "Supplement. A. List All of Your Children, Regardless of Age or Marital Status. 7. Additional Child 1. Enter Middle Name.",
+        "name": "form1[0].#subform[12].TextField12[3]",
+        "type": "Text",
+        "FieldMaxLength": 0,
+        "FieldStateOption": [],
+        "value": "",
+        "label_en": "",
+        "label_ru": ""
+    },
+    {
+        "title": "Supplement. A. List All of Your Children, Regardless of Age or Marital Status. 8. Additional Child 1. Enter Date of Birth as 2-digit Month, 2-digit Day, and 4-digit Year.",
+        "name": "form1[0].#subform[12].DateTimeField14[0]",
+        "type": "Text",
+        "FieldMaxLength": 0,
+        "FieldStateOption": [],
+        "value": "",
+        "label_en": "",
+        "label_ru": ""
+    },
+    {
+        "title": "Supplement. A. List All of Your Children, Regardless of Age or Marital Status. 9. Additional Child 1. Enter City and Country of Birth.",
+        "name": "form1[0].#subform[12].TextField12[1]",
+        "type": "Text",
+        "FieldMaxLength": 0,
+        "FieldStateOption": [],
+        "value": "",
+        "label_en": "",
+        "label_ru": ""
+    },
+    {
+        "title": "Supplement. A. List All of Your Children, Regardless of Age or Marital Status. 10. Additional Child 1. Enter Nationality (Citizenship).",
+        "name": "form1[0].#subform[12].TextField12[4]",
+        "type": "Text",
+        "FieldMaxLength": 0,
+        "FieldStateOption": [],
+        "value": "",
+        "label_en": "",
+        "label_ru": ""
+    },
+    {
+        "title": "Supplement. A. List All of Your Children, Regardless of Age or Marital Status. 11. Additional Child 1. Enter Race, Ethnic or Tribal Group.",
+        "name": "form1[0].#subform[12].TextField12[5]",
+        "type": "Text",
+        "FieldMaxLength": 0,
+        "FieldStateOption": [],
+        "value": "",
+        "label_en": "",
+        "label_ru": ""
+    },
+    {
+        "title": "Supplement. A. List All of Your Children, Regardless of Age or Marital Status. 12. Additional Child 1. Sex. Select Male.",
+        "name": "form1[0].#subform[12].CheckBox12_Sex[2]",
+        "type": "Button",
+        "FieldMaxLength": 0,
+        "FieldStateOption": [
+            "M",
+            "Off"
+        ],
+        "value": "Off",
+        "label_en": "",
+        "label_ru": ""
+    },
+    {
+        "title": "Supplement. A. List All of Your Children, Regardless of Age or Marital Status. 12. Additional Child 1. Sex. Select Female.",
+        "name": "form1[0].#subform[12].CheckBox12_Sex[3]",
+        "type": "Button",
+        "FieldMaxLength": 0,
+        "FieldStateOption": [
+            "F",
+            "Off"
+        ],
+        "value": "Off",
+        "label_en": "",
+        "label_ru": ""
+    },
+    {
+        "title": "Supplement. A. List All of Your Children, Regardless of Age or Marital Status. 13. Additional Child 1. Is this child in the U. S.? Select Yes (Complete Blocks 14 to 21).",
+        "name": "form1[0].#subform[12].CheckBox57[0]",
+        "type": "Button",
+        "FieldMaxLength": 0,
+        "FieldStateOption": [
+            "Y",
+            "Off"
+        ],
+        "value": "Off",
+        "label_en": "",
+        "label_ru": ""
+    },
+    {
+        "title": "Supplement. A. List All of Your Children, Regardless of Age or Marital Status. 13. Additional Child 1. Is this child in the U. S.? Select No (Specify location).",
+        "name": "form1[0].#subform[12].CheckBox57[1]",
+        "type": "Button",
+        "FieldMaxLength": 0,
+        "FieldStateOption": [
+            "N",
+            "Off"
+        ],
+        "value": "Off",
+        "label_en": "",
+        "label_ru": ""
+    },
+    {
+        "title": "Supplement. A. 13. Additional Child 1. Is this child in the U. S.? If No (Specify location), Enter Location.",
+        "name": "form1[0].#subform[12].SuppLALine13_Specify[0]",
+        "type": "Text",
+        "FieldMaxLength": 0,
+        "FieldStateOption": [],
+        "value": "",
+        "label_en": "",
+        "label_ru": ""
+    },
+    {
+        "title": "Supplement. A. List All of Your Children, Regardless of Age or Marital Status. 14. Additional Child 1. If child is in the U.S., Enter Place of Last Entry into the U. S.",
+        "name": "form1[0].#subform[12].ChildEntry5[0]",
+        "type": "Text",
+        "FieldMaxLength": 0,
+        "FieldStateOption": [],
+        "value": "",
+        "label_en": "",
+        "label_ru": ""
+    },
+    {
+        "title": "Supplement. A. List All of Your Children, Regardless of Age or Marital Status. 15. Additional Child 1. If child is in the U.S., Enter Date of Last Entry into the U. S.  as 2-digit Month, 2-digit Day and 4-digit Year.",
+        "name": "form1[0].#subform[12].ChildExp5[0]",
+        "type": "Text",
+        "FieldMaxLength": 0,
+        "FieldStateOption": [],
+        "value": "",
+        "label_en": "",
+        "label_ru": ""
+    },
+    {
+        "title": "Supplement. A. List All of Your Children, Regardless of Age or Marital Status. 16. Additional Child 1. If child is in the U.S., Enter I-94 Number, if any.",
+        "name": "form1[0].#subform[12].ChildINum5[0]",
+        "type": "Text",
+        "FieldMaxLength": 11,
+        "FieldStateOption": [],
+        "value": "",
+        "label_en": "",
+        "label_ru": ""
+    },
+    {
+        "title": "Supplement. A. List All of Your Children, Regardless of Age or Marital Status. 17. Additional Child 1. If child is in the U.S., Enter Status when Last Admitted (Visa type, if any).",
+        "name": "form1[0].#subform[12].ChildStatus5[0]",
+        "type": "Text",
+        "FieldMaxLength": 0,
+        "FieldStateOption": [],
+        "value": "",
+        "label_en": "",
+        "label_ru": ""
+    },
+    {
+        "title": "Supplement. A. List All of Your Children, Regardless of Age or Marital Status. 18. Additional Child 1. If child is in the U.S., Enter Current Status.",
+        "name": "form1[0].#subform[12].ChildCurrent5[0]",
+        "type": "Text",
+        "FieldMaxLength": 0,
+        "FieldStateOption": [],
+        "value": "",
+        "label_en": "",
+        "label_ru": ""
+    },
+    {
+        "title": "Supplement. A. List All of Your Children, Regardless of Age or Marital Status. 19. Additional Child 1. If child is in the U.S., What is the Expiration Date of His\/Her Authorized Stay, if any? Enter Expiration Date as 2-digit Month, 2-digit Day and 4-digit Year.",
+        "name": "form1[0].#subform[12].ChildExpAuth5[0]",
+        "type": "Text",
+        "FieldMaxLength": 0,
+        "FieldStateOption": [],
+        "value": "",
+        "label_en": "",
+        "label_ru": ""
+    },
+    {
+        "title": "Supplement. A. List All of Your Children, Regardless of Age or Marital Status. 20. Additional Child 1. If child is in the U.S.,   Is your child in Immigration Court Proceedings? Select Yes.",
+        "name": "form1[0].#subform[12].SuppA_CheckBox20[0]",
+        "type": "Button",
+        "FieldMaxLength": 0,
+        "FieldStateOption": [
+            "Y",
+            "Off"
+        ],
+        "value": "Off",
+        "label_en": "",
+        "label_ru": ""
+    },
+    {
+        "title": "Supplement. A. List All of Your Children, Regardless of Age or Marital Status. 20. Additional Child 1. If child is in the U.S.,   Is your child in Immigration Court Proceedings? Select No.",
+        "name": "form1[0].#subform[12].SuppA_CheckBox20[1]",
+        "type": "Button",
+        "FieldMaxLength": 0,
+        "FieldStateOption": [
+            "N",
+            "Off"
+        ],
+        "value": "Off",
+        "label_en": "",
+        "label_ru": ""
+    },
+    {
+        "title": "Supplement. A. List All of Your Children, Regardless of Age or Marital Status. 21. Additional Child 1. If in the U. S., is this child to be included in this application? (Check the appropriate box). Select Yes",
+        "name": "form1[0].#subform[12].SuppA_CheckBox21[0]",
+        "type": "Button",
+        "FieldMaxLength": 0,
+        "FieldStateOption": [
+            "Y",
+            "Off"
+        ],
+        "value": "Off",
+        "label_en": "",
+        "label_ru": ""
+    },
+    {
+        "title": "Supplement. A. List All of Your Children, Regardless of Age or Marital Status. 21. Additional Child 1. If in the U. S., is this child to be included in this application? (Check the appropriate box). Select No.",
+        "name": "form1[0].#subform[12].SuppA_CheckBox21[1]",
+        "type": "Button",
+        "FieldMaxLength": 0,
+        "FieldStateOption": [
+            "N",
+            "Off"
+        ],
+        "value": "Off",
+        "label_en": "",
+        "label_ru": ""
+    },
+    {
+        "title": "Supplement. A. List All of Your Children, Regardless of Age or Marital Status. 1. Additional Child 2. Enter Alien Registration Number (A. -Number), if any.",
+        "name": "form1[0].#subform[12].TextField12[16]",
+        "type": "Text",
+        "FieldMaxLength": 9,
+        "FieldStateOption": [],
+        "value": "",
+        "label_en": "",
+        "label_ru": ""
+    },
+    {
+        "title": "Supplement. A. List All of Your Children, Regardless of Age or Marital Status. 2. Additional Child 2. Enter Passport\/Identification (I D) Card Number, if any.",
+        "name": "form1[0].#subform[12].TextField12[17]",
+        "type": "Text",
+        "FieldMaxLength": 0,
+        "FieldStateOption": [],
+        "value": "",
+        "label_en": "",
+        "label_ru": ""
+    },
+    {
+        "title": "Supplement. A. List All of Your Children, Regardless of Age or Marital Status. 3. Additional Child 2. Enter Marital Status (Married, Single, Divorced or Widowed.)",
+        "name": "form1[0].#subform[12].TextField12[18]",
+        "type": "Text",
+        "FieldMaxLength": 0,
+        "FieldStateOption": [],
+        "value": "",
+        "label_en": "",
+        "label_ru": ""
+    },
+    {
+        "title": "Supplement. A. List All of Your Children, Regardless of Age or Marital Status.  4. Additional Child 2. Enter U. S. Social Security Number, if any.",
+        "name": "form1[0].#subform[12].TextField12[19]",
+        "type": "Text",
+        "FieldMaxLength": 9,
+        "FieldStateOption": [],
+        "value": "",
+        "label_en": "",
+        "label_ru": ""
+    },
+    {
+        "title": "Supplement. A. List All of Your Children, Regardless of Age or Marital Status. 5. Additional Child 2. Enter Complete Last Name.",
+        "name": "form1[0].#subform[12].TextField12[10]",
+        "type": "Text",
+        "FieldMaxLength": 0,
+        "FieldStateOption": [],
+        "value": "",
+        "label_en": "",
+        "label_ru": ""
+    },
+    {
+        "title": "Supplement. A. List All of Your Children, Regardless of Age or Marital Status. 6. Additional Child 2. Enter First Name.",
+        "name": "form1[0].#subform[12].TextField12[12]",
+        "type": "Text",
+        "FieldMaxLength": 0,
+        "FieldStateOption": [],
+        "value": "",
+        "label_en": "",
+        "label_ru": ""
+    },
+    {
+        "title": "Supplement. A. List All of Your Children, Regardless of Age or Marital Status. 7. Additional Child 2. Enter Middle Name.",
+        "name": "form1[0].#subform[12].TextField12[13]",
+        "type": "Text",
+        "FieldMaxLength": 0,
+        "FieldStateOption": [],
+        "value": "",
+        "label_en": "",
+        "label_ru": ""
+    },
+    {
+        "title": "Supplement. A. List All of Your Children, Regardless of Age or Marital Status. 8. Additional Child 2. Enter Date of Birth as 2-digit Month, 2-digit Day, and 4-digit Year.",
+        "name": "form1[0].#subform[12].DateTimeField14[1]",
+        "type": "Text",
+        "FieldMaxLength": 0,
+        "FieldStateOption": [],
+        "value": "",
+        "label_en": "",
+        "label_ru": ""
+    },
+    {
+        "title": "Supplement. A. List All of Your Children, Regardless of Age or Marital Status. 9. Additional Child 2. Enter City and Country of Birth.",
+        "name": "form1[0].#subform[12].TextField12[11]",
+        "type": "Text",
+        "FieldMaxLength": 0,
+        "FieldStateOption": [],
+        "value": "",
+        "label_en": "",
+        "label_ru": ""
+    },
+    {
+        "title": "Supplement. A. List All of Your Children, Regardless of Age or Marital Status. 10. Additional Child 2. Enter Nationality (Citizenship).",
+        "name": "form1[0].#subform[12].TextField12[14]",
+        "type": "Text",
+        "FieldMaxLength": 0,
+        "FieldStateOption": [],
+        "value": "",
+        "label_en": "",
+        "label_ru": ""
+    },
+    {
+        "title": "Supplement. A. List All of Your Children, Regardless of Age or Marital Status. 11. Additional Child 2. Enter Race, Ethnic or Tribal Group.",
+        "name": "form1[0].#subform[12].TextField12[15]",
+        "type": "Text",
+        "FieldMaxLength": 0,
+        "FieldStateOption": [],
+        "value": "",
+        "label_en": "",
+        "label_ru": ""
+    },
+    {
+        "title": "Supplement. A. List All of Your Children, Regardless of Age or Marital Status. 12. Additional Child 2. Sex. Select Male.",
+        "name": "form1[0].#subform[12].SuppAL12_CheckBox[0]",
+        "type": "Button",
+        "FieldMaxLength": 0,
+        "FieldStateOption": [
+            "M",
+            "Off"
+        ],
+        "value": "Off",
+        "label_en": "",
+        "label_ru": ""
+    },
+    {
+        "title": "Supplement. A. List All of Your Children, Regardless of Age or Marital Status. 12. Additional Child 2. Sex. Select Female.",
+        "name": "form1[0].#subform[12].SuppAL12_CheckBox[1]",
+        "type": "Button",
+        "FieldMaxLength": 0,
+        "FieldStateOption": [
+            "F",
+            "Off"
+        ],
+        "value": "Off",
+        "label_en": "",
+        "label_ru": ""
+    },
+    {
+        "title": "Supplement. A. List All of Your Children, Regardless of Age or Marital Status. 13. Additional Child 2. Is this child in the U. S.? Select Yes (Complete Blocks 14 to 21).",
+        "name": "form1[0].#subform[12].SuppAL13_CheckBox[0]",
+        "type": "Button",
+        "FieldMaxLength": 0,
+        "FieldStateOption": [
+            "Y",
+            "Off"
+        ],
+        "value": "Off",
+        "label_en": "",
+        "label_ru": ""
+    },
+    {
+        "title": "Supplement. A. List All of Your Children, Regardless of Age or Marital Status. 13. Additional Child 2. Is this child in the U. S.? Select No (Specify location).",
+        "name": "form1[0].#subform[12].SuppAL13_CheckBox[1]",
+        "type": "Button",
+        "FieldMaxLength": 0,
+        "FieldStateOption": [
+            "N",
+            "Off"
+        ],
+        "value": "Off",
+        "label_en": "",
+        "label_ru": ""
+    },
+    {
+        "title": "Supplement. A. 13. Additional Child 2. Is this child in the U. S.? If No (Specify location), Enter Location.",
+        "name": "form1[0].#subform[12].SuppLALine13_Specify2[0]",
+        "type": "Text",
+        "FieldMaxLength": 0,
+        "FieldStateOption": [],
+        "value": "",
+        "label_en": "",
+        "label_ru": ""
+    },
+    {
+        "title": "Supplement. A. List All of Your Children, Regardless of Age or Marital Status. 14. Additional Child 2. If child is in the U.S., Enter Place of Last Entry into the U. S.",
+        "name": "form1[0].#subform[12].ChildEntry6[0]",
+        "type": "Text",
+        "FieldMaxLength": 0,
+        "FieldStateOption": [],
+        "value": "",
+        "label_en": "",
+        "label_ru": ""
+    },
+    {
+        "title": "Supplement. A. List All of Your Children, Regardless of Age or Marital Status. 15. Additional Child 2. If child is in the U.S., Enter Date of Last Entry into the U. S.  as 2-digit Month, 2-digit Day and 4-digit Year.",
+        "name": "form1[0].#subform[12].ChildExp6[0]",
+        "type": "Text",
+        "FieldMaxLength": 0,
+        "FieldStateOption": [],
+        "value": "",
+        "label_en": "",
+        "label_ru": ""
+    },
+    {
+        "title": "Supplement. A. List All of Your Children, Regardless of Age or Marital Status. 16. Additional Child 2. If child is in the U.S., Enter I-94 Number, if any.",
+        "name": "form1[0].#subform[12].ChildINum6[0]",
+        "type": "Text",
+        "FieldMaxLength": 11,
+        "FieldStateOption": [],
+        "value": "",
+        "label_en": "",
+        "label_ru": ""
+    },
+    {
+        "title": "Supplement. A. List All of Your Children, Regardless of Age or Marital Status. 17. Additional Child 2. If child is in the U.S., Enter Status when Last Admitted (Visa type, if any).",
+        "name": "form1[0].#subform[12].ChildStatus6[0]",
+        "type": "Text",
+        "FieldMaxLength": 0,
+        "FieldStateOption": [],
+        "value": "",
+        "label_en": "",
+        "label_ru": ""
+    },
+    {
+        "title": "Supplement. A. List All of Your Children, Regardless of Age or Marital Status. 18. Additional Child 2. If child is in the U.S., Enter Current Status.",
+        "name": "form1[0].#subform[12].ChildCurrent6[0]",
+        "type": "Text",
+        "FieldMaxLength": 0,
+        "FieldStateOption": [],
+        "value": "",
+        "label_en": "",
+        "label_ru": ""
+    },
+    {
+        "title": "Supplement. A. List All of Your Children, Regardless of Age or Marital Status. 19. Additional Child 1. If child is in the U.S., What is the Expiration Date of His\/Her Authorized Stay, if any? Enter Expiration Date as 2-digit Month, 2-digit Day and 4-digit Year.",
+        "name": "form1[0].#subform[12].ChildExpAuth6[0]",
+        "type": "Text",
+        "FieldMaxLength": 0,
+        "FieldStateOption": [],
+        "value": "",
+        "label_en": "",
+        "label_ru": ""
+    },
+    {
+        "title": "Supplement. A. List All of Your Children, Regardless of Age or Marital Status. 20. Additional Child 2. If child is in the U.S.,   Is your child in Immigration Court Proceedings? Select Yes.",
+        "name": "form1[0].#subform[12].SuppALine20_CheckBox2[0]",
+        "type": "Button",
+        "FieldMaxLength": 0,
+        "FieldStateOption": [
+            "Y",
+            "Off"
+        ],
+        "value": "Off",
+        "label_en": "",
+        "label_ru": ""
+    },
+    {
+        "title": "Supplement. A. List All of Your Children, Regardless of Age or Marital Status. 20. Additional Child 1. If child is in the U.S.,   Is your child in Immigration Court Proceedings? Select No.",
+        "name": "form1[0].#subform[12].SuppALine20_CheckBox2[1]",
+        "type": "Button",
+        "FieldMaxLength": 0,
+        "FieldStateOption": [
+            "N",
+            "Off"
+        ],
+        "value": "Off",
+        "label_en": "",
+        "label_ru": ""
+    },
+    {
+        "title": "Supplement. A. List All of Your Children, Regardless of Age or Marital Status. 21. Additional Child 2. If in the U. S., is this child to be included in this application? (Check the appropriate box). Select Yes",
+        "name": "form1[0].#subform[12].SuppALine21_CheckBox[0]",
+        "type": "Button",
+        "FieldMaxLength": 0,
+        "FieldStateOption": [
+            "Y",
+            "Off"
+        ],
+        "value": "Off",
+        "label_en": "",
+        "label_ru": ""
+    },
+    {
+        "title": "Supplement. A. List All of Your Children, Regardless of Age or Marital Status. 21. Additional Child 2. If in the U. S., is this child to be included in this application? (Check the appropriate box). Select No.",
+        "name": "form1[0].#subform[12].SuppALine21_CheckBox[1]",
+        "type": "Button",
+        "FieldMaxLength": 0,
+        "FieldStateOption": [
+            "N",
+            "Off"
+        ],
+        "value": "Off",
+        "label_en": "",
+        "label_ru": ""
+    },
+    {
+        "title": "Supplement B. Additional Information About Your Claim to Asylum. Enter Date. Enter as 2-digit Month, 2-digit Day and 4-digit Year.",
+        "name": "form1[0].#subform[13].DateTimeField58[0]",
+        "type": "Text",
+        "FieldMaxLength": 0,
+        "FieldStateOption": [],
+        "value": "",
+        "label_en": "",
+        "label_ru": ""
+    },
+    {
+        "title": "Supplement B. Additional Information About Your Claim to Asylum. NOTE: use this as a continuation page for any additional information requested. Copy and complete as needed. Enter Part Number. ",
+        "name": "form1[0].#subform[13].TextField31[0]",
+        "type": "Text",
+        "FieldMaxLength": 0,
+        "FieldStateOption": [],
+        "value": "",
+        "label_en": "",
+        "label_ru": ""
+    },
+    {
+        "title": "Supplement B. Additional Information About Your Claim to Asylum. NOTE: use this as a continuation page for any additional information requested. Copy and complete as needed. Enter Question Number.",
+        "name": "form1[0].#subform[13].TextField31[1]",
+        "type": "Text",
+        "FieldMaxLength": 0,
+        "FieldStateOption": [],
+        "value": "",
+        "label_en": "",
+        "label_ru": ""
+    },
+    {
+        "title": "Supplement B. Additional Information About Your Claim to Asylum. NOTE: use this as a continuation page for any additional information requested. Copy and complete as needed. Enter additional Information.",
+        "name": "form1[0].#subform[13].TextField32[0]",
+        "type": "Text",
+        "FieldMaxLength": 0,
+        "FieldStateOption": [],
+        "value": "",
+        "label_en": "",
+        "label_ru": ""
+    }
+]
