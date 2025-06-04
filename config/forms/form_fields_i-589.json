@@ -4,7 +4,10 @@
         "name": "form1[0].#subform[0].CheckBox31[0]",
         "type": "Button",
         "FieldMaxLength": 0,
-        "FieldStateOption": ["1", "Off"],
+        "FieldStateOption": [
+            "1",
+            "Off"
+        ],
         "value": "Off",
         "label_en": "Check this box if you also want to apply for withholding of removal under the Convention Against Torture",
         "label_ru": "Установите этот флажок, если вы также хотите подать заявление об отказе в выдворении в соответствии с Конвенцией против пыток",
@@ -265,7 +268,10 @@
         "name": "form1[0].#subform[0].PartALine9Sex[0]",
         "type": "Button",
         "FieldMaxLength": 0,
-        "FieldStateOption": ["M", "Off"],
+        "FieldStateOption": [
+            "M",
+            "Off"
+        ],
         "value": "Off",
         "sub_section_en": "10. Sex",
         "sub_section_ru": "10. Пол",
@@ -278,7 +284,10 @@
         "name": "form1[0].#subform[0].PartALine9Sex[1]",
         "type": "Button",
         "FieldMaxLength": 0,
-        "FieldStateOption": ["F", "Off"],
+        "FieldStateOption": [
+            "F",
+            "Off"
+        ],
         "value": "Off",
         "label_en": "Female",
         "label_ru": "Женский",
@@ -289,7 +298,10 @@
         "name": "form1[0].#subform[0].Marital[0]",
         "type": "Button",
         "FieldMaxLength": 0,
-        "FieldStateOption": ["S", "Off"],
+        "FieldStateOption": [
+            "S",
+            "Off"
+        ],
         "value": "Off",
         "sub_section_en": "11. Marital Status:",
         "sub_section_ru": "11. Семейное положение:",
@@ -302,7 +314,10 @@
         "name": "form1[0].#subform[0].Marital[1]",
         "type": "Button",
         "FieldMaxLength": 0,
-        "FieldStateOption": ["M", "Off"],
+        "FieldStateOption": [
+            "M",
+            "Off"
+        ],
         "value": "Off",
         "label_en": "Married",
         "label_ru": "Женат",
@@ -313,7 +328,10 @@
         "name": "form1[0].#subform[0].Marital[2]",
         "type": "Button",
         "FieldMaxLength": 0,
-        "FieldStateOption": ["D", "Off"],
+        "FieldStateOption": [
+            "D",
+            "Off"
+        ],
         "value": "Off",
         "label_en": "Divorced",
         "label_ru": "Разведенный",
@@ -324,7 +342,10 @@
         "name": "form1[0].#subform[0].Marital[3]",
         "type": "Button",
         "FieldMaxLength": 0,
-        "FieldStateOption": ["W", "Off"],
+        "FieldStateOption": [
+            "W",
+            "Off"
+        ],
         "value": "Off",
         "label_en": "Widowed",
         "label_ru": "Овдовевший",
@@ -401,7 +422,10 @@
         "name": "form1[0].#subform[0].CheckBox3[0]",
         "type": "Button",
         "FieldMaxLength": 0,
-        "FieldStateOption": ["A", "Off"],
+        "FieldStateOption": [
+            "A",
+            "Off"
+        ],
         "value": "Off",
         "sub_section_en": "18. Check the box, a through c, that applies:",
         "sub_section_ru": "18. Установите соответствующие флажки от а до с.:",
@@ -414,7 +438,10 @@
         "name": "form1[0].#subform[0].CheckBox3[2]",
         "type": "Button",
         "FieldMaxLength": 0,
-        "FieldStateOption": ["B", "Off"],
+        "FieldStateOption": [
+            "B",
+            "Off"
+        ],
         "value": "Off",
         "label_en": "b. I am now in Immigration Court proceedings",
         "label_ru": "b. Сейчас я нахожусь на слушании в иммиграционном суде",
@@ -425,7 +452,10 @@
         "name": "form1[0].#subform[0].CheckBox3[1]",
         "type": "Button",
         "FieldMaxLength": 0,
-        "FieldStateOption": ["C", "Off"],
+        "FieldStateOption": [
+            "C",
+            "Off"
+        ],
         "value": "Off",
         "label_en": "c. I am not now in Immigration Court proceedings, but I have been in the past.",
         "label_ru": "c. Сейчас я не участвую в иммиграционном судебном разбирательстве, но в прошлом участвовал.",
@@ -627,7 +657,10 @@
         "name": "form1[0].#subform[0].CheckBox4[0]",
         "type": "Button",
         "FieldMaxLength": 0,
-        "FieldStateOption": ["Yes", "Off"],
+        "FieldStateOption": [
+            "Yes",
+            "Off"
+        ],
         "value": "Off",
         "sub_section_en": "24. Are you fluent in English?",
         "sub_section_ru": "24. Свободно ли вы владеете английским языком?",
@@ -640,7 +673,10 @@
         "name": "form1[0].#subform[0].CheckBox4[1]",
         "type": "Button",
         "FieldMaxLength": 0,
-        "FieldStateOption": ["No", "Off"],
+        "FieldStateOption": [
+            "No",
+            "Off"
+        ],
         "value": "Off",
         "label_en": "No",
         "label_ru": "Нет",
@@ -662,7 +698,10 @@
         "name": "form1[0].#subform[1].CheckBox5[0]",
         "type": "Button",
         "FieldMaxLength": 0,
-        "FieldStateOption": ["1", "Off"],
+        "FieldStateOption": [
+            "1",
+            "Off"
+        ],
         "value": "Off",
         "section_en": "Part A.II. Information About Your Spouse and Children",
         "section_ru": "Часть A.II. Информация о Вашем супруге(супруге) и детях",
@@ -818,7 +857,10 @@
         "name": "form1[0].#subform[1].NotMarried[0].CheckBox14_Sex[0]",
         "type": "Button",
         "FieldMaxLength": 0,
-        "FieldStateOption": ["M", "Off"],
+        "FieldStateOption": [
+            "M",
+            "Off"
+        ],
         "value": "Off",
         "sub_section_en": "14. Sex",
         "sub_section_ru": "14. Пол",
@@ -831,7 +873,10 @@
         "name": "form1[0].#subform[1].NotMarried[0].CheckBox14_Sex[1]",
         "type": "Button",
         "FieldMaxLength": 0,
-        "FieldStateOption": ["F", "Off"],
+        "FieldStateOption": [
+            "F",
+            "Off"
+        ],
         "value": "Off",
         "label_en": "Female",
         "label_ru": "Женский",
@@ -842,7 +887,10 @@
         "name": "form1[0].#subform[1].NotMarried[0].PtAIILine15_CheckBox15[1]",
         "type": "Button",
         "FieldMaxLength": 0,
-        "FieldStateOption": ["Y", "Off"],
+        "FieldStateOption": [
+            "Y",
+            "Off"
+        ],
         "value": "Off",
         "sub_section_en": "15. Is this person in the U.S.?",
         "sub_section_ru": "15. Находится ли этот человек в США?",
@@ -855,7 +903,10 @@
         "name": "form1[0].#subform[1].NotMarried[0].PtAIILine15_CheckBox15[0]",
         "type": "Button",
         "FieldMaxLength": 0,
-        "FieldStateOption": ["N", "Off"],
+        "FieldStateOption": [
+            "N",
+            "Off"
+        ],
         "value": "Off",
         "label_en": "No",
         "label_ru": "Нет",
@@ -943,7 +994,10 @@
         "name": "form1[0].#subform[1].NotMarried[0].PtAIILine22_Yes[0]",
         "type": "Button",
         "FieldMaxLength": 0,
-        "FieldStateOption": ["Yes", "Off"],
+        "FieldStateOption": [
+            "Yes",
+            "Off"
+        ],
         "value": "Off",
         "sub_section_en": "22. Is your spouse in Immigration Court proceedings?",
         "sub_section_ru": "22. Участвует ли ваш супруг(а) в судебном разбирательстве по иммиграционным делам?",
@@ -956,7 +1010,10 @@
         "name": "form1[0].#subform[1].NotMarried[0].PtAIILine22_No[0]",
         "type": "Button",
         "FieldMaxLength": 0,
-        "FieldStateOption": ["No", "Off"],
+        "FieldStateOption": [
+            "No",
+            "Off"
+        ],
         "value": "Off",
         "label_en": "No",
         "label_ru": "Нет",
@@ -978,7 +1035,10 @@
         "name": "form1[0].#subform[1].NotMarried[0].PtAIILine24_Yes[0]",
         "type": "Button",
         "FieldMaxLength": 0,
-        "FieldStateOption": ["Y", "Off"],
+        "FieldStateOption": [
+            "Y",
+            "Off"
+        ],
         "value": "Off",
         "sub_section_en": "24. If in the U.S., is your spouse to be included in this application? (Check the appropriate box.)",
         "sub_section_ru": "24. Если вы находитесь в США, должен ли ваш супруг(а) быть включен в это заявление? (Поставьте соответствующую галочку).",
@@ -991,7 +1051,10 @@
         "name": "form1[0].#subform[1].NotMarried[0].PtAIILine24_No[0]",
         "type": "Button",
         "FieldMaxLength": 0,
-        "FieldStateOption": ["N", "Off"],
+        "FieldStateOption": [
+            "N",
+            "Off"
+        ],
         "value": "Off",
         "label_en": "No",
         "label_ru": "Нет",
@@ -1002,7 +1065,10 @@
         "name": "form1[0].#subform[1].ChildrenCheckbox[1]",
         "type": "Button",
         "FieldMaxLength": 0,
-        "FieldStateOption": ["Y", "Off"],
+        "FieldStateOption": [
+            "Y",
+            "Off"
+        ],
         "value": "Off",
         "sub_section_en": "Your Children. List all of your children, regardless of age, location, or marital status.",
         "sub_section_ru": "Ваши дети. Перечислите всех своих детей, независимо от возраста, местонахождения или семейного положения.",
@@ -1015,7 +1081,10 @@
         "name": "form1[0].#subform[1].ChildrenCheckbox[0]",
         "type": "Button",
         "FieldMaxLength": 0,
-        "FieldStateOption": ["N", "Off"],
+        "FieldStateOption": [
+            "N",
+            "Off"
+        ],
         "value": "Off",
         "label_en": "I have children. Total number of children:",
         "label_ru": "У меня есть дети. Общее количество детей:",
@@ -1149,7 +1218,10 @@
         "name": "form1[0].#subform[1].CheckBox12_Sex[0]",
         "type": "Button",
         "FieldMaxLength": 0,
-        "FieldStateOption": ["1", "Off"],
+        "FieldStateOption": [
+            "1",
+            "Off"
+        ],
         "value": "Off",
         "sub_section_en": "12. Sex",
         "sub_section_ru": "12. Пол",
@@ -1162,7 +1234,10 @@
         "name": "form1[0].#subform[1].CheckBox12_Sex[1]",
         "type": "Button",
         "FieldMaxLength": 0,
-        "FieldStateOption": ["2", "Off"],
+        "FieldStateOption": [
+            "2",
+            "Off"
+        ],
         "value": "Off",
         "label_en": "Femail",
         "label_ru": "Женский",
@@ -1173,7 +1248,10 @@
         "name": "form1[0].#subform[1].CheckBox17[0]",
         "type": "Button",
         "FieldMaxLength": 0,
-        "FieldStateOption": ["Y", "Off"],
+        "FieldStateOption": [
+            "Y",
+            "Off"
+        ],
         "value": "Off",
         "sub_section_en": "13. Is this child in the U.S. ?",
         "sub_section_ru": "13. Находится ли этот ребенок в США?",
@@ -1186,7 +1264,10 @@
         "name": "form1[0].#subform[1].CheckBox17[1]",
         "type": "Button",
         "FieldMaxLength": 0,
-        "FieldStateOption": ["N", "Off"],
+        "FieldStateOption": [
+            "N",
+            "Off"
+        ],
         "value": "Off",
         "label_en": "No",
         "label_ru": "Нет",
@@ -1274,7 +1355,10 @@
         "name": "form1[0].#subform[1].PtAIILine20_Yes[0]",
         "type": "Button",
         "FieldMaxLength": 0,
-        "FieldStateOption": ["Yes", "Off"],
+        "FieldStateOption": [
+            "Yes",
+            "Off"
+        ],
         "value": "Off",
         "sub_section_en": "20. Is your child in Immigration Court proceedings?",
         "sub_section_ru": "20. Находится ли ваш ребенок на рассмотрении в иммиграционном суде?",
@@ -1287,7 +1371,10 @@
         "name": "form1[0].#subform[1].PtAIILine20_No[0]",
         "type": "Button",
         "FieldMaxLength": 0,
-        "FieldStateOption": ["No", "Off"],
+        "FieldStateOption": [
+            "No",
+            "Off"
+        ],
         "value": "Off",
         "label_en": "No",
         "label_ru": "Нет",
@@ -1298,7 +1385,10 @@
         "name": "form1[0].#subform[1].PtAIILine21_Yes[0]",
         "type": "Button",
         "FieldMaxLength": 0,
-        "FieldStateOption": ["Y", "Off"],
+        "FieldStateOption": [
+            "Y",
+            "Off"
+        ],
         "value": "Off",
         "sub_section_en": "21. If in the U.S., is this child to be included in this application? (Check the appropriate box.)",
         "sub_section_ru": "21. Если этот ребенок находится в США, должен ли он быть включен в это заявление? (Поставьте соответствующую галочку).",
@@ -1311,7 +1401,10 @@
         "name": "form1[0].#subform[1].PtAIILine21_No[0]",
         "type": "Button",
         "FieldMaxLength": 0,
-        "FieldStateOption": ["N", "Off"],
+        "FieldStateOption": [
+            "N",
+            "Off"
+        ],
         "value": "Off",
         "label_en": "No",
         "label_ru": "Нет",
@@ -1443,7 +1536,10 @@
         "name": "form1[0].#subform[3].CheckBox26_Sex[0]",
         "type": "Button",
         "FieldMaxLength": 0,
-        "FieldStateOption": ["M", "Off"],
+        "FieldStateOption": [
+            "M",
+            "Off"
+        ],
         "value": "Off",
         "sub_section_en": "12. Sex",
         "sub_section_ru": "12. Пол",
@@ -1456,7 +1552,10 @@
         "name": "form1[0].#subform[3].CheckBox26_Sex[1]",
         "type": "Button",
         "FieldMaxLength": 0,
-        "FieldStateOption": ["F", "Off"],
+        "FieldStateOption": [
+            "F",
+            "Off"
+        ],
         "value": "Off",
         "label_en": "Femail",
         "label_ru": "Женский",
@@ -1467,7 +1566,10 @@
         "name": "form1[0].#subform[3].CheckBox27[0]",
         "type": "Button",
         "FieldMaxLength": 0,
-        "FieldStateOption": ["Y", "Off"],
+        "FieldStateOption": [
+            "Y",
+            "Off"
+        ],
         "value": "Off",
         "sub_section_en": "13. Is this child in the U.S. ?",
         "sub_section_ru": "13. Находится ли этот ребенок в США?",
@@ -1480,7 +1582,10 @@
         "name": "form1[0].#subform[3].CheckBox27[1]",
         "type": "Button",
         "FieldMaxLength": 0,
-        "FieldStateOption": ["N", "Off"],
+        "FieldStateOption": [
+            "N",
+            "Off"
+        ],
         "value": "Off",
         "label_en": "No",
         "label_ru": "Нет",
@@ -1568,7 +1673,10 @@
         "name": "form1[0].#subform[3].PtAIILine20_Yes2[0]",
         "type": "Button",
         "FieldMaxLength": 0,
-        "FieldStateOption": ["Y", "Off"],
+        "FieldStateOption": [
+            "Y",
+            "Off"
+        ],
         "value": "Off",
         "sub_section_en": "20. Is your child in Immigration Court proceedings?",
         "sub_section_ru": "20. Находится ли ваш ребенок на рассмотрении в иммиграционном суде?",
@@ -1581,7 +1689,10 @@
         "name": "form1[0].#subform[3].PtAIILine20_No2[0]",
         "type": "Button",
         "FieldMaxLength": 0,
-        "FieldStateOption": ["N", "Off"],
+        "FieldStateOption": [
+            "N",
+            "Off"
+        ],
         "value": "Off",
         "label_en": "No",
         "label_ru": "Нет",
@@ -1592,7 +1703,10 @@
         "name": "form1[0].#subform[3].PtAIILine21_Yes2[0]",
         "type": "Button",
         "FieldMaxLength": 0,
-        "FieldStateOption": ["Y", "Off"],
+        "FieldStateOption": [
+            "Y",
+            "Off"
+        ],
         "value": "Off",
         "sub_section_en": "21. If in the U.S., is this child to be included in this application? (Check the appropriate box.)",
         "sub_section_ru": "21. Если этот ребенок находится в США, должен ли он быть включен в это заявление? (Поставьте соответствующую галочку).",
@@ -1605,7 +1719,10 @@
         "name": "form1[0].#subform[3].PtAIILine21_No2[0]",
         "type": "Button",
         "FieldMaxLength": 0,
-        "FieldStateOption": ["N", "Off"],
+        "FieldStateOption": [
+            "N",
+            "Off"
+        ],
         "value": "Off",
         "label_en": "No",
         "label_ru": "Нет",
@@ -1737,7 +1854,10 @@
         "name": "form1[0].#subform[3].CheckBox36_Sex[0]",
         "type": "Button",
         "FieldMaxLength": 0,
-        "FieldStateOption": ["M", "Off"],
+        "FieldStateOption": [
+            "M",
+            "Off"
+        ],
         "value": "Off",
         "sub_section_en": "12. Sex",
         "sub_section_ru": "12. Пол",
@@ -1750,7 +1870,10 @@
         "name": "form1[0].#subform[3].CheckBox36_Sex[1]",
         "type": "Button",
         "FieldMaxLength": 0,
-        "FieldStateOption": ["F", "Off"],
+        "FieldStateOption": [
+            "F",
+            "Off"
+        ],
         "value": "Off",
         "label_en": "Femail",
         "label_ru": "Женский",
@@ -1761,7 +1884,10 @@
         "name": "form1[0].#subform[3].CheckBox37[0]",
         "type": "Button",
         "FieldMaxLength": 0,
-        "FieldStateOption": ["Y", "Off"],
+        "FieldStateOption": [
+            "Y",
+            "Off"
+        ],
         "value": "Off",
         "sub_section_en": "13. Is this child in the U.S. ?",
         "sub_section_ru": "13. Находится ли этот ребенок в США?",
@@ -1774,7 +1900,10 @@
         "name": "form1[0].#subform[3].CheckBox37[1]",
         "type": "Button",
         "FieldMaxLength": 0,
-        "FieldStateOption": ["N", "Off"],
+        "FieldStateOption": [
+            "N",
+            "Off"
+        ],
         "value": "Off",
         "label_en": "No",
         "label_ru": "Нет",
@@ -1862,7 +1991,10 @@
         "name": "form1[0].#subform[3].PtAIILine20_Yes3[0]",
         "type": "Button",
         "FieldMaxLength": 0,
-        "FieldStateOption": ["Y", "Off"],
+        "FieldStateOption": [
+            "Y",
+            "Off"
+        ],
         "value": "Off",
         "sub_section_en": "20. Is your child in Immigration Court proceedings?",
         "sub_section_ru": "20. Находится ли ваш ребенок на рассмотрении в иммиграционном суде?",
@@ -1875,7 +2007,10 @@
         "name": "form1[0].#subform[3].PtAIILine20_No3[0]",
         "type": "Button",
         "FieldMaxLength": 0,
-        "FieldStateOption": ["N", "Off"],
+        "FieldStateOption": [
+            "N",
+            "Off"
+        ],
         "value": "Off",
         "label_en": "No",
         "label_ru": "Нет",
@@ -1886,7 +2021,10 @@
         "name": "form1[0].#subform[3].PtAIILine21_Yes3[0]",
         "type": "Button",
         "FieldMaxLength": 0,
-        "FieldStateOption": ["Y", "Off"],
+        "FieldStateOption": [
+            "Y",
+            "Off"
+        ],
         "value": "Off",
         "sub_section_en": "21. If in the U.S., is this child to be included in this application? (Check the appropriate box.)",
         "sub_section_ru": "21. Если этот ребенок находится в США, должен ли он быть включен в это заявление? (Поставьте соответствующую галочку).",
@@ -1899,7 +2037,10 @@
         "name": "form1[0].#subform[3].PtAIILine21_No3[0]",
         "type": "Button",
         "FieldMaxLength": 0,
-        "FieldStateOption": ["N", "Off"],
+        "FieldStateOption": [
+            "N",
+            "Off"
+        ],
         "value": "Off",
         "label_en": "No",
         "label_ru": "Нет",
@@ -2031,7 +2172,10 @@
         "name": "form1[0].#subform[3].CheckBox46_Sex[0]",
         "type": "Button",
         "FieldMaxLength": 0,
-        "FieldStateOption": ["M", "Off"],
+        "FieldStateOption": [
+            "M",
+            "Off"
+        ],
         "value": "Off",
         "sub_section_en": "12. Sex",
         "sub_section_ru": "12. Пол",
@@ -2044,7 +2188,10 @@
         "name": "form1[0].#subform[3].CheckBox46_Sex[1]",
         "type": "Button",
         "FieldMaxLength": 0,
-        "FieldStateOption": ["F", "Off"],
+        "FieldStateOption": [
+            "F",
+            "Off"
+        ],
         "value": "Off",
         "label_en": "Femail",
         "label_ru": "Женский",
@@ -2055,7 +2202,10 @@
         "name": "form1[0].#subform[3].CheckBox47[0]",
         "type": "Button",
         "FieldMaxLength": 0,
-        "FieldStateOption": ["Y", "Off"],
+        "FieldStateOption": [
+            "Y",
+            "Off"
+        ],
         "value": "Off",
         "sub_section_en": "13. Is this child in the U.S. ?",
         "sub_section_ru": "13. Находится ли этот ребенок в США?",
@@ -2068,7 +2218,10 @@
         "name": "form1[0].#subform[3].CheckBox47[1]",
         "type": "Button",
         "FieldMaxLength": 0,
-        "FieldStateOption": ["N", "Off"],
+        "FieldStateOption": [
+            "N",
+            "Off"
+        ],
         "value": "Off",
         "label_en": "No",
         "label_ru": "Нет",
@@ -2156,7 +2309,10 @@
         "name": "form1[0].#subform[3].PtAIILine20_Yes4[0]",
         "type": "Button",
         "FieldMaxLength": 0,
-        "FieldStateOption": ["Y", "Off"],
+        "FieldStateOption": [
+            "Y",
+            "Off"
+        ],
         "value": "Off",
         "sub_section_en": "20. Is your child in Immigration Court proceedings?",
         "sub_section_ru": "20. Находится ли ваш ребенок на рассмотрении в иммиграционном суде?",
@@ -2169,7 +2325,10 @@
         "name": "form1[0].#subform[3].PtAIILine20_No4[0]",
         "type": "Button",
         "FieldMaxLength": 0,
-        "FieldStateOption": ["N", "Off"],
+        "FieldStateOption": [
+            "N",
+            "Off"
+        ],
         "value": "Off",
         "label_en": "No",
         "label_ru": "Нет",
@@ -2180,7 +2339,10 @@
         "name": "form1[0].#subform[3].PtAIILine21_Yes4[0]",
         "type": "Button",
         "FieldMaxLength": 0,
-        "FieldStateOption": ["Y", "Off"],
+        "FieldStateOption": [
+            "Y",
+            "Off"
+        ],
         "value": "Off",
         "sub_section_en": "21. If in the U.S., is this child to be included in this application? (Check the appropriate box.)",
         "sub_section_ru": "21. Если этот ребенок находится в США, должен ли он быть включен в это заявление? (Поставьте соответствующую галочку).",
@@ -2193,7 +2355,10 @@
         "name": "form1[0].#subform[3].PtAIILine21_No4[0]",
         "type": "Button",
         "FieldMaxLength": 0,
-        "FieldStateOption": ["N", "Off"],
+        "FieldStateOption": [
+            "N",
+            "Off"
+        ],
         "value": "Off",
         "label_en": "No",
         "label_ru": "Нет",
@@ -3080,7 +3245,10 @@
         "name": "form1[0].#subform[4].CheckBoxAIII5\\.m[0]",
         "type": "Button",
         "FieldMaxLength": 0,
-        "FieldStateOption": ["1", "Off"],
+        "FieldStateOption": [
+            "1",
+            "Off"
+        ],
         "value": "Off",
         "sub_section_en": "Current Location",
         "sub_section_ru": "Текущее местоположение",
@@ -3126,7 +3294,10 @@
         "name": "form1[0].#subform[4].CheckBoxAIII5\\.f[0]",
         "type": "Button",
         "FieldMaxLength": 0,
-        "FieldStateOption": ["1", "Off"],
+        "FieldStateOption": [
+            "1",
+            "Off"
+        ],
         "value": "Off",
         "sub_section_en": "Current Location",
         "sub_section_ru": "Текущее местоположение",
@@ -3172,7 +3343,10 @@
         "name": "form1[0].#subform[4].CheckBoxAIII5\\.s1[0]",
         "type": "Button",
         "FieldMaxLength": 0,
-        "FieldStateOption": ["1", "Off"],
+        "FieldStateOption": [
+            "1",
+            "Off"
+        ],
         "value": "Off",
         "sub_section_en": "Current Location",
         "sub_section_ru": "Текущее местоположение",
@@ -3218,7 +3392,10 @@
         "name": "form1[0].#subform[4].CheckBoxAIII5\\.s2[0]",
         "type": "Button",
         "FieldMaxLength": 0,
-        "FieldStateOption": ["1", "Off"],
+        "FieldStateOption": [
+            "1",
+            "Off"
+        ],
         "value": "Off",
         "sub_section_en": "Current Location",
         "sub_section_ru": "Текущее местоположение",
@@ -3264,7 +3441,10 @@
         "name": "form1[0].#subform[4].CheckBoxAIII5\\.s3[0]",
         "type": "Button",
         "FieldMaxLength": 0,
-        "FieldStateOption": ["1", "Off"],
+        "FieldStateOption": [
+            "1",
+            "Off"
+        ],
         "value": "Off",
         "sub_section_en": "Current Location",
         "sub_section_ru": "Текущее местоположение",
@@ -3310,7 +3490,10 @@
         "name": "form1[0].#subform[4].CheckBoxAIII5\\.s4[0]",
         "type": "Button",
         "FieldMaxLength": 0,
-        "FieldStateOption": ["1", "Off"],
+        "FieldStateOption": [
+            "1",
+            "Off"
+        ],
         "value": "Off",
         "sub_section_en": "Current Location",
         "sub_section_ru": "Текущее местоположение",
@@ -3334,10 +3517,19 @@
         "name": "form1[0].#subform[5].#subform[6].CheckBoxrace[0]",
         "type": "Button",
         "FieldMaxLength": 0,
-        "FieldStateOption": ["Y", "Off"],
+        "FieldStateOption": [
+            "Y",
+            "Off"
+        ],
         "value": "Off",
-        "label_en": "",
-        "label_ru": "",
+        "section_en": "Part B. Information About Your Application",
+        "section_ru": "Часть B. Информация О Вашей Заявке",
+        "sub_section_en": "1. Why are you applying for asylum or withholding of removal under section 241(b)(3) of the INA, or for withholding of removal under the Convention Against Torture? Check the appropriate box(es) below and then provide detailed answers to questions A and B below. I am seeking asylum or withholding of removal based on:",
+        "sub_section_ru": "1. Почему вы ходатайствуете о предоставлении убежища или об отказе в выдворении в соответствии с разделом 241(b)(3) ЗИН или об отказе в выдворении в соответствии с Конвенцией против пыток? Отметьте соответствующие поля ниже, а затем предоставьте подробные ответы на вопросы A и B ниже. Я прошу убежища или отказа в выдворении на основании:",
+        "note_en": "(NOTE: Use Form I-589 Supplement B, or attach additional sheets of paper as needed to complete your responses to the questions contained in Part B.) When answering the following questions about your asylum or other protection claim (withholding of removal under 241(b)(3) of the INA or ithholding of removal under the Convention Against Torture), you must provide a detailed and specific account of the basis of your claim to asylum or other protection. To the best of your ability, provide specific dates, places, and descriptions about each event or action described. You must attach documents evidencing the general conditions in the country from which you are seeking asylum or other protection and the specific facts on which you are relying to support your claim. If this documentation is unavailable or you are not providing this documentation with your application, explain why in your responses to the following questions. Refer to Instructions, Part 1: Filing Instructions, Section II, 'Basis of Eligibility,' Parts A - D, Section V, Completing the Form,' Part B, and Section VII, 'Additional Evidence That You Should Submit,' for more information on completing this section of the form.",
+        "note_ru": "(ПРИМЕЧАНИЕ: Используйте форму I-589, дополнение B, или приложите дополнительные листы бумаги, необходимые для заполнения ваших ответов на вопросы, содержащиеся в части B.) При ответе на следующие вопросы о вашем ходатайстве о предоставлении убежища или другой защите (отказ в выдворении в соответствии со статьей 241(b)(3) Закона о защите прав человека и основных свобод). выдворения в соответствии с Конвенцией против пыток), вы должны предоставить подробный и конкретный отчет об основаниях вашего ходатайства о предоставлении убежища или иной защиты. Насколько это в ваших силах, укажите конкретные даты, места и описания каждого описываемого события или действия. Вы должны приложить документы, подтверждающие общие условия в стране, в которой вы просите убежища или иной защиты, и конкретные факты, на которые вы опираетесь в обоснование своего заявления. Если эта документация недоступна или вы не предоставляете ее вместе с заявлением, объясните почему в своих ответах на следующие вопросы. Для получения дополнительной информации о заполнении этого раздела формы обратитесь к Инструкциям, Часть 1: Инструкции по подаче документов, Раздел II 'Основания для получения права на участие', Части A - D, Раздел V 'Заполнение формы', часть B и раздел VII 'Дополнительные доказательства, которые вы должны предоставить'.",
+        "label_en": "Race",
+        "label_ru": "Гонка",
         "id": 292
     },
     {
@@ -3345,10 +3537,13 @@
         "name": "form1[0].#subform[5].#subform[6].CheckBoxpolitics[0]",
         "type": "Button",
         "FieldMaxLength": 0,
-        "FieldStateOption": ["Y", "Off"],
+        "FieldStateOption": [
+            "Y",
+            "Off"
+        ],
         "value": "Off",
-        "label_en": "",
-        "label_ru": "",
+        "label_en": "Political opinion",
+        "label_ru": "Политическое мнение",
         "id": 293
     },
     {
@@ -3356,10 +3551,13 @@
         "name": "form1[0].#subform[5].#subform[6].CheckBoxreligion[0]",
         "type": "Button",
         "FieldMaxLength": 0,
-        "FieldStateOption": ["Y", "Off"],
+        "FieldStateOption": [
+            "Y",
+            "Off"
+        ],
         "value": "Off",
-        "label_en": "",
-        "label_ru": "",
+        "label_en": "Religion",
+        "label_ru": "Религия",
         "id": 294
     },
     {
@@ -3367,10 +3565,13 @@
         "name": "form1[0].#subform[5].#subform[6].CheckBoxsocial[0]",
         "type": "Button",
         "FieldMaxLength": 0,
-        "FieldStateOption": ["Y", "Off"],
+        "FieldStateOption": [
+            "Y",
+            "Off"
+        ],
         "value": "Off",
-        "label_en": "",
-        "label_ru": "",
+        "label_en": "Membership in a particular social group",
+        "label_ru": "Принадлежность к определенной социальной группе",
         "id": 295
     },
     {
@@ -3378,10 +3579,13 @@
         "name": "form1[0].#subform[5].#subform[6].CheckBoxnationality[0]",
         "type": "Button",
         "FieldMaxLength": 0,
-        "FieldStateOption": ["Y", "Off"],
+        "FieldStateOption": [
+            "Y",
+            "Off"
+        ],
         "value": "Off",
-        "label_en": "",
-        "label_ru": "",
+        "label_en": "Nationality",
+        "label_ru": "Национальность",
         "id": 296
     },
     {
@@ -3389,10 +3593,13 @@
         "name": "form1[0].#subform[5].#subform[6].CheckBoxtorture[0]",
         "type": "Button",
         "FieldMaxLength": 0,
-        "FieldStateOption": ["Y", "Off"],
+        "FieldStateOption": [
+            "Y",
+            "Off"
+        ],
         "value": "Off",
-        "label_en": "",
-        "label_ru": "",
+        "label_en": "Torture Convention",
+        "label_ru": "Конвенция о борьбе с пытками",
         "id": 297
     },
     {
@@ -3400,10 +3607,15 @@
         "name": "form1[0].#subform[5].#subform[6].ckboxyn1a[1]",
         "type": "Button",
         "FieldMaxLength": 0,
-        "FieldStateOption": ["N", "Off"],
+        "FieldStateOption": [
+            "N",
+            "Off"
+        ],
         "value": "Off",
-        "label_en": "",
-        "label_ru": "",
+        "sub_section_en": "A. Have you, your family, or close friends or colleagues ever experienced harm or mistreatment or threats in the past by anyone?",
+        "sub_section_ru": "A. Сталкивались ли вы, ваша семья, близкие друзья или коллеги когда-либо в прошлом с причинением вреда, жестоким обращением или угрозами со стороны кого-либо?",
+        "label_en": "No",
+        "label_ru": "Нет",
         "id": 298
     },
     {
@@ -3411,10 +3623,13 @@
         "name": "form1[0].#subform[5].#subform[6].ckboxyn1a[0]",
         "type": "Button",
         "FieldMaxLength": 0,
-        "FieldStateOption": ["Y", "Off"],
+        "FieldStateOption": [
+            "Y",
+            "Off"
+        ],
         "value": "Off",
-        "label_en": "",
-        "label_ru": "",
+        "label_en": "Yes",
+        "label_ru": "Да",
         "id": 299
     },
     {
@@ -3424,8 +3639,8 @@
         "FieldMaxLength": 0,
         "FieldStateOption": [],
         "value": "",
-        "label_en": "",
-        "label_ru": "",
+        "label_en": "If 'Yes,' explain in detail: 1. What happened; 2. When the harm or mistreatment or threats occurred; 3. Who caused the harm or mistreatment or threats; and 4. Why you believe the harm or mistreatment or threats occurred.",
+        "label_ru": "Если 'Да', подробно объясните: 1. Что произошло; 2. Когда был причинен вред, плохое обращение или угрозы; 3. Кто причинил вред, плохое обращение или угрозы; и 4. Почему, по вашему мнению, произошел вред, плохое обращение или угрозы.",
         "id": 300
     },
     {
@@ -3433,10 +3648,15 @@
         "name": "form1[0].#subform[5].#subform[6].ckboxyn1b[1]",
         "type": "Button",
         "FieldMaxLength": 0,
-        "FieldStateOption": ["N", "Off"],
+        "FieldStateOption": [
+            "N",
+            "Off"
+        ],
         "value": "Off",
-        "label_en": "",
-        "label_ru": "",
+        "sub_section_en": "B. Do you fear harm or mistreatment if you return to your home country?",
+        "sub_section_ru": "B. Опасаетесь ли вы причинения вреда или жестокого обращения, если вернетесь на родину?",
+        "label_en": "No",
+        "label_ru": "Нет",
         "id": 301
     },
     {
@@ -3444,10 +3664,13 @@
         "name": "form1[0].#subform[5].#subform[6].ckboxyn1b[0]",
         "type": "Button",
         "FieldMaxLength": 0,
-        "FieldStateOption": ["Y", "Off"],
+        "FieldStateOption": [
+            "Y",
+            "Off"
+        ],
         "value": "Off",
-        "label_en": "",
-        "label_ru": "",
+        "label_en": "Yes",
+        "label_ru": "Да",
         "id": 302
     },
     {
@@ -3457,8 +3680,8 @@
         "FieldMaxLength": 0,
         "FieldStateOption": [],
         "value": "",
-        "label_en": "",
-        "label_ru": "",
+        "label_en": "If 'Yes,' explain in detail: 1. What harm or mistreatment you fear; 2. Who you believe would harm or mistreat you; and 3. Why you believe you would or could be harmed or mistreated.",
+        "label_ru": "Если 'Да', подробно объясните: 1. Какого вреда или плохого обращения вы опасаетесь; 2. Кто, по вашему мнению, может причинить вам вред или плохо с вами обращаться; и 3. Почему вы считаете, что вам могут причинить вред или плохо с вами обойдутся.",
         "id": 303
     },
     {
@@ -3466,10 +3689,17 @@
         "name": "form1[0].#subform[7].ckboxyn2[1]",
         "type": "Button",
         "FieldMaxLength": 0,
-        "FieldStateOption": ["N", "Off"],
+        "FieldStateOption": [
+            "N",
+            "Off"
+        ],
         "value": "Off",
-        "label_en": "",
-        "label_ru": "",
+        "section_en": "Part B. Information About Your Application (continued)",
+        "section_ru": "Часть B. Информация О Вашей Заявке (продолжение)",
+        "sub_section_en": "2. Have you or your family members ever been accused, charged, arrested, detained, interrogated, convicted and sentenced, or imprisoned in any country other than the United States (including for an immigration law violation)?",
+        "sub_section_ru": "2. Обвинялись ли вы или члены вашей семьи когда-либо, в том числе за нарушение иммиграционного законодательства, в какой-либо другой стране, кроме Соединенных Штатов (в том числе за нарушение иммиграционного законодательства)?",
+        "label_en": "No",
+        "label_ru": "Нет",
         "id": 304
     },
     {
@@ -3477,10 +3707,13 @@
         "name": "form1[0].#subform[7].ckboxyn2[0]",
         "type": "Button",
         "FieldMaxLength": 0,
-        "FieldStateOption": ["Y", "Off"],
+        "FieldStateOption": [
+            "Y",
+            "Off"
+        ],
         "value": "Off",
-        "label_en": "",
-        "label_ru": "",
+        "label_en": "Yes",
+        "label_ru": "Да",
         "id": 305
     },
     {
@@ -3490,8 +3723,8 @@
         "FieldMaxLength": 0,
         "FieldStateOption": [],
         "value": "",
-        "label_en": "",
-        "label_ru": "",
+        "label_en": "If 'Yes,' explain the circumstances and reasons for the action.",
+        "label_ru": "Если 'Да', объясните обстоятельства и причины такого действия.",
         "id": 306
     },
     {
@@ -3499,10 +3732,15 @@
         "name": "form1[0].#subform[7].ckboxyn3a[1]",
         "type": "Button",
         "FieldMaxLength": 0,
-        "FieldStateOption": ["N", "Off"],
+        "FieldStateOption": [
+            "N",
+            "Off"
+        ],
         "value": "Off",
-        "label_en": "",
-        "label_ru": "",
+        "sub_section_en": "3.A. Have you or your family members ever belonged to or been associated with any organizations or groups in your home country, such as, but not limited to, a political party, student group, labor union, religious organization, military or paramilitary group, civil patrol, guerrilla organization, ethnic group, human rights group, or the press or media?",
+        "sub_section_ru": "3.A. Принадлежали ли вы или члены вашей семьи когда-либо к каким-либо организациям или группам в вашей родной стране или были ли они связаны с ними, например, с политической партией, студенческой группой, профсоюзом, религиозной организацией, военной или военизированной группой, гражданским патрулем, партизанской организацией, этнической группой, но не ограничиваясь этим, правозащитная группа или пресса или средства массовой информации?",
+        "label_en": "No",
+        "label_ru": "Нет",
         "id": 307
     },
     {
@@ -3510,10 +3748,13 @@
         "name": "form1[0].#subform[7].ckboxyn3a[0]",
         "type": "Button",
         "FieldMaxLength": 0,
-        "FieldStateOption": ["Y", "Off"],
+        "FieldStateOption": [
+            "Y",
+            "Off"
+        ],
         "value": "Off",
-        "label_en": "",
-        "label_ru": "",
+        "label_en": "Yes",
+        "label_ru": "Да",
         "id": 308
     },
     {
@@ -3523,8 +3764,8 @@
         "FieldMaxLength": 0,
         "FieldStateOption": [],
         "value": "",
-        "label_en": "",
-        "label_ru": "",
+        "label_en": "If 'Yes,' describe for each person the level of participation, any leadership or other positions held, and the length of time you or your family members were involved in each organization or activity.",
+        "label_ru": "Если 'Да', опишите уровень участия каждого человека, какие руководящие или иные должности он занимал, а также продолжительность времени, в течение которого вы или члены вашей семьи были вовлечены в каждую организацию или деятельность.",
         "id": 309
     },
     {
@@ -3532,10 +3773,15 @@
         "name": "form1[0].#subform[7].ckboxyn3b[1]",
         "type": "Button",
         "FieldMaxLength": 0,
-        "FieldStateOption": ["N", "Off"],
+        "FieldStateOption": [
+            "N",
+            "Off"
+        ],
         "value": "Off",
-        "label_en": "",
-        "label_ru": "",
+        "sub_section_en": "3.B. Do you or your family members continue to participate in any way in these organizations or groups?",
+        "sub_section_ru": "3.B. Продолжаете ли вы или члены вашей семьи каким-либо образом участвовать в этих организациях или группах?",
+        "label_en": "No",
+        "label_ru": "Нет",
         "id": 310
     },
     {
@@ -3543,10 +3789,13 @@
         "name": "form1[0].#subform[7].ckboxyn3b[0]",
         "type": "Button",
         "FieldMaxLength": 0,
-        "FieldStateOption": ["Y", "Off"],
+        "FieldStateOption": [
+            "Y",
+            "Off"
+        ],
         "value": "Off",
-        "label_en": "",
-        "label_ru": "",
+        "label_en": "Yes",
+        "label_ru": "Да",
         "id": 311
     },
     {
@@ -3556,8 +3805,8 @@
         "FieldMaxLength": 0,
         "FieldStateOption": [],
         "value": "",
-        "label_en": "",
-        "label_ru": "",
+        "label_en": "If 'Yes,' describe for each person your or your family members' current level of participation, any leadership or other positions currently held, and the length of time you or your family members have been involved in each organization or group.",
+        "label_ru": "Если 'Да', опишите для каждого человека текущий уровень участия, который вы или члены вашей семьи занимаете в настоящее время, любые руководящие или другие должности, а также продолжительность работы, которую вы или члены вашей семьи занимаете в каждой организации или группе.",
         "id": 312
     },
     {
@@ -3565,10 +3814,15 @@
         "name": "form1[0].#subform[7].ckboxyn4[1]",
         "type": "Button",
         "FieldMaxLength": 0,
-        "FieldStateOption": ["N", "Off"],
+        "FieldStateOption": [
+            "N",
+            "Off"
+        ],
         "value": "Off",
-        "label_en": "",
-        "label_ru": "",
+        "sub_section_en": "4. Are you afraid of being subjected to torture in your home country or any other country to which you may be returned?",
+        "sub_section_ru": "4. Боитесь ли вы подвергнуться пыткам в вашей родной стране или в любой другой стране, в которую вы можете быть возвращены?",
+        "label_en": "No",
+        "label_ru": "Нет",
         "id": 313
     },
     {
@@ -3576,10 +3830,13 @@
         "name": "form1[0].#subform[7].ckboxyn4[0]",
         "type": "Button",
         "FieldMaxLength": 0,
-        "FieldStateOption": ["Y", "Off"],
+        "FieldStateOption": [
+            "Y",
+            "Off"
+        ],
         "value": "Off",
-        "label_en": "",
-        "label_ru": "",
+        "label_en": "Yes",
+        "label_ru": "Да",
         "id": 314
     },
     {
@@ -3589,8 +3846,8 @@
         "FieldMaxLength": 0,
         "FieldStateOption": [],
         "value": "",
-        "label_en": "",
-        "label_ru": "",
+        "label_en": "If 'Yes,' explain why you are afraid and describe the nature of torture you fear, by whom, and why it would be inflicted.",
+        "label_ru": "Если 'Да', объясните, почему вы боитесь, и опишите характер пыток, которых вы опасаетесь, кем и почему они могут быть применены.",
         "id": 315
     },
     {
@@ -3598,10 +3855,19 @@
         "name": "form1[0].#subform[8].ckboxync1[1]",
         "type": "Button",
         "FieldMaxLength": 0,
-        "FieldStateOption": ["N", "Off"],
+        "FieldStateOption": [
+            "N",
+            "Off"
+        ],
         "value": "Off",
-        "label_en": "",
-        "label_ru": "",
+        "section_en": "Part C. Additional Information About Your Application",
+        "section_ru": "Часть C. Дополнительная Информация О Вашей Заявке",
+        "note_en": "(NOTE: Use Form I-589 Supplement B, or attach additional sheets of paper as needed to complete your responses to the questions contained in Part C.)",
+        "note_ru": "(ПРИМЕЧАНИЕ: Используйте форму I-589, дополнение B, или приложите дополнительные листы бумаги, если это необходимо, для заполнения ваших ответов на вопросы, содержащиеся в части C.)",
+        "sub_section_en": "1. Have you, your spouse, your child(ren), your parents or your siblings ever applied to the U.S. Government for refugee status, asylum, or withholding of removal?",
+        "sub_section_ru": "1. Обращались ли вы, ваш супруг (а), ваш ребенок (жень), ваши родители или ваши братья и сестры когда-либо к правительству США с просьбой о предоставлении статуса беженца, убежища или отсрочки в выдворении?",
+        "label_en": "No",
+        "label_ru": "Нет",
         "id": 316
     },
     {
@@ -3609,10 +3875,13 @@
         "name": "form1[0].#subform[8].ckboxync1[0]",
         "type": "Button",
         "FieldMaxLength": 0,
-        "FieldStateOption": ["Y", "Off"],
+        "FieldStateOption": [
+            "Y",
+            "Off"
+        ],
         "value": "Off",
-        "label_en": "",
-        "label_ru": "",
+        "label_en": "Yes",
+        "label_ru": "Да",
         "id": 317
     },
     {
@@ -3622,8 +3891,8 @@
         "FieldMaxLength": 0,
         "FieldStateOption": [],
         "value": "",
-        "label_en": "",
-        "label_ru": "",
+        "label_en": "If 'Yes,' explain the decision and what happened to any status you, your spouse, your child(ren), your parents, or your siblings received as a result of that decision. Indicate whether or not you were included in a parent or spouse's application. If so, include your parent or spouse's A-number in your response. If you have been denied asylum by an immigration judge or the Board of Immigration Appeals, describe any change(s) in conditions in your country or your own personal circumstances since the date of the denial that may affect your eligibility for asylum.",
+        "label_ru": "Если 'Да', объясните решение и что произошло с любым статусом, который вы, ваш супруг (а), ваш ребенок (жень), ваши родители или ваши братья и сестры получили в результате этого решения. Укажите, были ли вы включены в заявление одного из родителей или супруга(-а). Если да, укажите в своем ответе номер 'А' вашего родителя или супруга (супруги). Если иммиграционный судья или Апелляционный совет по иммиграционным делам отказали вам в предоставлении убежища, опишите любые изменения в условиях в вашей стране или в ваших личных обстоятельствах с момента получения отказа, которые могут повлиять на ваше право на получение убежища.",
         "id": 318
     },
     {
@@ -3631,10 +3900,15 @@
         "name": "form1[0].#subform[8].ckboxync2a[1]",
         "type": "Button",
         "FieldMaxLength": 0,
-        "FieldStateOption": ["N", "Off"],
+        "FieldStateOption": [
+            "N",
+            "Off"
+        ],
         "value": "Off",
-        "label_en": "",
-        "label_ru": "",
+        "sub_section_en": "2.A. After leaving the country from which you are claiming asylum, did you or your spouse or child(ren) who are now in the United States travel through or reside in any other country before entering the United States?",
+        "sub_section_ru": "2.A. После выезда из страны, в которой вы ходатайствуете о предоставлении убежища, путешествовали ли вы или ваш супруг (а) или ребенок (рен), которые сейчас находятся в Соединенных Штатах, через какую-либо другую страну или проживали в ней до въезда в Соединенные Штаты?",
+        "label_en": "No",
+        "label_ru": "Нет",
         "id": 319
     },
     {
@@ -3642,10 +3916,13 @@
         "name": "form1[0].#subform[8].ckboxync2a[0]",
         "type": "Button",
         "FieldMaxLength": 0,
-        "FieldStateOption": ["Y", "Off"],
+        "FieldStateOption": [
+            "Y",
+            "Off"
+        ],
         "value": "Off",
-        "label_en": "",
-        "label_ru": "",
+        "label_en": "Yes",
+        "label_ru": "Да",
         "id": 320
     },
     {
@@ -3653,10 +3930,15 @@
         "name": "form1[0].#subform[8].ckboxync2b[1]",
         "type": "Button",
         "FieldMaxLength": 0,
-        "FieldStateOption": ["N", "Off"],
+        "FieldStateOption": [
+            "N",
+            "Off"
+        ],
         "value": "Off",
-        "label_en": "",
-        "label_ru": "",
+        "sub_section_en":"2.B. Have you, your spouse, your child(ren), or other family members, such as your parents or siblings, ever applied for or received any lawful status in any country other than the one from which you are now claiming asylum?",
+        "sub_section_ru":"2.Б. Обращались ли вы, ваш супруг (а), ваш ребенок (-а) или другие члены семьи, такие как ваши родители, братья и сестры, когда-либо за получением какого-либо законного статуса в какой-либо стране, отличной от той, в которой вы сейчас просите убежища?",
+        "label_en": "No",
+        "label_ru": "Нет",
         "id": 321
     },
     {
@@ -3664,10 +3946,13 @@
         "name": "form1[0].#subform[8].ckboxync2b[0]",
         "type": "Button",
         "FieldMaxLength": 0,
-        "FieldStateOption": ["Y", "Off"],
+        "FieldStateOption": [
+            "Y",
+            "Off"
+        ],
         "value": "Off",
-        "label_en": "",
-        "label_ru": "",
+        "label_en": "Yes",
+        "label_ru": "Да",
         "id": 322
     },
     {
@@ -3677,8 +3962,8 @@
         "FieldMaxLength": 0,
         "FieldStateOption": [],
         "value": "",
-        "label_en": "",
-        "label_ru": "",
+        "label_en": "If 'Yes' to either or both questions (2A and/or 2B), provide for each person the following: the name of each country and the length of stay, the person's status while there, the reasons for leaving, whether or not the person is entitled to return for lawful residence purposes, and whether the person applied for refugee status or for asylum while there, and if not, why he or she did not do so.",
+        "label_ru": "Если вы ответили 'да' на один или оба вопроса (2A и/или 2B), укажите для каждого человека следующее: название каждой страны и продолжительность пребывания, статус лица во время пребывания в стране, причины выезда, имеет ли это лицо право вернуться для целей законного проживания, а также о том, ходатайствовало ли данное лицо о предоставлении статуса беженца или убежища, находясь там, и если нет, то почему оно этого не сделало.",
         "id": 323
     },
     {
@@ -3686,10 +3971,15 @@
         "name": "form1[0].#subform[8].ckboxync3[1]",
         "type": "Button",
         "FieldMaxLength": 0,
-        "FieldStateOption": ["N", "Off"],
+        "FieldStateOption": [
+            "N",
+            "Off"
+        ],
         "value": "Off",
-        "label_en": "",
-        "label_ru": "",
+        "sub_section_en":"3. Have you, your spouse or your child(ren) ever ordered, incited, assisted or otherwise participated in causing harm or suffering to any person because of his or her race, religion, nationality, membership in a particular social group or belief in a particular political opinion?",
+        "sub_section_ru":"3. Приказывали ли вы, ваш супруг (а) или ваш ребенок (жень) когда-либо, подстрекали ли, помогали ли или иным образом участвовали в причинении вреда или страданий какому-либо лицу из-за его расы, религии, национальности, принадлежности к определенной социальной группе или убеждений в определенных политических взглядах?",
+        "label_en": "No",
+        "label_ru": "Нет",
         "id": 324
     },
     {
@@ -3697,10 +3987,13 @@
         "name": "form1[0].#subform[8].ckboxync3[0]",
         "type": "Button",
         "FieldMaxLength": 0,
-        "FieldStateOption": ["Y", "Off"],
+        "FieldStateOption": [
+            "Y",
+            "Off"
+        ],
         "value": "Off",
-        "label_en": "",
-        "label_ru": "",
+        "label_en": "Yes",
+        "label_ru": "Да",
         "id": 325
     },
     {
@@ -3710,8 +4003,8 @@
         "FieldMaxLength": 0,
         "FieldStateOption": [],
         "value": "",
-        "label_en": "",
-        "label_ru": "",
+        "label_en": "If 'Yes,' describe in detail each such incident and your own, your spouse's, or your child(ren)'s involvement.",
+        "label_ru": "Если 'Да', подробно опишите каждый такой инцидент и свое собственное участие, участие вашего супруга (супруги) или вашего ребенка (жень).",
         "id": 326
     },
     {
@@ -3719,10 +4012,17 @@
         "name": "form1[0].#subform[9].PCckboxyn4[1]",
         "type": "Button",
         "FieldMaxLength": 0,
-        "FieldStateOption": ["N", "Off"],
+        "FieldStateOption": [
+            "N",
+            "Off"
+        ],
         "value": "Off",
-        "label_en": "",
-        "label_ru": "",
+        "section_en":"Part C. Additional Information About Your Application (continued)",
+        "section_ru":"Часть C. Дополнительная информация О Вашей Заявке (продолжение)",
+        "sub_section_en":"4. After you left the country where you were harmed or fear harm, did you return to that country?",
+        "sub_section_ru":"4. После того как вы покинули страну, где вам причинили вред или вы опасались причинения вреда, вернулись ли вы в эту страну?",
+        "label_en": "No",
+        "label_ru": "Нет",
         "id": 327
     },
     {
@@ -3730,10 +4030,13 @@
         "name": "form1[0].#subform[9].PCckboxyn4[0]",
         "type": "Button",
         "FieldMaxLength": 0,
-        "FieldStateOption": ["Y", "Off"],
+        "FieldStateOption": [
+            "Y",
+            "Off"
+        ],
         "value": "Off",
-        "label_en": "",
-        "label_ru": "",
+        "label_en": "Yes",
+        "label_ru": "Да",
         "id": 328
     },
     {
@@ -3743,8 +4046,8 @@
         "FieldMaxLength": 0,
         "FieldStateOption": [],
         "value": "",
-        "label_en": "",
-        "label_ru": "",
+        "label_en": "If 'Yes,' describe in detail the circumstances of your visit(s) (for example, the date(s) of the trip(s), the purpose(s) of the trip(s), and the length of time you remained in that country for the visit(s).)",
+        "label_ru": "Если 'Да', подробно опишите обстоятельства вашего визита (-ов) (например, дату(-ы) поездки(-ов), цель(-ы) поездки(-ов) и продолжительность вашего пребывания в этой стране во время визита(-ов).)",
         "id": 329
     },
     {
@@ -3752,10 +4055,15 @@
         "name": "form1[0].#subform[9].ckboxync5[1]",
         "type": "Button",
         "FieldMaxLength": 0,
-        "FieldStateOption": ["N", "Off"],
+        "FieldStateOption": [
+            "N",
+            "Off"
+        ],
         "value": "Off",
-        "label_en": "",
-        "label_ru": "",
+        "sub_section_en":"5. Are you filing this application more than 1 year after your last arrival in the United States?",
+        "sub_section_ru":"5. Подаете ли вы это заявление более чем через 1 год после вашего последнего приезда в Соединенные Штаты?",
+        "label_en": "No",
+        "label_ru": "Нет",
         "id": 330
     },
     {
@@ -3763,10 +4071,13 @@
         "name": "form1[0].#subform[9].ckboxync5[0]",
         "type": "Button",
         "FieldMaxLength": 0,
-        "FieldStateOption": ["Y", "Off"],
+        "FieldStateOption": [
+            "Y",
+            "Off"
+        ],
         "value": "Off",
-        "label_en": "",
-        "label_ru": "",
+        "label_en": "Yes",
+        "label_ru": "Да",
         "id": 331
     },
     {
@@ -3776,8 +4087,8 @@
         "FieldMaxLength": 0,
         "FieldStateOption": [],
         "value": "",
-        "label_en": "",
-        "label_ru": "",
+        "label_en": "If 'Yes,' explain why you did not file within the first year after you arrived. You must be prepared to explain at your interview or hearing why you did not file your asylum application within the first year after you arrived. For guidance in answering this question, see Instructions, Part 1: Filing Instructions, Section V. 'Completing the Form,' Part C.",
+        "label_ru": "Если 'Да', объясните, почему вы не подали заявление в течение первого года после прибытия. Вы должны быть готовы объяснить на собеседовании или слушании, почему вы не подали заявление о предоставлении убежища в течение первого года после прибытия. Инструкции по ответу на этот вопрос приведены в разделе Инструкции, часть 1. Инструкции по подаче документов, раздел V. 'Заполнение формы', часть C.",
         "id": 332
     },
     {
@@ -3785,10 +4096,15 @@
         "name": "form1[0].#subform[9].ckboxync6[1]",
         "type": "Button",
         "FieldMaxLength": 0,
-        "FieldStateOption": ["N", "Off"],
+        "FieldStateOption": [
+            "N",
+            "Off"
+        ],
         "value": "Off",
-        "label_en": "",
-        "label_ru": "",
+        "sub_section_en":"6. Have you or any member of your family included in the application ever committed any crime and/or been arrested, charged, convicted, or sentenced for any crimes in the United States (including for an immigration law violation)?",
+        "sub_section_ru":"6. Совершали ли вы или кто-либо из членов вашей семьи, указанных в заявлении, когда-либо какие-либо преступления и/или были ли они арестованы, обвинены, осуждены или вынесен ли им приговор за какие-либо преступления в Соединенных Штатах (в том числе за нарушение иммиграционного законодательства)?",
+        "label_en": "No",
+        "label_ru": "Нет",
         "id": 333
     },
     {
@@ -3796,10 +4112,13 @@
         "name": "form1[0].#subform[9].ckboxync6[0]",
         "type": "Button",
         "FieldMaxLength": 0,
-        "FieldStateOption": ["Y", "Off"],
+        "FieldStateOption": [
+            "Y",
+            "Off"
+        ],
         "value": "Off",
-        "label_en": "",
-        "label_ru": "",
+        "label_en": "Yes",
+        "label_ru": "Да",
         "id": 334
     },
     {
@@ -3809,10 +4128,16 @@
         "FieldMaxLength": 0,
         "FieldStateOption": [],
         "value": "",
-        "label_en": "",
-        "label_ru": "",
+        "label_en": "If 'Yes,' for each instance, specify in your response: what occurred and the circumstances, dates, length of sentence received, location, the duration of the detention or imprisonment, reason(s) for the detention or conviction, any formal charges that were lodged against you or your relatives included in your application, and the reason(s) for release. Attach documents referring to these incidents, if they are available, or an explanation of why documents are not available.",
+        "label_ru": "Если 'Да', то в каждом случае укажите в своем ответе: что произошло и при каких обстоятельствах, даты, срок отбытия наказания, место нахождения, продолжительность задержания или тюремного заключения, причину (причины) задержания или осуждения, любые официальные обвинения, которые были выдвинуты против вас или ваших родственников, включенные в ваше заявление и причина (причины) его(ее) опубликования. Приложите документы, относящиеся к этим инцидентам, если они доступны, или объяснение того, почему документы недоступны.",
         "id": 335
     },
+
+
+
+
+
+    
     {
         "title": "Supplement. A. Enter Alien Registration Number (A. Number), if available.",
         "name": "form1[0].#subform[12].PtAILine1_ANumber[1]",
@@ -3972,7 +4297,10 @@
         "name": "form1[0].#subform[12].CheckBox12_Sex[2]",
         "type": "Button",
         "FieldMaxLength": 0,
-        "FieldStateOption": ["M", "Off"],
+        "FieldStateOption": [
+            "M",
+            "Off"
+        ],
         "value": "Off",
         "label_en": "",
         "label_ru": "",
@@ -3983,7 +4311,10 @@
         "name": "form1[0].#subform[12].CheckBox12_Sex[3]",
         "type": "Button",
         "FieldMaxLength": 0,
-        "FieldStateOption": ["F", "Off"],
+        "FieldStateOption": [
+            "F",
+            "Off"
+        ],
         "value": "Off",
         "label_en": "",
         "label_ru": "",
@@ -3994,7 +4325,10 @@
         "name": "form1[0].#subform[12].CheckBox57[0]",
         "type": "Button",
         "FieldMaxLength": 0,
-        "FieldStateOption": ["Y", "Off"],
+        "FieldStateOption": [
+            "Y",
+            "Off"
+        ],
         "value": "Off",
         "label_en": "",
         "label_ru": "",
@@ -4005,7 +4339,10 @@
         "name": "form1[0].#subform[12].CheckBox57[1]",
         "type": "Button",
         "FieldMaxLength": 0,
-        "FieldStateOption": ["N", "Off"],
+        "FieldStateOption": [
+            "N",
+            "Off"
+        ],
         "value": "Off",
         "label_en": "",
         "label_ru": "",
@@ -4093,7 +4430,10 @@
         "name": "form1[0].#subform[12].SuppA_CheckBox20[0]",
         "type": "Button",
         "FieldMaxLength": 0,
-        "FieldStateOption": ["Y", "Off"],
+        "FieldStateOption": [
+            "Y",
+            "Off"
+        ],
         "value": "Off",
         "label_en": "",
         "label_ru": "",
@@ -4104,7 +4444,10 @@
         "name": "form1[0].#subform[12].SuppA_CheckBox20[1]",
         "type": "Button",
         "FieldMaxLength": 0,
-        "FieldStateOption": ["N", "Off"],
+        "FieldStateOption": [
+            "N",
+            "Off"
+        ],
         "value": "Off",
         "label_en": "",
         "label_ru": "",
@@ -4115,7 +4458,10 @@
         "name": "form1[0].#subform[12].SuppA_CheckBox21[0]",
         "type": "Button",
         "FieldMaxLength": 0,
-        "FieldStateOption": ["Y", "Off"],
+        "FieldStateOption": [
+            "Y",
+            "Off"
+        ],
         "value": "Off",
         "label_en": "",
         "label_ru": "",
@@ -4126,7 +4472,10 @@
         "name": "form1[0].#subform[12].SuppA_CheckBox21[1]",
         "type": "Button",
         "FieldMaxLength": 0,
-        "FieldStateOption": ["N", "Off"],
+        "FieldStateOption": [
+            "N",
+            "Off"
+        ],
         "value": "Off",
         "label_en": "",
         "label_ru": "",
@@ -4258,7 +4607,10 @@
         "name": "form1[0].#subform[12].SuppAL12_CheckBox[0]",
         "type": "Button",
         "FieldMaxLength": 0,
-        "FieldStateOption": ["M", "Off"],
+        "FieldStateOption": [
+            "M",
+            "Off"
+        ],
         "value": "Off",
         "label_en": "",
         "label_ru": "",
@@ -4269,7 +4621,10 @@
         "name": "form1[0].#subform[12].SuppAL12_CheckBox[1]",
         "type": "Button",
         "FieldMaxLength": 0,
-        "FieldStateOption": ["F", "Off"],
+        "FieldStateOption": [
+            "F",
+            "Off"
+        ],
         "value": "Off",
         "label_en": "",
         "label_ru": "",
@@ -4280,7 +4635,10 @@
         "name": "form1[0].#subform[12].SuppAL13_CheckBox[0]",
         "type": "Button",
         "FieldMaxLength": 0,
-        "FieldStateOption": ["Y", "Off"],
+        "FieldStateOption": [
+            "Y",
+            "Off"
+        ],
         "value": "Off",
         "label_en": "",
         "label_ru": "",
@@ -4291,7 +4649,10 @@
         "name": "form1[0].#subform[12].SuppAL13_CheckBox[1]",
         "type": "Button",
         "FieldMaxLength": 0,
-        "FieldStateOption": ["N", "Off"],
+        "FieldStateOption": [
+            "N",
+            "Off"
+        ],
         "value": "Off",
         "label_en": "",
         "label_ru": "",
@@ -4379,7 +4740,10 @@
         "name": "form1[0].#subform[12].SuppALine20_CheckBox2[0]",
         "type": "Button",
         "FieldMaxLength": 0,
-        "FieldStateOption": ["Y", "Off"],
+        "FieldStateOption": [
+            "Y",
+            "Off"
+        ],
         "value": "Off",
         "label_en": "",
         "label_ru": "",
@@ -4390,7 +4754,10 @@
         "name": "form1[0].#subform[12].SuppALine20_CheckBox2[1]",
         "type": "Button",
         "FieldMaxLength": 0,
-        "FieldStateOption": ["N", "Off"],
+        "FieldStateOption": [
+            "N",
+            "Off"
+        ],
         "value": "Off",
         "label_en": "",
         "label_ru": "",
@@ -4401,7 +4768,10 @@
         "name": "form1[0].#subform[12].SuppALine21_CheckBox[0]",
         "type": "Button",
         "FieldMaxLength": 0,
-        "FieldStateOption": ["Y", "Off"],
+        "FieldStateOption": [
+            "Y",
+            "Off"
+        ],
         "value": "Off",
         "label_en": "",
         "label_ru": "",
@@ -4412,7 +4782,10 @@
         "name": "form1[0].#subform[12].SuppALine21_CheckBox[1]",
         "type": "Button",
         "FieldMaxLength": 0,
-        "FieldStateOption": ["N", "Off"],
+        "FieldStateOption": [
+            "N",
+            "Off"
+        ],
         "value": "Off",
         "label_en": "",
         "label_ru": "",
