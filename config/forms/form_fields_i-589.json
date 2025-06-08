@@ -4440,8 +4440,10 @@
         "FieldMaxLength": 0,
         "FieldStateOption": [],
         "value": "",
-        "label_en": "",
-        "label_ru": "",
+        "sub_section_en":"Application for Asylum and for Withholding of Removal Supplement A Department of Homeland Security U.S. Citizenship and Immigration Services",
+        "sub_section_ru":"Ходатайство о предоставлении убежища и отказе в выдворении дополняет заявление Министерства внутренней безопасности США о гражданстве и иммиграции.",
+        "label_en": "Date",
+        "label_ru": "Дата",
         "id": 360
     },
     {
@@ -4451,8 +4453,12 @@
         "FieldMaxLength": 9,
         "FieldStateOption": [],
         "value": "",
-        "label_en": "",
-        "label_ru": "",
+        "section_en":"List All of Your Children, Regardless of Age or Marital Status ",
+        "section_ru":"Перечислите всех своих детей, независимо от возраста или семейного положения",
+        "note_en":"(NOTE: Use this form and attach additional pages and documentation as needed, if you have more than four children)",
+        "note_ru":"(ПРИМЕЧАНИЕ: Используйте эту форму и приложите дополнительные страницы и документацию по мере необходимости, если у вас более четырех детей)",
+        "label_en": "1. Alien Registration Number (A-Number) (if any)",
+        "label_ru": "1. Регистрационный номер иностранца (A-номер) (при наличии)",
         "id": 361
     },
     {
@@ -4462,8 +4468,8 @@
         "FieldMaxLength": 0,
         "FieldStateOption": [],
         "value": "",
-        "label_en": "",
-        "label_ru": "",
+        "label_en": "2. Passport/ID Card Number (if any)",
+        "label_ru": "2. Номер паспорта/удостоверения личности (при наличии)",
         "id": 362
     },
     {
@@ -4473,8 +4479,8 @@
         "FieldMaxLength": 0,
         "FieldStateOption": [],
         "value": "",
-        "label_en": "",
-        "label_ru": "",
+        "label_en": "3. Marital Status (Married, Single, Divorced, Widowed)",
+        "label_ru": "3. Семейное положение (Женат, Холост, Разведен, овдовел)",
         "id": 363
     },
     {
@@ -4484,8 +4490,8 @@
         "FieldMaxLength": 9,
         "FieldStateOption": [],
         "value": "",
-        "label_en": "",
-        "label_ru": "",
+        "label_en": "4. U.S. Social Security Number (if any)",
+        "label_ru": "4. Номер социального страхования США (при наличии)",
         "id": 364
     },
     {
@@ -4495,8 +4501,8 @@
         "FieldMaxLength": 0,
         "FieldStateOption": [],
         "value": "",
-        "label_en": "",
-        "label_ru": "",
+        "label_en": "5. Complete Last Name",
+        "label_ru": "5. Полная фамилия",
         "id": 365
     },
     {
@@ -4506,8 +4512,8 @@
         "FieldMaxLength": 0,
         "FieldStateOption": [],
         "value": "",
-        "label_en": "",
-        "label_ru": "",
+        "label_en": "6. First Name",
+        "label_ru": "6. Имя",
         "id": 366
     },
     {
@@ -4517,8 +4523,8 @@
         "FieldMaxLength": 0,
         "FieldStateOption": [],
         "value": "",
-        "label_en": "",
-        "label_ru": "",
+        "label_en": "7. Middle Name",
+        "label_ru": "7. Второе имя",
         "id": 367
     },
     {
@@ -4528,8 +4534,8 @@
         "FieldMaxLength": 0,
         "FieldStateOption": [],
         "value": "",
-        "label_en": "",
-        "label_ru": "",
+        "label_en": "8. Date of Birth (mm/dd/yyyy)",
+        "label_ru": "8. Дата рождения (мм/дд/гггг)",
         "id": 368
     },
     {
@@ -4539,8 +4545,8 @@
         "FieldMaxLength": 0,
         "FieldStateOption": [],
         "value": "",
-        "label_en": "",
-        "label_ru": "",
+        "label_en": "9. City and Country of Birth",
+        "label_ru": "9. Город и страна рождения",
         "id": 369
     },
     {
@@ -4550,8 +4556,8 @@
         "FieldMaxLength": 0,
         "FieldStateOption": [],
         "value": "",
-        "label_en": "",
-        "label_ru": "",
+        "label_en": "10. Nationality (Citizenship)",
+        "label_ru": "10. Национальность (подданство)",
         "id": 370
     },
     {
@@ -4561,8 +4567,8 @@
         "FieldMaxLength": 0,
         "FieldStateOption": [],
         "value": "",
-        "label_en": "",
-        "label_ru": "",
+        "label_en": "11. Race, Ethnic, or Tribal Group",
+        "label_ru": "11. Расовая, этническая или племенная группа",
         "id": 371
     },
     {
@@ -4575,8 +4581,10 @@
             "Off"
         ],
         "value": "Off",
-        "label_en": "",
-        "label_ru": "",
+        "sub_section_en":"12. Sex",
+        "sub_section_ru":"12. Пол",
+        "label_en": "Male",
+        "label_ru": "Мужской",
         "id": 372
     },
     {
@@ -4589,8 +4597,8 @@
             "Off"
         ],
         "value": "Off",
-        "label_en": "",
-        "label_ru": "",
+        "label_en": "Female",
+        "label_ru": "Женский",
         "id": 373
     },
     {
@@ -4603,8 +4611,10 @@
             "Off"
         ],
         "value": "Off",
-        "label_en": "",
-        "label_ru": "",
+        "sub_section_en":"13. Is this child in the U.S. ?",
+        "sub_section_ru":"13. Находится ли этот ребенок в США?",
+        "label_en": "Yes (Complete Blocks 14 to 21.)",
+        "label_ru": "Да (пройдите блоки с 14 по 21.)",
         "id": 374
     },
     {
@@ -4617,8 +4627,8 @@
             "Off"
         ],
         "value": "Off",
-        "label_en": "",
-        "label_ru": "",
+        "label_en": "No (Specify location):",
+        "label_ru": "Нет (Указать местоположение):",
         "id": 375
     },
     {
@@ -4628,8 +4638,8 @@
         "FieldMaxLength": 0,
         "FieldStateOption": [],
         "value": "",
-        "label_en": "",
-        "label_ru": "",
+        "label_en": "Location",
+        "label_ru": "Местоположение",
         "id": 376
     },
     {
@@ -4639,8 +4649,8 @@
         "FieldMaxLength": 0,
         "FieldStateOption": [],
         "value": "",
-        "label_en": "",
-        "label_ru": "",
+        "label_en": "14. Place of last entry into the U.S.",
+        "label_ru": "14. Место последнего въезда в США.",
         "id": 377
     },
     {
@@ -4650,8 +4660,8 @@
         "FieldMaxLength": 0,
         "FieldStateOption": [],
         "value": "",
-        "label_en": "",
-        "label_ru": "",
+        "label_en": "15. Date of last entry into the U.S. (mm/dd/yyyy)",
+        "label_ru": "15. Дата последнего въезда в США (мм/дд/гггг)",
         "id": 378
     },
     {
@@ -4661,8 +4671,8 @@
         "FieldMaxLength": 11,
         "FieldStateOption": [],
         "value": "",
-        "label_en": "",
-        "label_ru": "",
+        "label_en": "16. I-94 Number (If any)",
+        "label_ru": "16. Номер I-94 (если есть)",
         "id": 379
     },
     {
@@ -4672,8 +4682,8 @@
         "FieldMaxLength": 0,
         "FieldStateOption": [],
         "value": "",
-        "label_en": "",
-        "label_ru": "",
+        "label_en": "17. Status when last admitted (Visa type, if any)",
+        "label_ru": "17. Статус на момент последнего въезда (тип визы, если таковая имеется)",
         "id": 380
     },
     {
@@ -4683,8 +4693,8 @@
         "FieldMaxLength": 0,
         "FieldStateOption": [],
         "value": "",
-        "label_en": "",
-        "label_ru": "",
+        "label_en": "18. What is your child's current status?",
+        "label_ru": "18. Каково текущее состояние вашего ребенка?",
         "id": 381
     },
     {
@@ -4694,8 +4704,8 @@
         "FieldMaxLength": 0,
         "FieldStateOption": [],
         "value": "",
-        "label_en": "",
-        "label_ru": "",
+        "label_en": "19. What is the expiration date of his/her authorized stay, if any? (mm/dd/yyyy)",
+        "label_ru": "19. Каков срок действия его/ее разрешенного пребывания, если таковой имеется? (мм/дд/гггг)",
         "id": 382
     },
     {
@@ -4708,8 +4718,10 @@
             "Off"
         ],
         "value": "Off",
-        "label_en": "",
-        "label_ru": "",
+        "sub_section_en":"20. Is your child in Immigration Court proceedings?",
+        "sub_section_ru":"20. Находится ли ваш ребенок на рассмотрении в иммиграционном суде?",
+        "label_en": "Yes",
+        "label_ru": "Да",
         "id": 383
     },
     {
@@ -4722,8 +4734,8 @@
             "Off"
         ],
         "value": "Off",
-        "label_en": "",
-        "label_ru": "",
+        "label_en": "No",
+        "label_ru": "Нет",
         "id": 384
     },
     {
@@ -4736,8 +4748,10 @@
             "Off"
         ],
         "value": "Off",
-        "label_en": "",
-        "label_ru": "",
+        "sub_section_en":"21. If in the U.S., is this child to be included in this application? (Check the appropriate box.)",
+        "sub_section_ru":"21. Если этот ребенок находится в США, должен ли он быть включен в это заявление? (Поставьте соответствующую галочку).",
+        "label_en": "Yes",
+        "label_ru": "Да",
         "id": 385
     },
     {
@@ -4750,8 +4764,8 @@
             "Off"
         ],
         "value": "Off",
-        "label_en": "",
-        "label_ru": "",
+        "label_en": "No",
+        "label_ru": "Нет",
         "id": 386
     },
     {
@@ -4761,8 +4775,8 @@
         "FieldMaxLength": 9,
         "FieldStateOption": [],
         "value": "",
-        "label_en": "",
-        "label_ru": "",
+        "label_en": "1. Alien Registration Number (A-Number) (if any)",
+        "label_ru": "1. Регистрационный номер иностранца (A-номер) (при наличии)",
         "id": 387
     },
     {
@@ -4772,8 +4786,8 @@
         "FieldMaxLength": 0,
         "FieldStateOption": [],
         "value": "",
-        "label_en": "",
-        "label_ru": "",
+        "label_en": "2. Passport/ID Card Number (if any)",
+        "label_ru": "2. Номер паспорта/удостоверения личности (при наличии)",
         "id": 388
     },
     {
@@ -4783,8 +4797,8 @@
         "FieldMaxLength": 0,
         "FieldStateOption": [],
         "value": "",
-        "label_en": "",
-        "label_ru": "",
+        "label_en": "3. Marital Status (Married, Single, Divorced, Widowed)",
+        "label_ru": "3. Семейное положение (Женат, Холост, Разведен, овдовел)",
         "id": 389
     },
     {
@@ -4794,8 +4808,8 @@
         "FieldMaxLength": 9,
         "FieldStateOption": [],
         "value": "",
-        "label_en": "",
-        "label_ru": "",
+        "label_en": "4. U.S. Social Security Number (if any)",
+        "label_ru": "4. Номер социального страхования США (при наличии)",
         "id": 390
     },
     {
@@ -4805,8 +4819,8 @@
         "FieldMaxLength": 0,
         "FieldStateOption": [],
         "value": "",
-        "label_en": "",
-        "label_ru": "",
+        "label_en": "5. Complete Last Name",
+        "label_ru": "5. Полная фамилия",
         "id": 391
     },
     {
@@ -4816,8 +4830,8 @@
         "FieldMaxLength": 0,
         "FieldStateOption": [],
         "value": "",
-        "label_en": "",
-        "label_ru": "",
+        "label_en": "6. First Name",
+        "label_ru": "6. Имя",
         "id": 392
     },
     {
@@ -4827,8 +4841,8 @@
         "FieldMaxLength": 0,
         "FieldStateOption": [],
         "value": "",
-        "label_en": "",
-        "label_ru": "",
+        "label_en": "7. Middle Name",
+        "label_ru": "7. Второе имя",
         "id": 393
     },
     {
@@ -4838,8 +4852,8 @@
         "FieldMaxLength": 0,
         "FieldStateOption": [],
         "value": "",
-        "label_en": "",
-        "label_ru": "",
+        "label_en": "8. Date of Birth (mm/dd/yyyy)",
+        "label_ru": "8. Дата рождения (мм/дд/гггг)",
         "id": 394
     },
     {
@@ -4849,8 +4863,8 @@
         "FieldMaxLength": 0,
         "FieldStateOption": [],
         "value": "",
-        "label_en": "",
-        "label_ru": "",
+        "label_en": "9. City and Country of Birth",
+        "label_ru": "9. Город и страна рождения",
         "id": 395
     },
     {
@@ -4860,8 +4874,8 @@
         "FieldMaxLength": 0,
         "FieldStateOption": [],
         "value": "",
-        "label_en": "",
-        "label_ru": "",
+        "label_en": "10. Nationality (Citizenship)",
+        "label_ru": "10. Национальность (подданство)",
         "id": 396
     },
     {
@@ -4871,8 +4885,8 @@
         "FieldMaxLength": 0,
         "FieldStateOption": [],
         "value": "",
-        "label_en": "",
-        "label_ru": "",
+        "label_en": "11. Race, Ethnic, or Tribal Group",
+        "label_ru": "11. Расовая, этническая или племенная группа",
         "id": 397
     },
     {
@@ -4885,8 +4899,10 @@
             "Off"
         ],
         "value": "Off",
-        "label_en": "",
-        "label_ru": "",
+        "sub_section_en":"12. Sex",
+        "sub_section_ru":"12. Пол",
+        "label_en": "Male",
+        "label_ru": "Мужской",
         "id": 398
     },
     {
@@ -4899,8 +4915,8 @@
             "Off"
         ],
         "value": "Off",
-        "label_en": "",
-        "label_ru": "",
+        "label_en": "Female",
+        "label_ru": "Женский",
         "id": 399
     },
     {
@@ -4913,8 +4929,10 @@
             "Off"
         ],
         "value": "Off",
-        "label_en": "",
-        "label_ru": "",
+        "sub_section_en":"13. Is this child in the U.S. ?",
+        "sub_section_ru":"13. Находится ли этот ребенок в США?",
+        "label_en": "Yes (Complete Blocks 14 to 21.)",
+        "label_ru": "Да (пройдите блоки с 14 по 21.)",
         "id": 400
     },
     {
@@ -4927,8 +4945,8 @@
             "Off"
         ],
         "value": "Off",
-        "label_en": "",
-        "label_ru": "",
+        "label_en": "No (Specify location):",
+        "label_ru": "Нет (Указать местоположение):",
         "id": 401
     },
     {
@@ -4938,8 +4956,8 @@
         "FieldMaxLength": 0,
         "FieldStateOption": [],
         "value": "",
-        "label_en": "",
-        "label_ru": "",
+        "label_en": "Location",
+        "label_ru": "Местоположение",
         "id": 402
     },
     {
@@ -4949,8 +4967,8 @@
         "FieldMaxLength": 0,
         "FieldStateOption": [],
         "value": "",
-        "label_en": "",
-        "label_ru": "",
+        "label_en": "14. Place of last entry into the U.S.",
+        "label_ru": "14. Место последнего въезда в США.",
         "id": 403
     },
     {
@@ -4960,8 +4978,8 @@
         "FieldMaxLength": 0,
         "FieldStateOption": [],
         "value": "",
-        "label_en": "",
-        "label_ru": "",
+        "label_en": "15. Date of last entry into the U.S. (mm/dd/yyyy)",
+        "label_ru": "15. Дата последнего въезда в США (мм/дд/гггг)",
         "id": 404
     },
     {
@@ -4971,8 +4989,8 @@
         "FieldMaxLength": 11,
         "FieldStateOption": [],
         "value": "",
-        "label_en": "",
-        "label_ru": "",
+        "label_en": "16. I-94 Number (If any)",
+        "label_ru": "16. Номер I-94 (если есть)",
         "id": 405
     },
     {
@@ -4982,8 +5000,8 @@
         "FieldMaxLength": 0,
         "FieldStateOption": [],
         "value": "",
-        "label_en": "",
-        "label_ru": "",
+        "label_en": "17. Status when last admitted (Visa type, if any)",
+        "label_ru": "17. Статус на момент последнего въезда (тип визы, если таковая имеется)",
         "id": 406
     },
     {
@@ -4993,8 +5011,8 @@
         "FieldMaxLength": 0,
         "FieldStateOption": [],
         "value": "",
-        "label_en": "",
-        "label_ru": "",
+        "label_en": "18. What is your child's current status?",
+        "label_ru": "18. Каково текущее состояние вашего ребенка?",
         "id": 407
     },
     {
@@ -5004,8 +5022,8 @@
         "FieldMaxLength": 0,
         "FieldStateOption": [],
         "value": "",
-        "label_en": "",
-        "label_ru": "",
+        "label_en": "19. What is the expiration date of his/her authorized stay, if any? (mm/dd/yyyy)",
+        "label_ru": "19. Каков срок действия его/ее разрешенного пребывания, если таковой имеется? (мм/дд/гггг)",
         "id": 408
     },
     {
@@ -5018,8 +5036,10 @@
             "Off"
         ],
         "value": "Off",
-        "label_en": "",
-        "label_ru": "",
+        "sub_section_en":"20. Is your child in Immigration Court proceedings?",
+        "sub_section_ru":"20. Находится ли ваш ребенок на рассмотрении в иммиграционном суде?",
+        "label_en": "Yes",
+        "label_ru": "Да",
         "id": 409
     },
     {
@@ -5032,8 +5052,8 @@
             "Off"
         ],
         "value": "Off",
-        "label_en": "",
-        "label_ru": "",
+        "label_en": "No",
+        "label_ru": "Нет",
         "id": 410
     },
     {
@@ -5046,8 +5066,10 @@
             "Off"
         ],
         "value": "Off",
-        "label_en": "",
-        "label_ru": "",
+        "sub_section_en":"21. If in the U.S., is this child to be included in this application? (Check the appropriate box.)",
+        "sub_section_ru":"21. Если этот ребенок находится в США, должен ли он быть включен в это заявление? (Поставьте соответствующую галочку).",
+        "label_en": "Yes",
+        "label_ru": "Да",
         "id": 411
     },
     {
@@ -5060,8 +5082,8 @@
             "Off"
         ],
         "value": "Off",
-        "label_en": "",
-        "label_ru": "",
+        "label_en": "No",
+        "label_ru": "Нет",
         "id": 412
     },
     {
@@ -5071,8 +5093,10 @@
         "FieldMaxLength": 0,
         "FieldStateOption": [],
         "value": "",
-        "label_en": "",
-        "label_ru": "",
+        "section_en":"",
+        "section_ru":"",
+        "label_en": "Date",
+        "label_ru": "Дата",
         "id": 413
     },
     {
@@ -5082,8 +5106,10 @@
         "FieldMaxLength": 0,
         "FieldStateOption": [],
         "value": "",
-        "label_en": "",
-        "label_ru": "",
+        "note_en":"NOTE: Use this as a continuation page for any additional information requested. Copy and complete as needed.",
+        "note_ru":"ПРИМЕЧАНИЕ: Используйте эту страницу как продолжение для получения любой запрашиваемой дополнительной информации. Скопируйте и дополните по мере необходимости.",
+        "label_en": "Part",
+        "label_ru": "Часть",
         "id": 414
     },
     {
@@ -5093,8 +5119,8 @@
         "FieldMaxLength": 0,
         "FieldStateOption": [],
         "value": "",
-        "label_en": "",
-        "label_ru": "",
+        "label_en": "Question",
+        "label_ru": "Вопрос",
         "id": 415
     },
     {

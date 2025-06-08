@@ -17,14 +17,24 @@ class FormI589Controller extends Controller
 
         return view('form-i-589', ['data' => $fields_data]);
     }
-    public function submit(FormI589Request $request)
+    // public function submit(FormI589Request $request)
+    public function submit(Request $request)
     {
+        //получаем данные о полях
+        $fields_data = json_decode(
+            file_get_contents(config_path('forms/form_fields_i-589.json')),
+            true
+        );
+
+        //Валидация
+
+        
 
         $dataForm = $request->all();
         unset($dataForm['_token']);
 
         $form = new FormI589();
-        foreach($dataForm as $name => $value){
+        foreach ($dataForm as $name => $value) {
             $form->$name = $value;
         }
 
