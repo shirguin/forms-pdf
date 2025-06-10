@@ -74,7 +74,7 @@ class FormI589Controller extends Controller
         }
 
         $form->save();
-        return redirect()->route('home')->with('success', 'Данные формы успешно сохранены!');
+        return redirect()->route('form-i-589-list')->with('success', 'Данные формы успешно сохранены!');
     }
 
     // public function updateFormSubmit($id, FormI589Request $request)
@@ -144,8 +144,14 @@ class FormI589Controller extends Controller
 
     public function getById($id)
     {
+        //получаем данные о полях
+        $fields_data = json_decode(
+            file_get_contents(config_path('forms/form_fields_i-589.json')),
+            true
+        );
+
         $form = new FormI589();
-        return view('form-i-589-detail', ['data' => $form->find($id)]);
+        return view('form-i-589-detail', ['data' => $fields_data, 'data_value' => $form->find($id)]);
     }
 
     public function updateForm($id)
@@ -163,5 +169,53 @@ class FormI589Controller extends Controller
     {
         FormI589::find($id)->delete();
         return redirect()->route('form-i-589-list')->with('success', 'Форма была удалена');
+    }
+
+    public function createPdf($id)
+    {
+        $fields_data = json_decode(
+            file_get_contents(config_path('forms/form_fields_i-589.json')),
+            true
+        );
+
+        $form = new FormI589();
+        $data_value = $form->find($id);
+
+        foreach ($fields_data as $index => $field) {
+            //Остановился здесь!!!
+            if (isset($data_value["field_$index"])) {
+                $fields_data[$index]['value'] = $data_value["field_$index"];
+            } else {
+                $fields_data[$index]['value'] = '';
+            }
+        }
+
+        // return view('form-i-589-update', ['data' => $fields_data, 'data_value' => $form->find($id)]);
+        return;
+    }
+
+    //Заполняем форму
+    function fillPdfForm($pdfPath, $fields, $outputPath)
+    {
+        // Создаем FDF файл
+        $fdf = "%FDF-1.2\n1 0 obj\n<<\n/FDF <<\n/Fields [\n";
+
+        foreach ($fields as $field) {
+            if (isset($field['value'])) {
+                $value = is_array($field['value']) ? implode(', ', $field['value']) : $field['value'];
+                $fdf .= "<< /V (" . $value . ") /T (" . $field['name'] . ") >>\n";
+            }
+        }
+
+        $fdf .= "]\n>>\n>>\nendobj\ntrailer\n<<\n/Root 1 0 R\n>>\n%%EOF";
+
+        file_put_contents('temp.fdf', $fdf);
+
+        // Заполняем PDF
+        // exec("pdftk $pdfPath fill_form temp.fdf output $outputPath flatten");//не редактируемая форма
+        exec("pdftk $pdfPath fill_form temp.fdf output $outputPath"); // редактируемая форма
+
+        // Удаляем временный файл
+        unlink('temp.fdf');
     }
 }

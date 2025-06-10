@@ -11,11 +11,6 @@ return new class extends Migration
      */
     public function up(): void
     {
-
-        // Прочитать JSON-файл с описанием полей
-        // $fieldsJson = File::get(database_path('data/form_i589_fields.json'));
-        // $fields = json_decode($fieldsJson, true);
-
         //получаем данные о полях
         $fields = json_decode(
             file_get_contents(config_path('forms/form_fields_i-589.json')),
@@ -50,15 +45,6 @@ return new class extends Migration
             $table->timestamps();
         });
 
-
-
-        // Schema::create('form_i589_s', function (Blueprint $table) {
-        //     $table->id();
-        //     $table->string('name');
-        //     $table->string('email');
-        //     // $table->text('message');
-        //     $table->timestamps();
-        // });
     }
 
     /**
