@@ -47,9 +47,9 @@ class FormI589Controller extends Controller
             $numA = (int) substr($a, strpos($a, '_') + 1);
             $numB = (int) substr($b, strpos($b, '_') + 1);
 
-            return $numA <=> $numB; // Сортировка по возрастанию чисел
+            return $numA <=> $numB;
         });
- 
+
         //Формируем массив правил для валидации полей
         $arValid = [];
         foreach ($fields_data as $index => $field) {
@@ -73,19 +73,64 @@ class FormI589Controller extends Controller
             $form->$name = $value;
         }
 
-        //Остановился здесь!!!
-        dd($form);
-        die();
-
-        // $form->save();
+        $form->save();
         return redirect()->route('home')->with('success', 'Данные формы успешно сохранены!');
     }
 
-    public function updateFormSubmit($id, FormI589Request $request)
+    // public function updateFormSubmit($id, FormI589Request $request)
+    public function updateFormSubmit($id, Request $request)
     {
+        //получаем данные о полях
+        $fields_data = json_decode(
+            file_get_contents(config_path('forms/form_fields_i-589.json')),
+            true
+        );
+
+        //Получаем значения полей
+        $dataForm = $request->all();
+        unset($dataForm['_token']);
+
+        // Заполняем отсутствующие чекбоксы значением "0"
+        foreach ($fields_data as $index => $field) {
+            if (!isset($dataForm["field_$index"])) {
+                if ($field['type'] == "Button") {
+                    $dataForm["field_$index"] = "0";
+                }
+            }
+        }
+
+        //Сортируем по ключу
+        uksort($dataForm, function ($a, $b) {
+            // Извлекаем числа из ключей (field_123 → 123)
+            $numA = (int) substr($a, strpos($a, '_') + 1);
+            $numB = (int) substr($b, strpos($b, '_') + 1);
+
+            return $numA <=> $numB;
+        });
+
+        //Формируем массив правил для валидации полей
+        $arValid = [];
+        foreach ($fields_data as $index => $field) {
+
+            if ($field['type'] == "Button") {
+                $arValid["field_$index"] = ['Boolean'];
+            } else {
+                if ($field['FieldMaxLength'] > 0) {
+                    $arValid["field_$index"] = ['String', 'nullable', 'max:' . $field['FieldMaxLength']];
+                } else {
+                    $arValid["field_$index"] = ['String', 'nullable', 'max:255'];
+                }
+            }
+        }
+
+        //Валидация
+        $validatedData = $request->validate($arValid);
+
         $form = FormI589::find($id);
-        $form->name = $request->input('name');
-        $form->email = $request->input('email');
+
+        foreach ($dataForm as $name => $value) {
+            $form->$name = $value;
+        }
 
         $form->save();
         return redirect()->route('form-i-589-detail', $id)->with('success', 'Данные формы обновлены!');
@@ -105,8 +150,13 @@ class FormI589Controller extends Controller
 
     public function updateForm($id)
     {
+        $fields_data = json_decode(
+            file_get_contents(config_path('forms/form_fields_i-589.json')),
+            true
+        );
+
         $form = new FormI589();
-        return view('form-i-589-update', ['data' => $form->find($id)]);
+        return view('form-i-589-update', ['data' => $fields_data, 'data_value' => $form->find($id)]);
     }
 
     public function deleteForm($id)

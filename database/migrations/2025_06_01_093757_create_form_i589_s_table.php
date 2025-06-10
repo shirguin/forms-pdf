@@ -12,52 +12,53 @@ return new class extends Migration
     public function up(): void
     {
 
-        // // Прочитать JSON-файл с описанием полей
+        // Прочитать JSON-файл с описанием полей
         // $fieldsJson = File::get(database_path('data/form_i589_fields.json'));
         // $fields = json_decode($fieldsJson, true);
 
-        // Schema::create('form_i589_s', function (Blueprint $table) use ($fields) {
-        //     $table->id();
+        //получаем данные о полях
+        $fields = json_decode(
+            file_get_contents(config_path('forms/form_fields_i-589.json')),
+            true
+        );
 
-        //     // Статические поля
-        //     $table->string('name');
-        //     $table->string('email');
-
-        //     // Динамические поля из JSON
-        //     foreach ($fields as $field) {
-        //         $type = $field['type'];
-        //         $name = $field['name'];
-
-        //         switch ($type) {
-        //             case 'string':
-        //                 $length = $field['length'] ?? 255;
-        //                 $table->string($name, $length)->nullable();
-        //                 break;
-        //             case 'text':
-        //                 $table->text($name)->nullable();
-        //                 break;
-        //             case 'integer':
-        //                 $table->integer($name)->nullable();
-        //                 break;
-        //             case 'boolean':
-        //                 $table->boolean($name)->nullable();
-        //                 break;
-        //                 // Добавьте другие типы по необходимости
-        //         }
-        //     }
-
-        //     $table->timestamps();
-        // });
-
-
-
-        Schema::create('form_i589_s', function (Blueprint $table) {
+        Schema::create('form_i589_s', function (Blueprint $table) use ($fields) {
             $table->id();
-            $table->string('name');
-            $table->string('email');
-            // $table->text('message');
+
+            // Динамические поля из JSON
+            foreach ($fields as $index => $field) {
+                $type = $field['type'];
+                $name = "field_" . $index;
+
+                switch ($type) {
+
+                    case 'Button':
+                        $table->boolean($name)->nullable();
+                        break;
+                    case 'Text':
+                        if (isset($field['FieldMaxLength']) && $field['FieldMaxLength'] > 0) {
+                            $length = $field['FieldMaxLength'];
+                        } else {
+                            $length = 255; // Значение по умолчанию
+                        }
+
+                        $table->string($name, $length)->nullable();
+                        break;
+                }
+            }
+
             $table->timestamps();
         });
+
+
+
+        // Schema::create('form_i589_s', function (Blueprint $table) {
+        //     $table->id();
+        //     $table->string('name');
+        //     $table->string('email');
+        //     // $table->text('message');
+        //     $table->timestamps();
+        // });
     }
 
     /**
