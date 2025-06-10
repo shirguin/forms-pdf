@@ -5,6 +5,7 @@ namespace App\Http\Controllers;
 use Illuminate\Http\Request;
 use App\Http\Requests\FormI589Request;
 use App\Models\FormI589;
+use phpDocumentor\Reflection\Types\Boolean;
 
 class FormI589Controller extends Controller
 {
@@ -17,6 +18,7 @@ class FormI589Controller extends Controller
 
         return view('form-i-589', ['data' => $fields_data]);
     }
+
     // public function submit(FormI589Request $request)
     public function submit(Request $request)
     {
@@ -26,18 +28,52 @@ class FormI589Controller extends Controller
             true
         );
 
-        //Валидация
-
-        
-
+        //Получаем значения полей
         $dataForm = $request->all();
         unset($dataForm['_token']);
+
+        // Заполняем отсутствующие чекбоксы значением "0"
+        foreach ($fields_data as $index => $field) {
+            if (!isset($dataForm["field_$index"])) {
+                if ($field['type'] == "Button") {
+                    $dataForm["field_$index"] = "0";
+                }
+            }
+        }
+
+        //Сортируем по ключу
+        uksort($dataForm, function ($a, $b) {
+            // Извлекаем числа из ключей (field_123 → 123)
+            $numA = (int) substr($a, strpos($a, '_') + 1);
+            $numB = (int) substr($b, strpos($b, '_') + 1);
+
+            return $numA <=> $numB; // Сортировка по возрастанию чисел
+        });
+ 
+        //Формируем массив правил для валидации полей
+        $arValid = [];
+        foreach ($fields_data as $index => $field) {
+
+            if ($field['type'] == "Button") {
+                $arValid["field_$index"] = ['Boolean'];
+            } else {
+                if ($field['FieldMaxLength'] > 0) {
+                    $arValid["field_$index"] = ['String', 'nullable', 'max:' . $field['FieldMaxLength']];
+                } else {
+                    $arValid["field_$index"] = ['String', 'nullable', 'max:255'];
+                }
+            }
+        }
+
+        //Валидация
+        $validatedData = $request->validate($arValid);
 
         $form = new FormI589();
         foreach ($dataForm as $name => $value) {
             $form->$name = $value;
         }
 
+        //Остановился здесь!!!
         dd($form);
         die();
 

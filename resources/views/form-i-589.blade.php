@@ -7,7 +7,6 @@
 @section('content')
 <h1 class="ml-8 text-2xl font-bold">Заполнение формы i-589</h1>
 
-
 <form action="{{ route('form-i-589-submit') }}" method="post" class="mt-4">
     @csrf
 
@@ -58,8 +57,9 @@
                 <input type="checkbox"
                     id="field_{{ $index }}"
                     name="field_{{ $index }}"
-                    class="h-4 w-4 text-blue-600 focus:ring-blue-500 border-gray-300 rounded">
-
+                    value="1"
+                    class="h-4 w-4 text-blue-600 focus:ring-blue-500 border-gray-300 rounded"
+                    @if(old('field_' . $index, isset($formData['field_' . $index]) ? $formData['field_' . $index] : false)) checked @endif>
                 <div>
                     @if (!empty($field['label_en']))
                     <label for="field_{{ $index }}" class="ml-2 block text-sm text-gray-900"></label>
@@ -91,8 +91,21 @@
             <input type="text"
                 id="field_{{ $index }}"
                 name="field_{{ $index }}"
+                value="{{ old('field_' . $index) }}"
                 class="mt-1 block w-1/2 px-4 py-3 border-2 border-gray-300 rounded-md shadow-sm focus:border-blue-500 focus:ring-2 focus:ring-blue-200 sm:text-sm">
+
+            @if ($errors->has('field_' . $index))
+            <div class="ml-8 text-red-500 font-bold">
+                {{ $errors->first('field_' . $index) }}
+            </div>
             @endif
+
+            @endif
+
+
+
+
+
 
         </div>
 
