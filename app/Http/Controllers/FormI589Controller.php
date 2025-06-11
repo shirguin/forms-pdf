@@ -182,16 +182,23 @@ class FormI589Controller extends Controller
         $data_value = $form->find($id);
 
         foreach ($fields_data as $index => $field) {
-            //Остановился здесь!!!
-            if (isset($data_value["field_$index"])) {
+            if ($field['type'] == "Button" && isset($data_value["field_$index"]) && $data_value["field_$index"] == "1") {
+                $fields_data[$index]['value'] = $field['FieldStateOption'][0];
+            } elseif ($field['type'] == "Button" && isset($data_value["field_$index"]) && $data_value["field_$index"] == "0") {
+                $fields_data[$index]['value'] = $field['FieldStateOption'][1];
+            }
+
+            if ($field['type'] == "Text" && isset($data_value["field_$index"])) {
                 $fields_data[$index]['value'] = $data_value["field_$index"];
-            } else {
-                $fields_data[$index]['value'] = '';
             }
         }
+        $pdfPath = config_path('forms/forma_i-589.pdf');
+        // $outputPath = storage_path("app/public/form_i-589_$id.pdf");
+        $outputPath = config_path("forms/form_i-589_$id.pdf");
+        $this->fillPdfForm($pdfPath, $fields_data, $outputPath);
 
-        // return view('form-i-589-update', ['data' => $fields_data, 'data_value' => $form->find($id)]);
-        return;
+        // return view('form-i-589-list', ['data' => $fields_data, 'data_value' => $form->find($id)]);
+        return response()->download($outputPath)->deleteFileAfterSend(true);
     }
 
     //Заполняем форму
@@ -209,13 +216,15 @@ class FormI589Controller extends Controller
 
         $fdf .= "]\n>>\n>>\nendobj\ntrailer\n<<\n/Root 1 0 R\n>>\n%%EOF";
 
-        file_put_contents('temp.fdf', $fdf);
+        $tempFdfPath = config_path('forms/temp.fdf');
+        // $tempFdfPath = storage_path('app/public/temp.fdf');
+        file_put_contents($tempFdfPath, $fdf);
 
         // Заполняем PDF
-        // exec("pdftk $pdfPath fill_form temp.fdf output $outputPath flatten");//не редактируемая форма
-        exec("pdftk $pdfPath fill_form temp.fdf output $outputPath"); // редактируемая форма
+        // exec("pdftk $pdfPath fill_form $tempFdfPath output $outputPath flatten");//не редактируемая форма
+        exec("pdftk $pdfPath fill_form $tempFdfPath output $outputPath"); // редактируемая форма
 
         // Удаляем временный файл
-        unlink('temp.fdf');
+        unlink($tempFdfPath);
     }
 }
