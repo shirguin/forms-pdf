@@ -1,7 +1,7 @@
 @extends('layouts.app')
 
 @section('title')
-Форма i-589
+Заполнение формы i-589
 @endsection
 
 @section('content')

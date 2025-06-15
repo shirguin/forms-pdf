@@ -10,7 +10,7 @@
     @foreach ($data as $el)
         <div class="mt-4 ml-8">
             <hr class="my-4">
-            <h2 class="text-xl font-semibold">{{ $el->field_4 }} {{ $el->field_5 }} {{ $el->field_6 }}</h2>
+            <h2 class="text-xl font-semibold">{{ $el->form_data['field_4'] }} {{ $el->form_data['field_5'] }} {{ $el->form_data['field_6'] }}</h2>
             <p>Дата заполнения: {{ $el->created_at->format('d.m.Y H:i') }}</p>
             <p>ID заполненной формы в БД: {{ $el->id }}</p>
 

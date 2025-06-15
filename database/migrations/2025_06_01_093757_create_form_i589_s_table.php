@@ -4,8 +4,7 @@ use Illuminate\Database\Migrations\Migration;
 use Illuminate\Database\Schema\Blueprint;
 use Illuminate\Support\Facades\Schema;
 
-return new class extends Migration
-{
+return new class extends Migration {
     /**
      * Run the migrations.
      */
@@ -19,28 +18,30 @@ return new class extends Migration
 
         Schema::create('form_i589_s', function (Blueprint $table) use ($fields) {
             $table->id();
+            $table->json('form_data')->nullable();
+            // // Динамические поля из JSON
+            // foreach ($fields as $index => $field) {
+            //     $type = $field['type'];
+            //     $name = "field_" . $index;
 
-            // Динамические поля из JSON
-            foreach ($fields as $index => $field) {
-                $type = $field['type'];
-                $name = "field_" . $index;
+            //     switch ($type) {
 
-                switch ($type) {
+            //         case 'Button':
+            //             $table->boolean($name)->nullable();
+            //             break;
+            //         case 'Text':
+            //             if (isset($field['FieldMaxLength']) && $field['FieldMaxLength'] > 0) {
+            //                 $length = $field['FieldMaxLength'];
+            //                 $table->string($name, $length)->nullable();
+            //             } else {
+            //                 $length = 10;
+            //                 $table->string($name, $length)->nullable();
+            //                 // $table->text($name)->nullable();
+            //             }
 
-                    case 'Button':
-                        $table->boolean($name)->nullable();
-                        break;
-                    case 'Text':
-                        if (isset($field['FieldMaxLength']) && $field['FieldMaxLength'] > 0) {
-                            $length = $field['FieldMaxLength'];
-                        } else {
-                            $length = 255; // Значение по умолчанию
-                        }
-
-                        $table->string($name, $length)->nullable();
-                        break;
-                }
-            }
+            //             break;
+            //     }
+            // }
 
             $table->timestamps();
         });

@@ -69,9 +69,10 @@ class FormI589Controller extends Controller
         $validatedData = $request->validate($arValid);
 
         $form = new FormI589();
-        foreach ($dataForm as $name => $value) {
-            $form->$name = $value;
-        }
+        // foreach ($dataForm as $name => $value) {
+        //     $form->$name = $value;
+        // }
+        $form->form_data = json_encode($dataForm);
 
         $form->save();
         return redirect()->route('form-i-589-list')->with('success', 'Данные формы успешно сохранены!');
@@ -128,18 +129,28 @@ class FormI589Controller extends Controller
 
         $form = FormI589::find($id);
 
-        foreach ($dataForm as $name => $value) {
-            $form->$name = $value;
-        }
+        // foreach ($dataForm as $name => $value) {
+        //     $form->$name = $value;
+        // }
 
+        $form->form_data = json_encode($dataForm);
         $form->save();
         return redirect()->route('form-i-589-detail', $id)->with('success', 'Данные формы обновлены!');
     }
 
     public function getAll()
     {
+        // $form = new FormI589();
+        // return view('form-i-589-list', ['data' => $form->all()]);
         $form = new FormI589();
-        return view('form-i-589-list', ['data' => $form->all()]);
+        // Получаем все записи из базы данных
+        $form = $form->all();
+        // Преобразуем каждую запись, чтобы получить массив значений полей
+        foreach ($form as $item) {
+            $item->form_data = json_decode($item->form_data, true);
+        }
+        // Возвращаем представление с данными
+        return view('form-i-589-list', ['data' => $form]);
     }
 
     public function getById($id)
@@ -150,8 +161,17 @@ class FormI589Controller extends Controller
             true
         );
 
+        // $form = new FormI589();
+        // return view('form-i-589-detail', ['data' => $fields_data, 'data_value' => $form->find($id)]);
+
+        // Получаем запись из БД
         $form = new FormI589();
-        return view('form-i-589-detail', ['data' => $fields_data, 'data_value' => $form->find($id)]);
+        $form = $form->find($id);
+        // Преобразуем JSON в массив
+        $form_data = json_decode($form->form_data, true);
+        $form->form_data = $form_data;
+
+        return view('form-i-589-detail', ['data' => $fields_data, 'data_value' => $form]);
     }
 
     public function updateForm($id)
@@ -162,7 +182,12 @@ class FormI589Controller extends Controller
         );
 
         $form = new FormI589();
-        return view('form-i-589-update', ['data' => $fields_data, 'data_value' => $form->find($id)]);
+        $form = $form->find($id);
+        // Преобразуем JSON в массив
+        $form_data = json_decode($form->form_data, true);
+        $form->form_data = $form_data;
+        
+        return view('form-i-589-update', ['data' => $fields_data, 'data_value' => $form]);
     }
 
     public function deleteForm($id)

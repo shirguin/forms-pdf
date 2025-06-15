@@ -61,7 +61,7 @@
                     name="field_{{ $index }}"
                     value="1"
                     class="h-4 w-4 text-blue-600 focus:ring-blue-500 border-gray-300 rounded"
-                    @if($data_value[$name]==1) ? checked @endif>
+                    @if($data_value->form_data[$name]==1) checked @endif>
                 <div>
                     @if (!empty($field['label_en']))
                     <label for="field_{{ $index }}" class="ml-2 block text-sm text-gray-900"></label>
@@ -93,7 +93,7 @@
             <input type="text"
                 id="field_{{ $index }}"
                 name="field_{{ $index }}"
-                value="{{$data_value->$name}}"
+                value="{{$data_value->form_data[$name]}}"
                 class="mt-1 block w-1/2 px-4 py-3 border-2 border-gray-300 rounded-md shadow-sm focus:border-blue-500 focus:ring-2 focus:ring-blue-200 sm:text-sm">
 
             @if ($errors->has('field_' . $index))

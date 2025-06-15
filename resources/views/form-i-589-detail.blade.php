@@ -1,13 +1,14 @@
 @extends('layouts.app')
 
 @section('title')
-    Детальная формы i-589
+    Просмотр формы i-589
 @endsection
 
 @section('content')
     <h1 class="ml-8 text-2xl font-bold">Просмотр формы i-589</h1>
+    {{-- <pre>{{ dd($data_value) }}</pre> --}}
     <div class="mt-4 ml-8">
-        <h2 class="text-xl font-semibold">{{ $data_value->field_4 }} {{ $data_value->field_5 }} {{ $data_value->field_6 }}
+        <h2 class="text-xl font-semibold">{{ $data_value->form_data['field_4'] }} {{ $data_value->form_data['field_5'] }} {{ $data_value->form_data['field_6'] }}
         </h2>
         <p>Дата заполнения: {{ $data_value->created_at->format('d.m.Y H:i') }}</p>
         <p>ID заполненной формы в БД: {{ $data_value->id }}</p>
@@ -71,7 +72,7 @@
                     <div class="flex items-center gap-4">
                         <input type="checkbox" id="field_{{ $index }}" name="field_{{ $index }}"
                             value="1" class="h-4 w-4 text-blue-600 focus:ring-blue-500 border-gray-300 rounded"
-                            @if ($data_value[$name] == 1) ? checked @endif>
+                            @if ($data_value->form_data[$name] == 1) checked @endif>
                         <div>
                             @if (!empty($field['label_en']))
                                 <label for="field_{{ $index }}" class="ml-2 block text-sm text-gray-900"></label>
@@ -101,7 +102,7 @@
 
                     <p
                         class="mt-1 block w-1/2 px-4 py-3 border-2 border-gray-300 rounded-md shadow-sm focus:border-blue-500 focus:ring-2 focus:ring-blue-200 sm:text-sm">
-                        {{ $data_value->$name }}</p>
+                        {{ $data_value->form_data[$name] }}</p>
                 @endif
 
 
