@@ -70,16 +70,13 @@ class FormI589Controller extends Controller
         $validatedData = $request->validate($arValid);
 
         $form = new FormI589();
-        // foreach ($dataForm as $name => $value) {
-        //     $form->$name = $value;
-        // }
+
         $form->form_data = json_encode($dataForm);
         $form->id_user = Auth::id(); // Устанавливаем ID текущего пользователя
         $form->save();
         return redirect()->route('form-i-589-list')->with('success', 'Данные формы успешно сохранены!');
     }
 
-    // public function updateFormSubmit($id, FormI589Request $request)
     public function updateFormSubmit($id, Request $request)
     {
         //получаем данные о полях
@@ -128,31 +125,20 @@ class FormI589Controller extends Controller
         //Валидация
         $validatedData = $request->validate($arValid);
 
-        $form = FormI589::find($id);
+        $form = FormI589::findOrFail($id);
 
-        // foreach ($dataForm as $name => $value) {
-        //     $form->$name = $value;
-        // }
+        if ($form->id_user != Auth::id()) {
+            return redirect()->back()->with('error', 'У вас нет прав для редактирования этой формы');
+        }
 
         $form->form_data = json_encode($dataForm);
         $form->save();
+
         return redirect()->route('form-i-589-detail', $id)->with('success', 'Данные формы обновлены!');
     }
 
     public function getAll()
     {
-        // // $form = new FormI589();
-        // // return view('form-i-589-list', ['data' => $form->all()]);
-        // $form = new FormI589();
-        // // Получаем все записи из базы данных
-        // $form = $form->all();
-        // // Преобразуем каждую запись, чтобы получить массив значений полей
-        // foreach ($form as $item) {
-        //     $item->form_data = json_decode($item->form_data, true);
-        // }
-        // // Возвращаем представление с данными
-        // return view('form-i-589-list', ['data' => $form]);
-
         // Получаем только формы текущего пользователя
         $forms = FormI589::where('id_user', Auth::id())->get();
 
@@ -165,24 +151,6 @@ class FormI589Controller extends Controller
 
     public function getById($id)
     {
-        // //получаем данные о полях
-        // $fields_data = json_decode(
-        //     file_get_contents(config_path('forms/form_fields_i-589.json')),
-        //     true
-        // );
-
-        // // $form = new FormI589();
-        // // return view('form-i-589-detail', ['data' => $fields_data, 'data_value' => $form->find($id)]);
-
-        // // Получаем запись из БД
-        // $form = new FormI589();
-        // $form = $form->find($id);
-        // // Преобразуем JSON в массив
-        // $form_data = json_decode($form->form_data, true);
-        // $form->form_data = $form_data;
-
-        // return view('form-i-589-detail', ['data' => $fields_data, 'data_value' => $form]);
-
         $fields_data = json_decode(
             file_get_contents(config_path('forms/form_fields_i-589.json')),
             true
@@ -203,19 +171,6 @@ class FormI589Controller extends Controller
 
     public function updateForm($id)
     {
-        // $fields_data = json_decode(
-        //     file_get_contents(config_path('forms/form_fields_i-589.json')),
-        //     true
-        // );
-
-        // $form = new FormI589();
-        // $form = $form->find($id);
-        // // Преобразуем JSON в массив
-        // $form_data = json_decode($form->form_data, true);
-        // $form->form_data = $form_data;
-
-        // return view('form-i-589-update', ['data' => $fields_data, 'data_value' => $form]);
-
         $fields_data = json_decode(
             file_get_contents(config_path('forms/form_fields_i-589.json')),
             true
@@ -236,9 +191,6 @@ class FormI589Controller extends Controller
 
     public function deleteForm($id)
     {
-        // FormI589::find($id)->delete();
-        // return redirect()->route('form-i-589-list')->with('success', 'Форма была удалена');
-
         $form = FormI589::findOrFail($id);
 
         // Проверка принадлежности формы пользователю
@@ -272,7 +224,6 @@ class FormI589Controller extends Controller
             }
         }
         $pdfPath = config_path('forms/forma_i-589.pdf');
-        // $outputPath = storage_path("app/public/form_i-589_$id.pdf");
         $outputPath = config_path("forms/form_i-589_$id.pdf");
         $this->fillPdfForm($pdfPath, $fields_data, $outputPath);
 
