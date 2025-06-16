@@ -6,6 +6,7 @@ use Illuminate\Http\Request;
 use App\Http\Requests\FormI589Request;
 use App\Models\FormI589;
 use phpDocumentor\Reflection\Types\Boolean;
+use Illuminate\Support\Facades\Auth;
 
 class FormI589Controller extends Controller
 {
@@ -73,7 +74,7 @@ class FormI589Controller extends Controller
         //     $form->$name = $value;
         // }
         $form->form_data = json_encode($dataForm);
-
+        $form->id_user = Auth::id(); // Устанавливаем ID текущего пользователя
         $form->save();
         return redirect()->route('form-i-589-list')->with('success', 'Данные формы успешно сохранены!');
     }
@@ -140,34 +141,60 @@ class FormI589Controller extends Controller
 
     public function getAll()
     {
+        // // $form = new FormI589();
+        // // return view('form-i-589-list', ['data' => $form->all()]);
         // $form = new FormI589();
-        // return view('form-i-589-list', ['data' => $form->all()]);
-        $form = new FormI589();
-        // Получаем все записи из базы данных
-        $form = $form->all();
-        // Преобразуем каждую запись, чтобы получить массив значений полей
-        foreach ($form as $item) {
-            $item->form_data = json_decode($item->form_data, true);
+        // // Получаем все записи из базы данных
+        // $form = $form->all();
+        // // Преобразуем каждую запись, чтобы получить массив значений полей
+        // foreach ($form as $item) {
+        //     $item->form_data = json_decode($item->form_data, true);
+        // }
+        // // Возвращаем представление с данными
+        // return view('form-i-589-list', ['data' => $form]);
+
+        // Получаем только формы текущего пользователя
+        $forms = FormI589::where('id_user', Auth::id())->get();
+
+        foreach ($forms as $form) {
+            $form->form_data = json_decode($form->form_data, true);
         }
-        // Возвращаем представление с данными
-        return view('form-i-589-list', ['data' => $form]);
+
+        return view('form-i-589-list', ['data' => $forms]);
     }
 
     public function getById($id)
     {
-        //получаем данные о полях
+        // //получаем данные о полях
+        // $fields_data = json_decode(
+        //     file_get_contents(config_path('forms/form_fields_i-589.json')),
+        //     true
+        // );
+
+        // // $form = new FormI589();
+        // // return view('form-i-589-detail', ['data' => $fields_data, 'data_value' => $form->find($id)]);
+
+        // // Получаем запись из БД
+        // $form = new FormI589();
+        // $form = $form->find($id);
+        // // Преобразуем JSON в массив
+        // $form_data = json_decode($form->form_data, true);
+        // $form->form_data = $form_data;
+
+        // return view('form-i-589-detail', ['data' => $fields_data, 'data_value' => $form]);
+
         $fields_data = json_decode(
             file_get_contents(config_path('forms/form_fields_i-589.json')),
             true
         );
 
-        // $form = new FormI589();
-        // return view('form-i-589-detail', ['data' => $fields_data, 'data_value' => $form->find($id)]);
+        $form = FormI589::findOrFail($id);
 
-        // Получаем запись из БД
-        $form = new FormI589();
-        $form = $form->find($id);
-        // Преобразуем JSON в массив
+        // Проверка принадлежности формы пользователю
+        if ($form->id_user != Auth::id()) {
+            return redirect()->route('form-i-589-list')->with('error', 'У вас нет доступа к этой форме');
+        }
+
         $form_data = json_decode($form->form_data, true);
         $form->form_data = $form_data;
 
@@ -176,23 +203,50 @@ class FormI589Controller extends Controller
 
     public function updateForm($id)
     {
+        // $fields_data = json_decode(
+        //     file_get_contents(config_path('forms/form_fields_i-589.json')),
+        //     true
+        // );
+
+        // $form = new FormI589();
+        // $form = $form->find($id);
+        // // Преобразуем JSON в массив
+        // $form_data = json_decode($form->form_data, true);
+        // $form->form_data = $form_data;
+
+        // return view('form-i-589-update', ['data' => $fields_data, 'data_value' => $form]);
+
         $fields_data = json_decode(
             file_get_contents(config_path('forms/form_fields_i-589.json')),
             true
         );
 
-        $form = new FormI589();
-        $form = $form->find($id);
-        // Преобразуем JSON в массив
+        $form = FormI589::findOrFail($id);
+
+        // Проверка принадлежности формы пользователю
+        if ($form->id_user != Auth::id()) {
+            return redirect()->route('form-i-589-list')->with('error', 'У вас нет прав для редактирования этой формы');
+        }
+
         $form_data = json_decode($form->form_data, true);
         $form->form_data = $form_data;
-        
+
         return view('form-i-589-update', ['data' => $fields_data, 'data_value' => $form]);
     }
 
     public function deleteForm($id)
     {
-        FormI589::find($id)->delete();
+        // FormI589::find($id)->delete();
+        // return redirect()->route('form-i-589-list')->with('success', 'Форма была удалена');
+
+        $form = FormI589::findOrFail($id);
+
+        // Проверка принадлежности формы пользователю
+        if ($form->id_user != Auth::id()) {
+            return redirect()->route('form-i-589-list')->with('error', 'У вас нет прав для удаления этой формы');
+        }
+
+        $form->delete();
         return redirect()->route('form-i-589-list')->with('success', 'Форма была удалена');
     }
 

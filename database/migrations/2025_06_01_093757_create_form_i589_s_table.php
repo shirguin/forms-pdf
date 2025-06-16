@@ -18,32 +18,15 @@ return new class extends Migration {
 
         Schema::create('form_i589_s', function (Blueprint $table) use ($fields) {
             $table->id();
+            // Добавляем поле для связи с пользователем
+            $table->unsignedBigInteger('id_user')->comment('ID пользователя, которому принадлежит форма');
             $table->json('form_data')->nullable();
-            // // Динамические поля из JSON
-            // foreach ($fields as $index => $field) {
-            //     $type = $field['type'];
-            //     $name = "field_" . $index;
-
-            //     switch ($type) {
-
-            //         case 'Button':
-            //             $table->boolean($name)->nullable();
-            //             break;
-            //         case 'Text':
-            //             if (isset($field['FieldMaxLength']) && $field['FieldMaxLength'] > 0) {
-            //                 $length = $field['FieldMaxLength'];
-            //                 $table->string($name, $length)->nullable();
-            //             } else {
-            //                 $length = 10;
-            //                 $table->string($name, $length)->nullable();
-            //                 // $table->text($name)->nullable();
-            //             }
-
-            //             break;
-            //     }
-            // }
-
             $table->timestamps();
+            // Добавляем внешний ключ для связи с таблицей users
+            $table->foreign('id_user')
+                  ->references('id')
+                  ->on('users')
+                  ->onDelete('cascade'); // Каскадное удаление - при удалении пользователя удаляются его формы
         });
 
     }
